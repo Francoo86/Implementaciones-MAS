@@ -10,15 +10,29 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class AgenteSala extends Agent implements SalaInterface {
     private String codigo;
     private int capacidad;
-    private Map<String, List<String>> horario;
+    private OccupancyMap occupancyMap;
     private int solicitudesProcesadas = 0;
     private int totalSolicitudes;
+    private final Map<String, ReentrantLock> diaLocks = new HashMap<>();
+    private final Map<String, PendingRequest> solicitudesPendientes = new ConcurrentHashMap<>();
+    private static final long TIMEOUT_RESPUESTA = 5000; // 5 seconds timeout
 
-    // Inicialización del agente
+    private static class PendingRequest {
+        final long timestamp;
+        final jade.core.AID sender;
+        
+        PendingRequest(jade.core.AID sender) {
+            this.timestamp = System.currentTimeMillis();
+            this.sender = sender;
+        }
+    }
+
     protected void setup() {
         Object[] args = getArguments();
         if (args != null && args.length > 0) {
@@ -26,16 +40,18 @@ public class AgenteSala extends Agent implements SalaInterface {
             loadFromJsonString(jsonString);
         }
 
-        // Inicializa el horario con días de la semana y bloques vacíos
-        horario = new HashMap<>();
+        // Initialize occupancy map
+        occupancyMap = new OccupancyMap(codigo);
+
+        // Initialize locks for each day
         String[] dias = {"Lunes", "Martes", "Miercoles", "Jueves", "Viernes"};
         for (String dia : dias) {
-            horario.put(dia, new ArrayList<>(Arrays.asList("", "", "", "", "")));
+            diaLocks.put(dia, new ReentrantLock());
         }
 
         System.out.println("Agente Sala " + codigo + " iniciado. Capacidad: " + capacidad);
 
-        // Registra el agente en el Directorio de Facilitadores (DF).
+        // Register with DF
         DFAgentDescription dfd = new DFAgentDescription();
         dfd.setName(getAID());
         ServiceDescription sd = new ServiceDescription();
@@ -48,166 +64,205 @@ public class AgenteSala extends Agent implements SalaInterface {
             fe.printStackTrace();
         }
 
-        // Habilitar O2A
         setEnabledO2ACommunication(true, 0);
-        // Registrar la interfaz O2A
         registerO2AInterface(SalaInterface.class, this);
 
-        // Agregar comportamientos
         addBehaviour(new RecibirSolicitudBehaviour());
     }
 
-    // Carga los datos de la sala desde una cadena JSON
     private void loadFromJsonString(String jsonString) {
         JSONParser parser = new JSONParser();
         try {
-            JSONObject jsonObject = (JSONObject) parser.parse(jsonString);  // Parsea la cadena JSON.
-
-            codigo = (String) jsonObject.get("Codigo");                 // Obtiene el código.
-            capacidad = ((Number) jsonObject.get("Capacidad")).intValue();      // Obtiene la capacidad.
+            JSONObject jsonObject = (JSONObject) parser.parse(jsonString);
+            codigo = (String) jsonObject.get("Codigo");
+            capacidad = ((Number) jsonObject.get("Capacidad")).intValue();
         } catch (ParseException e) {
             e.printStackTrace();
         }
     }
 
-    // Establece el total de solicitudes que se procesarán en la sala.
     @Override
     public void setTotalSolicitudes(int total) {
         this.totalSolicitudes = total;
         System.out.println("Total de solicitudes establecido para sala " + codigo + ": " + total);
-        addBehaviour(new VerificarFinalizacionBehaviour(this, 1000));   // Agrega un comportamiento para verificar la finalización, T = 1 seg.
+        addBehaviour(new VerificarFinalizacionBehaviour(this, 1000));
     }
 
-    /* 
-    1. Recepción de Solicitudes: Continuamente recibe solicitudes de asignación de horarios.
-    2. Generación de Propuestas: Genera propuestas de horarios basadas en la disponibilidad y la capacidad de la sala.
-    3. Esperar Respuesta: Espera la aceptación o rechazo de la propuesta.
-    4. Actualización de Horario: Si la propuesta es aceptada, actualiza el horario de la sala.
-    5. Verificación de Finalización: Periódicamente verifica si se han procesado todas las solicitudes y, si es así, agrega el horario final a un objeto JSON y elimina el agente.
-    */
-
     private class RecibirSolicitudBehaviour extends CyclicBehaviour {
-        // Filtra los mensajes de solicitud de horario.
         public void action() {
-            MessageTemplate mt = MessageTemplate.and(
-                    MessageTemplate.MatchPerformative(ACLMessage.REQUEST),
-                    MessageTemplate.MatchConversationId("solicitud-horario")
-            );
-            ACLMessage msg = myAgent.receive(mt);  // Recibe el mensaje.
-            if (msg != null) { // Si el mensaje no es nulo, procesa la solicitud.
-                solicitudesProcesadas++;
+            // Clean up expired requests first
+            limpiarSolicitudesExpiradas();
 
-                String solicitud = msg.getContent();  // Obtiene el contenido del mensaje.
+            MessageTemplate mt = MessageTemplate.MatchPerformative(ACLMessage.CFP);
+            ACLMessage msg = myAgent.receive(mt);
+            
+            if (msg != null) {
+                String conversationId = msg.getConversationId();
+                solicitudesPendientes.put(conversationId, new PendingRequest(msg.getSender()));
+                
+                solicitudesProcesadas++;
+                String solicitud = msg.getContent();
                 Asignatura asignatura = Asignatura.fromString(solicitud);
 
-                String propuesta = generarPropuesta(asignatura);  // Genera una propuesta de horario.
-
-                if (!propuesta.isEmpty()) {     // Si la propuesta es valida, se envía.
-                    ACLMessage reply = msg.createReply();
-                    reply.setPerformative(ACLMessage.PROPOSE);
-                    reply.setContent(propuesta);
-                    myAgent.send(reply);
-
-                    // Esperar la respuesta de aceptación o rechazo de la propuesta.
-                    addBehaviour(new EsperarRespuestaBehaviour(myAgent, msg.getSender(), propuesta, asignatura.getNombre()));
+                List<String> propuestas = generarPropuestas(asignatura);
+                if (!propuestas.isEmpty()) {
+                    enviarPropuestas(msg, propuestas, asignatura);
+                } else {
+                    // Send REFUSE if no proposals available
+                    ACLMessage refuse = msg.createReply();
+                    refuse.setPerformative(ACLMessage.REFUSE);
+                    myAgent.send(refuse);
+                    solicitudesPendientes.remove(conversationId);
                 }
             } else {
                 block();
             }
         }
+
+        private void limpiarSolicitudesExpiradas() {
+            long now = System.currentTimeMillis();
+            solicitudesPendientes.entrySet().removeIf(entry -> {
+                if (now - entry.getValue().timestamp > TIMEOUT_RESPUESTA) {
+                    ACLMessage timeout = new ACLMessage(ACLMessage.REFUSE);
+                    timeout.addReceiver(entry.getValue().sender);
+                    timeout.setConversationId(entry.getKey());
+                    myAgent.send(timeout);
+                    return true;
+                }
+                return false;
+            });
+        }
+
+        private void enviarPropuestas(ACLMessage msg, List<String> propuestas, Asignatura asignatura) {
+            try {
+                Thread.sleep((long) (Math.random() * 500 + 100));
+
+                for (String propuesta : propuestas) {
+                    ACLMessage reply = msg.createReply();
+                    reply.setPerformative(ACLMessage.PROPOSE);
+                    reply.setContent(propuesta + "," + capacidad);
+                    reply.setConversationId(msg.getConversationId());
+                    myAgent.send(reply);
+                }
+
+                addBehaviour(new EsperarRespuestaBehaviour(myAgent, msg.getSender(), 
+                    propuestas, asignatura.getNombre(), msg.getConversationId()));
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
-    // Recorre el mapa horario para encontrar un bloque vacío. Si encuentra un bloque vacío, retorna el día y el número del bloque. Si no retorna una cadena vacía.
-    private String generarPropuesta(Asignatura asignatura) {    // Si la asignatura tiene más vacantes que la capacidad de la sala, no se hace propuesta.
-        if (asignatura.getVacantes() > this.capacidad) {
-            return "";
-        }
-        for (Map.Entry<String, List<String>> entry : horario.entrySet()) {  // Recorre el horario de la sala.
-            // Obtiene el día y los bloques de la sala.
-            String dia = entry.getKey();
-            List<String> bloques = entry.getValue();
-
-            for (int i = 0; i < bloques.size(); i++) {  // Recorre los bloques del día.
-                if (bloques.get(i).isEmpty()) {     // Si el bloque está vacío, retorna la propuesta.
-                    return dia + "," + (i + 1) + "," + codigo;      
+    private List<String> generarPropuestas(Asignatura asignatura) {
+        List<String> propuestas = new ArrayList<>();
+        
+        // Generate one proposal for the first available block
+        String[] dias = {"Lunes", "Martes", "Miercoles", "Jueves", "Viernes"};
+        for (String dia : dias) {
+            ReentrantLock lock = diaLocks.get(dia);
+            if (lock.tryLock()) {
+                try {
+                    for (int bloque = 1; bloque <= 5; bloque++) {
+                        if (occupancyMap.isBlockAvailable(dia, bloque)) {
+                            propuestas.add(dia + "," + bloque + "," + codigo);
+                            return propuestas; // Return only one proposal
+                        }
+                    }
+                } finally {
+                    lock.unlock();
                 }
             }
         }
-        return "";
+        return propuestas;
     }
 
-    // Comportamiento para esperar la respuesta de aceptación o rechazo de la propuesta.
     private class EsperarRespuestaBehaviour extends Behaviour {
         private boolean received = false;
-        private MessageTemplate mt;
-        private String propuesta;
-        private String nombreAsignatura;
+        private final MessageTemplate mt;
+        private final String conversationId;
+        private final String nombreAsignatura;
 
-        // Constructor recibe el agente, el emisor del mensaje, la propuesta y el nombre de la asignatura.
-        public EsperarRespuestaBehaviour(Agent a, jade.core.AID sender, String propuesta, String nombreAsignatura) {
+        public EsperarRespuestaBehaviour(Agent a, jade.core.AID sender, List<String> propuestas, 
+                                       String nombreAsignatura, String conversationId) {
             super(a);
-            // Establece el template del mensaje para aceptar o rechazar la propuesta.
             this.mt = MessageTemplate.and(
-                    MessageTemplate.MatchSender(sender),
-                    MessageTemplate.or(
-                            MessageTemplate.MatchPerformative(ACLMessage.ACCEPT_PROPOSAL),
-                            MessageTemplate.MatchPerformative(ACLMessage.REJECT_PROPOSAL)
-                    )
+                MessageTemplate.MatchSender(sender),
+                MessageTemplate.MatchPerformative(ACLMessage.ACCEPT_PROPOSAL)
             );
-            this.propuesta = propuesta;
+            this.conversationId = conversationId;
             this.nombreAsignatura = nombreAsignatura;
         }
-        
-        // Método que se ejecuta al recibir un mensaje.
+
         public void action() {
-            ACLMessage msg = myAgent.receive(mt);   // Recibe el mensaje.
-            if (msg != null) {
-                // Si el mensaje es de aceptación, actualiza el horario.
-                if (msg.getPerformative() == ACLMessage.ACCEPT_PROPOSAL) {  
-                    String[] partes = propuesta.split(",");
+            ACLMessage msg = myAgent.receive(mt);
+            if (msg != null && msg.getConversationId().equals(conversationId)) {
+                try {
+                    String propuestaAceptada = msg.getContent();
+                    String[] partes = propuestaAceptada.split(",");
                     String dia = partes[0];
                     int bloque = Integer.parseInt(partes[1]);
-                    horario.get(dia).set(bloque - 1, nombreAsignatura);
-                    System.out.println("Sala " + codigo + " ha actualizado su horario: " + horario);
+                    int valoracion = Integer.parseInt(partes[partes.length - 1]);
+
+                    ReentrantLock lock = diaLocks.get(dia);
+                    if (lock.tryLock()) {
+                        try {
+                            if (asignarBloque(dia, bloque, nombreAsignatura, msg.getSender().getLocalName(), valoracion)) {
+                                ACLMessage confirm = msg.createReply();
+                                confirm.setPerformative(ACLMessage.INFORM);
+                                confirm.setContent("ASSIGNED:" + dia + "," + bloque);
+                                myAgent.send(confirm);
+                            }
+                        } finally {
+                            lock.unlock();
+                        }
+                    }
+                    solicitudesPendientes.remove(conversationId);
+                    received = true;
+                } catch (Exception e) {
+                    System.err.println("Error processing acceptance for room " + codigo + ": " + e.getMessage());
+                    e.printStackTrace();
                 }
-                received = true;   // Marca el comportamiento como finalizado.
             } else {
-                block();  // Bloquea el comportamiento hasta recibir un mensaje.
+                block(100);
             }
         }
-        // Devuelve true si se ha recibido una respuesta,
+
         public boolean done() {
             return received;
         }
     }
 
     private class VerificarFinalizacionBehaviour extends TickerBehaviour {
-        private int ultimasSolicitudesProcesadas = 0;   // Número de solicitudes procesadas en la última verificación.
-        private int contadorSinCambios = 0;        // Contador de verificaciones sin cambios.
-        private static final int MAX_SIN_CAMBIOS = 10;  // Número máximo de verificaciones sin cambios.
-        
-        public VerificarFinalizacionBehaviour(Agent a, long period) {     
-            super(a, period);   // Establece el periodo entre cada verificación.
+        public VerificarFinalizacionBehaviour(Agent a, long period) {
+            super(a, period);
         }
 
         protected void onTick() {
-            System.out.println("Verificando finalización para sala " + codigo + ". Procesadas: " + solicitudesProcesadas + " de " + totalSolicitudes);
+            System.out.println("Verificando finalización para sala " + codigo +
+                    ". Procesadas: " + solicitudesProcesadas +
+                    " de " + totalSolicitudes +
+                    ". Pendientes: " + solicitudesPendientes.size());
 
-            // Si se han procesado todas las solicitudes o si no ha habido cambios en el último ciclo, se finaliza el agente.
-            if (solicitudesProcesadas >= totalSolicitudes ||
-                    (solicitudesProcesadas == ultimasSolicitudesProcesadas && ++contadorSinCambios >= MAX_SIN_CAMBIOS)) {
-                // Se agrega el horario de la sala al JSON de horarios.
-                SalaHorarioJSON.getInstance().agregarHorarioSala(codigo, horario);
-                System.out.println("Sala " + codigo + " ha finalizado su asignación de horarios y enviado los datos.");
+            // Check if all conditions for termination are met
+            boolean shouldTerminate = solicitudesProcesadas >= totalSolicitudes && 
+                                    solicitudesPendientes.isEmpty();
+
+            if (shouldTerminate) {
+                SalaHorarioJSON.getInstance().agregarHorarioSala(codigo, occupancyMap.toJSON());
+                System.out.println("Sala " + codigo + " ha finalizado su asignación de horarios.");
                 stop();
                 myAgent.doDelete();
-            } else if (solicitudesProcesadas != ultimasSolicitudesProcesadas) {
-                // Si se han procesado solicitudes en el último ciclo, se actualiza el contador de solicitudes y se reinicia el contador de verificaciones sin cambios.
-                ultimasSolicitudesProcesadas = solicitudesProcesadas;
-                contadorSinCambios = 0;
             }
         }
     }
+
+    private synchronized boolean asignarBloque(String dia, int bloque, String asignatura, 
+                                             String teacherName, int valoracion) {
+        if (occupancyMap.assignTimeSlot(dia, bloque, asignatura, teacherName, valoracion)) {
+            System.out.println("Sala " + codigo + ": Bloque asignado - " + dia + 
+                ", bloque " + bloque + " para " + asignatura);
+            return true;
+        }
+        return false;
+    }
 }
-
-
