@@ -22,6 +22,7 @@ public class AgenteProfesor extends Agent {
     private static final long TIMEOUT_PROPUESTA = 5000; // 5 segundos para recibir propuestas
     private boolean isRegistered = false;
     private boolean isCleaningUp = false;
+    private boolean negociacionIniciada = false;
 
     @Override
     protected void setup() {
@@ -30,22 +31,30 @@ public class AgenteProfesor extends Agent {
             String jsonString = (String) args[0];
             orden = (Integer) args[1];
             cargarDatos(jsonString);
-            registrarEnDF();
         }
 
         horarioOcupado = new HashMap<>();
         horarioJSON = new JSONObject();
         horarioJSON.put("Asignaturas", new JSONArray());
+        registrarEnDF();
 
         if (orden == 0) {
             // Primer profesor, comenzar inmediatamente
-            addBehaviour(new NegociarAsignaturasBehaviour());
+            iniciarNegociacion();
         } else {
             // Esperar señal del profesor anterior
             addBehaviour(new EsperarTurnoBehaviour());
         }
 
         System.out.println("Profesor " + nombre + " (orden " + orden + ") iniciado");
+    }
+
+    private void iniciarNegociacion() {
+        if (!negociacionIniciada) {
+            negociacionIniciada = true;
+            System.out.println("Profesor " + nombre + " iniciando proceso de negociación");
+            addBehaviour(new NegociarAsignaturasBehaviour());
+        }
     }
 
     private void registrarEnDF() {
@@ -90,13 +99,18 @@ public class AgenteProfesor extends Agent {
 
     private class EsperarTurnoBehaviour extends CyclicBehaviour {
         public void action() {
-            MessageTemplate mt = MessageTemplate.MatchPerformative(ACLMessage.INFORM);
+            MessageTemplate mt = MessageTemplate.and(
+                MessageTemplate.MatchPerformative(ACLMessage.INFORM),
+                MessageTemplate.MatchContent("START")
+            );
+            
             ACLMessage msg = myAgent.receive(mt);
-            if (msg != null && msg.getContent().equals("START")) {
-                myAgent.addBehaviour(new NegociarAsignaturasBehaviour());
+            if (msg != null) {
+                System.out.println("Profesor " + nombre + " recibió señal START");
+                iniciarNegociacion();
                 myAgent.removeBehaviour(this);
             } else {
-                block();
+                block(100);
             }
         }
     }
@@ -107,82 +121,80 @@ public class AgenteProfesor extends Agent {
         private boolean finished = false;
         private long tiempoInicio;
         private int intentos = 0;
-        private static final int MAX_INTENTOS = 6;
-        private static final long TIEMPO_ESPERA_ENTRE_INTENTOS = 1000;
+        private static final int MAX_INTENTOS = 3;
 
         public void action() {
             switch (step) {
                 case 0: // Solicitar propuestas
                     if (asignaturaActual < asignaturas.size()) {
-                        if (intentos < MAX_INTENTOS) {
-                            solicitarPropuestas();
-                            propuestas = new ArrayList<>();
-                            tiempoInicio = System.currentTimeMillis();
-                            step = 1;
-                        } else {
-                            // Si agotamos los intentos para esta asignatura, pasamos a la siguiente
-                            System.out.println("Profesor " + nombre + ": No se pudo asignar " + 
-                                asignaturas.get(asignaturaActual).getNombre() + 
-                                " después de " + MAX_INTENTOS + " intentos");
-                            asignaturaActual++;
-                            intentos = 0;
-                            step = 0;
-                        }
+                        System.out.println("Profesor " + nombre + " solicitando propuestas para " + 
+                            asignaturas.get(asignaturaActual).getNombre());
+                        solicitarPropuestas();
+                        propuestas = new ArrayList<>();
+                        tiempoInicio = System.currentTimeMillis();
+                        step = 1;
                     } else {
-                        // Solo finalizamos si hemos procesado todas las asignaturas
                         finished = true;
                     }
                     break;
-    
+
                 case 1: // Recolectar propuestas
+                    // Usar un template que identifique claramente las propuestas
                     MessageTemplate mt = MessageTemplate.or(
                         MessageTemplate.MatchPerformative(ACLMessage.PROPOSE),
                         MessageTemplate.MatchPerformative(ACLMessage.REFUSE)
                     );
-                    ACLMessage reply = myAgent.receive(mt);
                     
+                    ACLMessage reply = myAgent.receive(mt);
                     if (reply != null) {
                         if (reply.getPerformative() == ACLMessage.PROPOSE) {
                             propuestas.add(reply);
+                            System.out.println("Profesor " + nombre + " recibió propuesta para " + 
+                                asignaturas.get(asignaturaActual).getNombre());
                         }
                     }
-    
-                    // Verificar timeout
+
+                    // Verificar si hemos esperado suficiente por propuestas
                     if (System.currentTimeMillis() - tiempoInicio > TIMEOUT_PROPUESTA) {
                         step = 2;
                     } else {
                         block(100);
                     }
                     break;
-    
+
                 case 2: // Evaluar propuestas
                     if (!propuestas.isEmpty()) {
                         if (evaluarPropuestas()) {
-                            // Si la asignación fue exitosa
+                            // Asignación exitosa
                             intentos = 0;
                             asignaturaActual++;
                         } else {
-                            // Si la asignación falló, incrementar intentos y esperar
                             intentos++;
-                            try {
-                                Thread.sleep(TIEMPO_ESPERA_ENTRE_INTENTOS);
-                            } catch (InterruptedException e) {
-                                Thread.currentThread().interrupt();
+                            if (intentos >= MAX_INTENTOS) {
+                                System.out.println("Profesor " + nombre + " no pudo asignar " + 
+                                    asignaturas.get(asignaturaActual).getNombre() + 
+                                    " después de " + MAX_INTENTOS + " intentos");
+                                asignaturaActual++;
+                                intentos = 0;
                             }
                         }
                     } else {
+                        System.out.println("Profesor " + nombre + " no recibió propuestas para " + 
+                            asignaturas.get(asignaturaActual).getNombre());
                         intentos++;
+                        if (intentos >= MAX_INTENTOS) {
+                            asignaturaActual++;
+                            intentos = 0;
+                        }
                     }
                     step = 0;
                     break;
             }
         }
-    
+
         public boolean done() {
             if (finished) {
-                int asignadas = ((JSONArray) horarioJSON.get("Asignaturas")).size();
-                System.out.println("Profesor " + nombre + " completó negociaciones con " + 
-                    asignadas + "/" + asignaturas.size() + " asignaturas asignadas");
+                System.out.println("Profesor " + nombre + " completó proceso de negociación");
                 finalizarNegociaciones();
             }
             return finished;

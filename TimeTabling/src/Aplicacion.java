@@ -1,4 +1,5 @@
 import jade.core.Agent;
+import jade.core.AgentState;
 import jade.core.Profile;
 import jade.core.ProfileImpl;
 import jade.core.Runtime;
@@ -151,60 +152,118 @@ public class Aplicacion extends Agent {
     private class MonitorearProgresoComportamiento extends TickerBehaviour {
         private static final int MAX_INACTIVITY = 60;
         private int inactivityCounter = 0;
-
+        private boolean esperandoTransicion = false;
+        private int intentosTransicion = 0;
+        private static final int MAX_INTENTOS_TRANSICION = 10;
+        private static final long TIEMPO_ESPERA_TRANSICION = 2000; // 2 segundos
+    
         public MonitorearProgresoComportamiento(Agent a, long period) {
             super(a, period);
         }
-
+    
         protected void onTick() {
             try {
                 if (profesorActual < profesoresControllers.size()) {
                     AgentController currentProfesor = profesoresControllers.get(profesorActual);
-
+    
                     try {
+                        // Intentar obtener el estado del profesor actual
                         int state = currentProfesor.getState().getCode();
-                        if (state == 4) { // AGENT_KILLED
-                            System.out.println("Profesor " + profesorActual + " completó su proceso");
-                            Thread.sleep(2000); // Wait for JSON updates
-
-                            profesorActual++;
-                            inactivityCounter = 0;
-
-                            if (profesorActual < profesoresControllers.size()) {
-                                Thread.sleep(3000);
-                                profesoresControllers.get(profesorActual).start();
-                                System.out.println("Iniciando siguiente profesor: " + profesorActual);
-                            }
-                        } else {
+                        
+                        if (state == 3) { // ACTIVE
+                            esperandoTransicion = false;
+                            intentosTransicion = 0;
                             inactivityCounter++;
+                            
                             if (inactivityCounter >= MAX_INACTIVITY) {
-                                System.out.println("Profesor " + profesorActual +
-                                        " inactivo. Forzando finalización");
-                                currentProfesor.kill();
-                                inactivityCounter = 0;
+                                System.out.println("Profesor " + profesorActual + 
+                                    " inactivo. Forzando avance...");
+                                avanzarSiguienteProfesor();
                             }
+                        } else if (state == 4) { // TERMINATED
+                            avanzarSiguienteProfesor();
                         }
-                    } catch (Exception e) {
-                        System.out.println("Error monitoreando profesor " + profesorActual);
-                        e.printStackTrace();
+                    } catch (StaleProxyException e) {
+                        // El profesor ya no existe, intentar avanzar
+                        if (!esperandoTransicion) {
+                            System.out.println("Profesor terminado, iniciando transición...");
+                            avanzarSiguienteProfesor();
+                        } else {
+                            manejarTransicionEnProceso();
+                        }
                     }
                 } else {
-                    // All professors finished
                     finalizarProceso();
+                    stop();
                 }
             } catch (Exception e) {
+                System.err.println("Error en monitoreo: " + e.getMessage());
                 e.printStackTrace();
             }
         }
-
-        // Finaliza el proceso de asignación de horarios y genera los archivos JSON finales.
+    
+        private void avanzarSiguienteProfesor() {
+            try {
+                if (profesorActual + 1 < profesoresControllers.size()) {
+                    esperandoTransicion = true;
+                    intentosTransicion = 0;
+                    
+                    // Forzar inicio del siguiente profesor
+                    AgentController nextProfesor = profesoresControllers.get(profesorActual + 1);
+                    nextProfesor.start();
+                    
+                    System.out.println("Iniciando profesor " + (profesorActual + 1));
+                    Thread.sleep(TIEMPO_ESPERA_TRANSICION);
+                    
+                    // Actualizar índice después de confirmar inicio
+                    profesorActual++;
+                    inactivityCounter = 0;
+                    esperandoTransicion = false;
+                } else {
+                    System.out.println("No hay más profesores para procesar");
+                    finalizarProceso();
+                    stop();
+                }
+            } catch (Exception e) {
+                System.err.println("Error avanzando al siguiente profesor: " + e.getMessage());
+                manejarTransicionEnProceso();
+            }
+        }
+    
+        private void manejarTransicionEnProceso() {
+            intentosTransicion++;
+            if (intentosTransicion >= MAX_INTENTOS_TRANSICION) {
+                System.out.println("Máximo de intentos de transición alcanzado. Forzando avance.");
+                profesorActual++;
+                intentosTransicion = 0;
+                esperandoTransicion = false;
+            } else {
+                try {
+                    Thread.sleep(TIEMPO_ESPERA_TRANSICION);
+                    System.out.println("Esperando transición... Intento " + intentosTransicion);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                }
+            }
+        }
+    
         private void finalizarProceso() {
             try {
+                System.out.println("Finalizando proceso de asignación...");
                 Thread.sleep(2000);
                 System.out.println("Generando archivos JSON finales");
                 ProfesorHorarioJSON.getInstance().generarArchivoJSON();
                 SalaHorarioJSON.getInstance().generarArchivoJSON();
-                stop();
+                
+                // Terminar todos los profesores pendientes
+                for (int i = profesorActual; i < profesoresControllers.size(); i++) {
+                    try {
+                        profesoresControllers.get(i).kill();
+                    } catch (Exception e) {
+                        // Ignorar errores al terminar profesores
+                    }
+                }
+                
                 myAgent.doDelete();
             } catch (Exception e) {
                 e.printStackTrace();
