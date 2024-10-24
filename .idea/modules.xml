@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FirstAgent/FirstAgent.iml" filepath="$PROJECT_DIR$/FirstAgent/FirstAgent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Implementaciones-MAS.iml" filepath="$PROJECT_DIR$/.idea/Implementaciones-MAS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SchedulingTimeTabling/SchedulingTimeTabling.iml" filepath="$PROJECT_DIR$/SchedulingTimeTabling/SchedulingTimeTabling.iml" />
       <module fileurl="file://$PROJECT_DIR$/TimeTabling/TimeTabling.iml" filepath="$PROJECT_DIR$/TimeTabling/TimeTabling.iml" />
       <module fileurl="file://$PROJECT_DIR$/bookTrading/bookTrading.iml" filepath="$PROJECT_DIR$/bookTrading/bookTrading.iml" />
     </modules>

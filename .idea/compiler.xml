@@ -10,8 +10,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="your-project" />
-        <module name="untitled" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SchedulingTime" target="23" />
+    </bytecodeTargetLevel>
   </component>
 </project>

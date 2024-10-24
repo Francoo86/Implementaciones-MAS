@@ -1,10 +1,23 @@
 [
   {
     "Nombre": "Juan Perez",
-    "AsignaturasCompletadas": 0,
+    "AsignaturasCompletadas": 2,
     "Solicitudes": 3,
     "Asignaturas": [
-      
+      {
+        "Nombre": "Matemáticas Avanzadas",
+        "Sala": "A-1",
+        "Bloque": 1,
+        "Dia": "Lunes",
+        "Satisfaccion": 10
+      },
+      {
+        "Nombre": "Programación Basica",
+        "Sala": "A-1",
+        "Bloque": 2,
+        "Dia": "Lunes",
+        "Satisfaccion": 10
+      }
     ]
   }
 ]
