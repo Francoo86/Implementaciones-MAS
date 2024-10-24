@@ -106,21 +106,34 @@ public class AgenteProfesor extends Agent {
         private List<ACLMessage> propuestas;
         private boolean finished = false;
         private long tiempoInicio;
+        private int intentos = 0;
+        private static final int MAX_INTENTOS = 3;
+        private static final long TIEMPO_ESPERA_ENTRE_INTENTOS = 1000;
 
         public void action() {
             switch (step) {
                 case 0: // Solicitar propuestas
                     if (asignaturaActual < asignaturas.size()) {
-                        solicitarPropuestas();
-                        propuestas = new ArrayList<>();
-                        tiempoInicio = System.currentTimeMillis();
-                        step = 1;
+                        if (intentos < MAX_INTENTOS) {
+                            solicitarPropuestas();
+                            propuestas = new ArrayList<>();
+                            tiempoInicio = System.currentTimeMillis();
+                            step = 1;
+                        } else {
+                            // Si agotamos los intentos para esta asignatura, pasamos a la siguiente
+                            System.out.println("Profesor " + nombre + ": No se pudo asignar " + 
+                                asignaturas.get(asignaturaActual).getNombre() + 
+                                " después de " + MAX_INTENTOS + " intentos");
+                            asignaturaActual++;
+                            intentos = 0;
+                            step = 0;
+                        }
                     } else {
-                        finalizarNegociaciones();
+                        // Solo finalizamos si hemos procesado todas las asignaturas
                         finished = true;
                     }
                     break;
-
+    
                 case 1: // Recolectar propuestas
                     MessageTemplate mt = MessageTemplate.or(
                         MessageTemplate.MatchPerformative(ACLMessage.PROPOSE),
@@ -133,7 +146,7 @@ public class AgenteProfesor extends Agent {
                             propuestas.add(reply);
                         }
                     }
-
+    
                     // Verificar timeout
                     if (System.currentTimeMillis() - tiempoInicio > TIMEOUT_PROPUESTA) {
                         step = 2;
@@ -141,15 +154,38 @@ public class AgenteProfesor extends Agent {
                         block(100);
                     }
                     break;
-
+    
                 case 2: // Evaluar propuestas
                     if (!propuestas.isEmpty()) {
-                        evaluarPropuestas();
+                        if (evaluarPropuestas()) {
+                            // Si la asignación fue exitosa
+                            intentos = 0;
+                            asignaturaActual++;
+                        } else {
+                            // Si la asignación falló, incrementar intentos y esperar
+                            intentos++;
+                            try {
+                                Thread.sleep(TIEMPO_ESPERA_ENTRE_INTENTOS);
+                            } catch (InterruptedException e) {
+                                Thread.currentThread().interrupt();
+                            }
+                        }
+                    } else {
+                        intentos++;
                     }
-                    asignaturaActual++;
                     step = 0;
                     break;
             }
+        }
+    
+        public boolean done() {
+            if (finished) {
+                int asignadas = ((JSONArray) horarioJSON.get("Asignaturas")).size();
+                System.out.println("Profesor " + nombre + " completó negociaciones con " + 
+                    asignadas + "/" + asignaturas.size() + " asignaturas asignadas");
+                finalizarNegociaciones();
+            }
+            return finished;
         }
 
         private void solicitarPropuestas() {
@@ -176,55 +212,76 @@ public class AgenteProfesor extends Agent {
             }
         }
 
-        private void evaluarPropuestas() {
-            // Ordenar propuestas por satisfacción
-            propuestas.sort((p1, p2) -> {
-                String[] data1 = p1.getContent().split(",");
-                String[] data2 = p2.getContent().split(",");
-                return Integer.parseInt(data2[4]) - Integer.parseInt(data1[4]);
-            });
-
-            // Tomar la mejor propuesta
-            ACLMessage mejorPropuesta = propuestas.get(0);
-            String[] datos = mejorPropuesta.getContent().split(",");
-            String dia = datos[0];
-            int bloque = Integer.parseInt(datos[1]);
-            String sala = datos[2];
-            int satisfaccion = Integer.parseInt(datos[4]);
-
-            // Verificar si el horario está disponible
-            if (!horarioOcupado.containsKey(dia) || 
-                !horarioOcupado.get(dia).contains(bloque)) {
-                
-                // Aceptar propuesta - Formato: dia,bloque,nombreAsignatura,satisfaccion,sala
-                ACLMessage accept = mejorPropuesta.createReply();
-                accept.setPerformative(ACLMessage.ACCEPT_PROPOSAL);
-                accept.setContent(String.format("%s,%d,%s,%d,%s",
-                    dia,
-                    bloque,
-                    asignaturas.get(asignaturaActual).getNombre(),
-                    satisfaccion,
-                    sala));
-                myAgent.send(accept);
-
-                // Esperar confirmación
-                MessageTemplate mt = MessageTemplate.and(
-                    MessageTemplate.MatchSender(mejorPropuesta.getSender()),
-                    MessageTemplate.MatchPerformative(ACLMessage.INFORM)
-                );
-                ACLMessage confirm = myAgent.blockingReceive(mt, 5000);
-
-                if (confirm != null) {
-                    // Actualizar horario
-                    horarioOcupado.computeIfAbsent(dia, k -> new HashSet<>()).add(bloque);
-                    actualizarHorarioJSON(dia, sala, bloque, satisfaccion);
+        private boolean evaluarPropuestas() {
+            if (propuestas.isEmpty()) {
+                return false;
+            }
+        
+            try {
+                // Ordenar propuestas por satisfacción
+                propuestas.sort((p1, p2) -> {
+                    String[] data1 = p1.getContent().split(",");
+                    String[] data2 = p2.getContent().split(",");
+                    return Integer.parseInt(data2[4]) - Integer.parseInt(data1[4]);
+                });
+        
+                // Tomar la mejor propuesta
+                ACLMessage mejorPropuesta = propuestas.get(0);
+                String[] datos = mejorPropuesta.getContent().split(",");
+                String dia = datos[0];
+                int bloque = Integer.parseInt(datos[1]);
+                String sala = datos[2];
+                int satisfaccion = Integer.parseInt(datos[4]);
+        
+                // Verificar si el horario está disponible
+                if (!horarioOcupado.containsKey(dia) || 
+                    !horarioOcupado.get(dia).contains(bloque)) {
+                    
+                    // Aceptar propuesta - Formato: dia,bloque,nombreAsignatura,satisfaccion,sala
+                    ACLMessage accept = mejorPropuesta.createReply();
+                    accept.setPerformative(ACLMessage.ACCEPT_PROPOSAL);
+                    accept.setContent(String.format("%s,%d,%s,%d,%s",
+                        dia,
+                        bloque,
+                        asignaturas.get(asignaturaActual).getNombre(),
+                        satisfaccion,
+                        sala));
+                    myAgent.send(accept);
+        
+                    // Esperar confirmación
+                    MessageTemplate mt = MessageTemplate.and(
+                        MessageTemplate.MatchSender(mejorPropuesta.getSender()),
+                        MessageTemplate.MatchPerformative(ACLMessage.INFORM)
+                    );
+                    ACLMessage confirm = myAgent.blockingReceive(mt, 5000);
+        
+                    if (confirm != null) {
+                        // Actualizar horario
+                        horarioOcupado.computeIfAbsent(dia, k -> new HashSet<>()).add(bloque);
+                        actualizarHorarioJSON(dia, sala, bloque, satisfaccion);
+                        System.out.println("Profesor " + nombre + ": Asignación exitosa de " + 
+                            asignaturas.get(asignaturaActual).getNombre() + 
+                            " en sala " + sala + ", día " + dia + ", bloque " + bloque);
+                        return true;
+                    } else {
+                        System.out.println("Profesor " + nombre + ": No se recibió confirmación para " + 
+                            asignaturas.get(asignaturaActual).getNombre());
+                        return false;
+                    }
                 }
+        
+                System.out.println("Profesor " + nombre + ": Horario no disponible para " + 
+                    asignaturas.get(asignaturaActual).getNombre() + 
+                    " en día " + dia + ", bloque " + bloque);
+                return false;
+        
+            } catch (Exception e) {
+                System.err.println("Profesor " + nombre + ": Error evaluando propuestas: " + e.getMessage());
+                e.printStackTrace();
+                return false;
             }
         }
 
-        public boolean done() {
-            return finished;
-        }
     }
 
     private void actualizarHorarioJSON(String dia, String sala, int bloque, int satisfaccion) {

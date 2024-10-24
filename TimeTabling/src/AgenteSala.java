@@ -11,6 +11,7 @@ import org.json.simple.parser.JSONParser;
 import java.util.*;
 
 public class AgenteSala extends Agent {
+    private boolean isRegistered = false;
     private String codigo;
     private int capacidad;
     private Map<String, List<AsignacionSala>> horarioOcupado; // dia -> lista de asignaciones
@@ -19,6 +20,7 @@ public class AgenteSala extends Agent {
     @Override
     protected void setup() {
         // Inicializar estructuras
+        initializeSchedule();
         horarioOcupado = new HashMap<>();
         for (String dia : DIAS) {
             List<AsignacionSala> asignaciones = new ArrayList<>();
@@ -54,16 +56,30 @@ public class AgenteSala extends Agent {
         }
     }
 
+    private void initializeSchedule() {
+        horarioOcupado = new HashMap<>();
+        for (String dia : DIAS) {
+            List<AsignacionSala> asignaciones = new ArrayList<>();
+            for (int i = 0; i < 5; i++) {
+                asignaciones.add(null);
+            }
+            horarioOcupado.put(dia, asignaciones);
+        }
+    }
+
     private void registrarEnDF() {
-        DFAgentDescription dfd = new DFAgentDescription();
-        dfd.setName(getAID());
-        ServiceDescription sd = new ServiceDescription();
-        sd.setType("sala");
-        sd.setName(codigo);
-        dfd.addServices(sd);
         try {
+            DFAgentDescription dfd = new DFAgentDescription();
+            dfd.setName(getAID());
+            ServiceDescription sd = new ServiceDescription();
+            sd.setType("sala");
+            sd.setName(codigo);
+            dfd.addServices(sd);
             DFService.register(this, dfd);
+            isRegistered = true;
+            System.out.println("Sala " + codigo + " registrada en DF");
         } catch (FIPAException fe) {
+            System.err.println("Error registrando sala " + codigo + " en DF: " + fe.getMessage());
             fe.printStackTrace();
         }
     }
@@ -184,13 +200,32 @@ public class AgenteSala extends Agent {
         }
     }
 
+    private synchronized void cleanup() {
+        try {
+            if (isRegistered) {
+                DFAgentDescription dfd = new DFAgentDescription();
+                dfd.setName(getAID());
+                DFAgentDescription[] result = DFService.search(this, dfd);
+                
+                if (result != null && result.length > 0) {
+                    DFService.deregister(this);
+                    System.out.println("Sala " + codigo + " eliminada del DF");
+                }
+                isRegistered = false;
+            }
+
+            // Guardar estado final en JSON
+            SalaHorarioJSON.getInstance().agregarHorarioSala(codigo, horarioOcupado);
+
+        } catch (Exception e) {
+            System.err.println("Error durante cleanup de sala " + codigo + ": " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
     @Override
     protected void takeDown() {
-        try {
-            DFService.deregister(this);
-            System.out.println("Sala " + codigo + " finalizada.");
-        } catch (FIPAException fe) {
-            fe.printStackTrace();
-        }
+        cleanup();
+        System.out.println("Sala " + codigo + " finalizada");
     }
 }
