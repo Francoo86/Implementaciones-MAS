@@ -1,7 +1,7 @@
 [
   {
     "Nombre": "Juan Perez",
-    "AsignaturasCompletadas": 2,
+    "AsignaturasCompletadas": 3,
     "Solicitudes": 3,
     "Asignaturas": [
       {
@@ -15,6 +15,13 @@
         "Nombre": "Programación Basica",
         "Sala": "A-1",
         "Bloque": 2,
+        "Dia": "Lunes",
+        "Satisfaccion": 10
+      },
+      {
+        "Nombre": "Codigo Binario",
+        "Sala": "B-2",
+        "Bloque": 3,
         "Dia": "Lunes",
         "Satisfaccion": 10
       }

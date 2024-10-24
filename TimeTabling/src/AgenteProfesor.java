@@ -107,7 +107,7 @@ public class AgenteProfesor extends Agent {
         private boolean finished = false;
         private long tiempoInicio;
         private int intentos = 0;
-        private static final int MAX_INTENTOS = 3;
+        private static final int MAX_INTENTOS = 6;
         private static final long TIEMPO_ESPERA_ENTRE_INTENTOS = 1000;
 
         public void action() {
@@ -214,6 +214,8 @@ public class AgenteProfesor extends Agent {
 
         private boolean evaluarPropuestas() {
             if (propuestas.isEmpty()) {
+                System.out.println("Profesor " + nombre + ": No hay propuestas para " + 
+                    asignaturas.get(asignaturaActual).getNombre());
                 return false;
             }
         
@@ -225,54 +227,49 @@ public class AgenteProfesor extends Agent {
                     return Integer.parseInt(data2[4]) - Integer.parseInt(data1[4]);
                 });
         
-                // Tomar la mejor propuesta
-                ACLMessage mejorPropuesta = propuestas.get(0);
-                String[] datos = mejorPropuesta.getContent().split(",");
-                String dia = datos[0];
-                int bloque = Integer.parseInt(datos[1]);
-                String sala = datos[2];
-                int satisfaccion = Integer.parseInt(datos[4]);
+                // Intentar cada propuesta en orden de satisfacción
+                for (ACLMessage propuesta : propuestas) {
+                    String[] datos = propuesta.getContent().split(",");
+                    String dia = datos[0];
+                    int bloque = Integer.parseInt(datos[1]);
+                    String sala = datos[2];
+                    int satisfaccion = Integer.parseInt(datos[4]);
         
-                // Verificar si el horario está disponible
-                if (!horarioOcupado.containsKey(dia) || 
-                    !horarioOcupado.get(dia).contains(bloque)) {
+                    Set<Integer> bloquesOcupados = horarioOcupado.getOrDefault(dia, new HashSet<>());
                     
-                    // Aceptar propuesta - Formato: dia,bloque,nombreAsignatura,satisfaccion,sala
-                    ACLMessage accept = mejorPropuesta.createReply();
-                    accept.setPerformative(ACLMessage.ACCEPT_PROPOSAL);
-                    accept.setContent(String.format("%s,%d,%s,%d,%s",
-                        dia,
-                        bloque,
-                        asignaturas.get(asignaturaActual).getNombre(),
-                        satisfaccion,
-                        sala));
-                    myAgent.send(accept);
+                    // Verificar si el bloque está disponible para el profesor
+                    if (!bloquesOcupados.contains(bloque)) {
+                        // Aceptar propuesta
+                        ACLMessage accept = propuesta.createReply();
+                        accept.setPerformative(ACLMessage.ACCEPT_PROPOSAL);
+                        accept.setContent(String.format("%s,%d,%s,%d,%s",
+                            dia, bloque, asignaturas.get(asignaturaActual).getNombre(),
+                            satisfaccion, sala));
+                        myAgent.send(accept);
         
-                    // Esperar confirmación
-                    MessageTemplate mt = MessageTemplate.and(
-                        MessageTemplate.MatchSender(mejorPropuesta.getSender()),
-                        MessageTemplate.MatchPerformative(ACLMessage.INFORM)
-                    );
-                    ACLMessage confirm = myAgent.blockingReceive(mt, 5000);
+                        // Esperar confirmación
+                        MessageTemplate mt = MessageTemplate.and(
+                            MessageTemplate.MatchSender(propuesta.getSender()),
+                            MessageTemplate.MatchPerformative(ACLMessage.INFORM)
+                        );
+                        ACLMessage confirm = myAgent.blockingReceive(mt, 5000);
         
-                    if (confirm != null) {
-                        // Actualizar horario
-                        horarioOcupado.computeIfAbsent(dia, k -> new HashSet<>()).add(bloque);
-                        actualizarHorarioJSON(dia, sala, bloque, satisfaccion);
-                        System.out.println("Profesor " + nombre + ": Asignación exitosa de " + 
-                            asignaturas.get(asignaturaActual).getNombre() + 
-                            " en sala " + sala + ", día " + dia + ", bloque " + bloque);
-                        return true;
-                    } else {
-                        System.out.println("Profesor " + nombre + ": No se recibió confirmación para " + 
-                            asignaturas.get(asignaturaActual).getNombre());
-                        return false;
+                        if (confirm != null) {
+                            // Actualizar horario
+                            horarioOcupado.computeIfAbsent(dia, k -> new HashSet<>()).add(bloque);
+                            actualizarHorarioJSON(dia, sala, bloque, satisfaccion);
+                            System.out.println("Profesor " + nombre + ": Asignación exitosa de " + 
+                                asignaturas.get(asignaturaActual).getNombre() + 
+                                " en sala " + sala + ", día " + dia + ", bloque " + bloque +
+                                ", satisfacción " + satisfaccion);
+                            return true;
+                        }
                     }
                 }
         
-                System.out.println("Profesor " + nombre + ": Horario no disponible para " + 
+                System.out.println("Profesor " + nombre + ": No se encontró horario disponible para " + 
                     asignaturas.get(asignaturaActual).getNombre() + 
-                    " en día " + dia + ", bloque " + bloque);
+                    " entre " + propuestas.size() + " propuestas");
                 return false;
         
             } catch (Exception e) {
@@ -281,7 +278,6 @@ public class AgenteProfesor extends Agent {
                 return false;
             }
         }
-
     }
 
     private void actualizarHorarioJSON(String dia, String sala, int bloque, int satisfaccion) {

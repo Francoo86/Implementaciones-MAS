@@ -111,15 +111,17 @@ public class AgenteSala extends Agent {
                 String[] solicitudData = msg.getContent().split(",");
                 String nombreAsignatura = solicitudData[0];
                 int vacantes = Integer.parseInt(solicitudData[1]);
-
+        
                 // Calcular satisfacción basada en capacidad vs vacantes
                 int satisfaccion;
                 if (capacidad == vacantes) satisfaccion = 10;
                 else if (capacidad > vacantes) satisfaccion = 5;
                 else satisfaccion = 3;
-
-                // Verificar disponibilidad y enviar propuestas
+        
+                // Verificar disponibilidad y enviar todas las propuestas posibles
                 boolean propuestaEnviada = false;
+                
+                // Revisar todos los días y todos los bloques
                 for (String dia : DIAS) {
                     List<AsignacionSala> asignaciones = horarioOcupado.get(dia);
                     for (int bloque = 0; bloque < 5; bloque++) {
@@ -130,18 +132,22 @@ public class AgenteSala extends Agent {
                                 dia, bloque + 1, codigo, capacidad, satisfaccion));
                             send(reply);
                             propuestaEnviada = true;
-                            break;
+                            System.out.println("Sala " + codigo + " propone para " + nombreAsignatura + 
+                                ": día " + dia + ", bloque " + (bloque + 1) + 
+                                ", satisfacción " + satisfaccion);
                         }
                     }
-                    if (propuestaEnviada) break;
                 }
-
+        
                 if (!propuestaEnviada) {
                     ACLMessage reply = msg.createReply();
                     reply.setPerformative(ACLMessage.REFUSE);
                     send(reply);
+                    System.out.println("Sala " + codigo + " no tiene bloques disponibles para " + 
+                        nombreAsignatura);
                 }
             } catch (Exception e) {
+                System.err.println("Error procesando solicitud en sala " + codigo + ": " + e.getMessage());
                 e.printStackTrace();
             }
         }
