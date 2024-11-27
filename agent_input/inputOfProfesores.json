@@ -7,7 +7,7 @@
       {
         "CodigoAsignatura": "(PRI82-A)",
         "Nombre": "SISTEMAS DE GESTIÓN DE CA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 31,
@@ -23,7 +23,7 @@
       {
         "CodigoAsignatura": "(IC801-A)",
         "Nombre": "DIRECCION DE PROYECTOS",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 27,
@@ -32,7 +32,7 @@
       {
         "CodigoAsignatura": "(INT75-I)",
         "Nombre": "GESTION DE EMPRESAS",
-        "Nivel": 1,
+        "Nivel": 7,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 16,
@@ -41,7 +41,7 @@
       {
         "CodigoAsignatura": "(INT91-I)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 20,
@@ -57,7 +57,7 @@
       {
         "CodigoAsignatura": "(ARQ23-A)",
         "Nombre": "HISTORIA Y TEORIA I",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 48,
@@ -66,7 +66,7 @@
       {
         "CodigoAsignatura": "(ARQ23-A)",
         "Nombre": "HISTORIA Y TEORIA I",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 48,
@@ -75,7 +75,7 @@
       {
         "CodigoAsignatura": "(ARQ31-B)",
         "Nombre": "TALLER 3",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 4,
@@ -84,7 +84,7 @@
       {
         "CodigoAsignatura": "(ARQ31-B)",
         "Nombre": "TALLER 3",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 4,
@@ -93,7 +93,7 @@
       {
         "CodigoAsignatura": "(ARQ41-B)",
         "Nombre": "TALLER 4",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 10,
@@ -102,7 +102,7 @@
       {
         "CodigoAsignatura": "(ARQ41-B)",
         "Nombre": "TALLER 4",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 10,
@@ -111,7 +111,7 @@
       {
         "CodigoAsignatura": "(ARQ83-A)",
         "Nombre": "TERRITORIO 4",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 25,
@@ -120,7 +120,7 @@
       {
         "CodigoAsignatura": "(ARQ83-A)",
         "Nombre": "TERRITORIO 4",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 25,
@@ -136,7 +136,7 @@
       {
         "CodigoAsignatura": "(ARQ31-B)",
         "Nombre": "TALLER 3",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 4,
@@ -145,7 +145,7 @@
       {
         "CodigoAsignatura": "(ARQ31-B)",
         "Nombre": "TALLER 3",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 4,
@@ -154,7 +154,7 @@
       {
         "CodigoAsignatura": "(ARQ41-B)",
         "Nombre": "TALLER 4",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 10,
@@ -163,7 +163,7 @@
       {
         "CodigoAsignatura": "(ARQ41-B)",
         "Nombre": "TALLER 4",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 10,
@@ -172,7 +172,7 @@
       {
         "CodigoAsignatura": "(ARQ65-A)",
         "Nombre": "CONSTRUCCION 3",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 18,
@@ -181,7 +181,7 @@
       {
         "CodigoAsignatura": "(ARQ65-A)",
         "Nombre": "CONSTRUCCION 3",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 18,
@@ -190,7 +190,7 @@
       {
         "CodigoAsignatura": "(ARQ85-A)",
         "Nombre": "INSTALACIONES",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 22,
@@ -199,7 +199,7 @@
       {
         "CodigoAsignatura": "(ARQ85-A)",
         "Nombre": "INSTALACIONES",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 22,
@@ -215,7 +215,7 @@
       {
         "CodigoAsignatura": "(ARQ21-A)",
         "Nombre": "TALLER 2",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 7,
         "Vacantes": 30,
@@ -224,7 +224,7 @@
       {
         "CodigoAsignatura": "(ARQ21-A)",
         "Nombre": "TALLER 2",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 30,
@@ -233,7 +233,7 @@
       {
         "CodigoAsignatura": "(ARQ22-A)",
         "Nombre": "GEOMETRIA Y ARQUITECTURA",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 45,
@@ -242,7 +242,7 @@
       {
         "CodigoAsignatura": "(ARQ22-A)",
         "Nombre": "GEOMETRIA Y ARQUITECTURA",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 45,
@@ -251,7 +251,7 @@
       {
         "CodigoAsignatura": "(ARQ56-A)",
         "Nombre": "PRACTICA EN OFICINA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 1,
@@ -260,7 +260,7 @@
       {
         "CodigoAsignatura": "(ARQ56-A)",
         "Nombre": "PRACTICA EN OFICINA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 1,
@@ -269,7 +269,7 @@
       {
         "CodigoAsignatura": "(ARQ96-A)",
         "Nombre": "PRACTICA EN TERRENO",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 1,
@@ -278,7 +278,7 @@
       {
         "CodigoAsignatura": "(ARQ96-A)",
         "Nombre": "PRACTICA EN TERRENO",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 1,
@@ -294,7 +294,7 @@
       {
         "CodigoAsignatura": "(INT56-J)",
         "Nombre": "INGENIERIA ECONOMICA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 19,
@@ -303,7 +303,7 @@
       {
         "CodigoAsignatura": "(INT59-J)",
         "Nombre": "PRODUCCION I",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 19,
@@ -312,7 +312,7 @@
       {
         "CodigoAsignatura": "(INT68-I)",
         "Nombre": "PRODUCCION II",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 20,
@@ -321,7 +321,7 @@
       {
         "CodigoAsignatura": "(INT73-I)",
         "Nombre": "PROCESOS INDUSTRIALES",
-        "Nivel": 1,
+        "Nivel": 7,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 20,
@@ -337,7 +337,7 @@
       {
         "CodigoAsignatura": "(IEP3C-A)",
         "Nombre": "SALUD OCUPACIONAL II",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 0,
@@ -346,7 +346,7 @@
       {
         "CodigoAsignatura": "(PRI62-A)",
         "Nombre": "LEGISLACIÓN DE SALUD Y SE",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 41,
@@ -355,7 +355,7 @@
       {
         "CodigoAsignatura": "(PRI85-A)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 31,
@@ -371,7 +371,7 @@
       {
         "CodigoAsignatura": "(IME64-A)",
         "Nombre": "CINETICA QUIMICA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 5,
@@ -380,7 +380,7 @@
       {
         "CodigoAsignatura": "(IMEA2-A)",
         "Nombre": "CADENA DE VALOR HIDROMETA",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 8,
@@ -396,7 +396,7 @@
       {
         "CodigoAsignatura": "(PRI66-A)",
         "Nombre": "TALLER DE INTEGRACIÓN PRO",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 6,
         "Vacantes": 41,
@@ -412,7 +412,7 @@
       {
         "CodigoAsignatura": "(FIA52-A)",
         "Nombre": "ESTADÍSTICA APLICADA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 17,
@@ -428,7 +428,7 @@
       {
         "CodigoAsignatura": "(FIA41-B)",
         "Nombre": "TERMODINÁMICA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 53,
@@ -437,7 +437,7 @@
       {
         "CodigoAsignatura": "(IME61-A)",
         "Nombre": "BALANCE DE MATERIA Y ENER",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 5,
@@ -446,7 +446,7 @@
       {
         "CodigoAsignatura": "(IME83-A)",
         "Nombre": "PURIFICACION Y SEPARACION",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 8,
@@ -455,7 +455,7 @@
       {
         "CodigoAsignatura": "(IME83-A)",
         "Nombre": "PURIFICACION Y SEPARACION",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 4,
         "Vacantes": 8,
@@ -464,7 +464,7 @@
       {
         "CodigoAsignatura": "(INT52-I)",
         "Nombre": "TERMODINAMICA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 11,
@@ -480,7 +480,7 @@
       {
         "CodigoAsignatura": "(IC804-A)",
         "Nombre": "GESTIÓN DE PRODUCCIÓN",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 36,
@@ -489,7 +489,7 @@
       {
         "CodigoAsignatura": "(IC804-A)",
         "Nombre": "GESTIÓN DE PRODUCCIÓN",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 36,
@@ -498,7 +498,7 @@
       {
         "CodigoAsignatura": "(IC904-A)",
         "Nombre": "PRODUCCION",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 0,
@@ -507,7 +507,7 @@
       {
         "CodigoAsignatura": "(ICA04-A)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 0,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 32,
@@ -516,7 +516,7 @@
       {
         "CodigoAsignatura": "(ICIA3-A)",
         "Nombre": "PREPARCIÓN PARA EL PROCES",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 12,
@@ -525,7 +525,7 @@
       {
         "CodigoAsignatura": "(INT91-J)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 20,
@@ -534,7 +534,7 @@
       {
         "CodigoAsignatura": "(INT91-I)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 20,
@@ -550,7 +550,7 @@
       {
         "CodigoAsignatura": "(FIA24-C)",
         "Nombre": "INTRODUCCIÓN A LA PROGRAM",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 33,
@@ -559,7 +559,7 @@
       {
         "CodigoAsignatura": "(FIA24-C)",
         "Nombre": "INTRODUCCIÓN A LA PROGRAM",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 33,
@@ -568,7 +568,7 @@
       {
         "CodigoAsignatura": "(CCI83-A)",
         "Nombre": "REDES DE COMPUTADORES",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 21,
@@ -577,7 +577,7 @@
       {
         "CodigoAsignatura": "(CCI83-A)",
         "Nombre": "REDES DE COMPUTADORES",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 21,
@@ -586,7 +586,7 @@
       {
         "CodigoAsignatura": "(FIA24-A)",
         "Nombre": "INTRODUCCIÓN A LA PROGRAM",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 33,
@@ -595,7 +595,7 @@
       {
         "CodigoAsignatura": "(FIA24-A)",
         "Nombre": "INTRODUCCIÓN A LA PROGRAM",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 33,
@@ -629,7 +629,7 @@
       {
         "CodigoAsignatura": "(PRI64-A)",
         "Nombre": "ERGONOMÍA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 41,
@@ -645,7 +645,7 @@
       {
         "CodigoAsignatura": "(ICE64-A)",
         "Nombre": "LABORATORIO DE ELECTRÓNIC",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 9,
@@ -654,7 +654,7 @@
       {
         "CodigoAsignatura": "(ICEA6-A)",
         "Nombre": "TALLER DE TITULACIÓN",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 6,
         "Vacantes": 10,
@@ -670,7 +670,7 @@
       {
         "CodigoAsignatura": "(INT72-FA)",
         "Nombre": "GESTION DE PERSONAS II",
-        "Nivel": 1,
+        "Nivel": 7,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 18,
@@ -686,7 +686,7 @@
       {
         "CodigoAsignatura": "(PRI82-S)",
         "Nombre": "SISTEMAS DE GESTIÓN DE CA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 16,
@@ -702,7 +702,7 @@
       {
         "CodigoAsignatura": "(INT91-S)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 6,
@@ -718,7 +718,7 @@
       {
         "CodigoAsignatura": "(ARQA2-A)",
         "Nombre": "INTRODUCCION AL PROYECTO",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 15,
@@ -727,7 +727,7 @@
       {
         "CodigoAsignatura": "(ARQA2-A)",
         "Nombre": "INTRODUCCION AL PROYECTO",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 15,
@@ -743,7 +743,7 @@
       {
         "CodigoAsignatura": "(INT75-FA)",
         "Nombre": "GESTION DE EMPRESAS",
-        "Nivel": 1,
+        "Nivel": 7,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 22,
@@ -752,7 +752,7 @@
       {
         "CodigoAsignatura": "(INT24-FA)",
         "Nombre": "COMPUTACION I",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 8,
@@ -768,7 +768,7 @@
       {
         "CodigoAsignatura": "(ICA44-A)",
         "Nombre": "BIOQUIMICA Y MICROBIOLOGI",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 3,
@@ -777,7 +777,7 @@
       {
         "CodigoAsignatura": "(ICA44-A)",
         "Nombre": "BIOQUIMICA Y MICROBIOLOGI",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 4,
         "Vacantes": 3,
@@ -786,7 +786,7 @@
       {
         "CodigoAsignatura": "(ICA82-A)",
         "Nombre": "TRATAMIENTO DE EMISIONES",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 4,
@@ -795,7 +795,7 @@
       {
         "CodigoAsignatura": "(ICA82-A)",
         "Nombre": "TRATAMIENTO DE EMISIONES",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 4,
@@ -804,7 +804,7 @@
       {
         "CodigoAsignatura": "(ICAA6-A)",
         "Nombre": "CAMBIO CLIMÁTICO Y RESILE",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 10,
@@ -820,7 +820,7 @@
       {
         "CodigoAsignatura": "(CCI63-A)",
         "Nombre": "FUNDAMENTOS DE LENGUAJE D",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 21,
@@ -829,7 +829,7 @@
       {
         "CodigoAsignatura": "(CCI63-A)",
         "Nombre": "FUNDAMENTOS DE LENGUAJE D",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 21,
@@ -838,7 +838,7 @@
       {
         "CodigoAsignatura": "(CCI82-A)",
         "Nombre": "COMPILADORES",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 0,
@@ -847,7 +847,7 @@
       {
         "CodigoAsignatura": "(CCI82-A)",
         "Nombre": "COMPILADORES",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 0,
@@ -863,7 +863,7 @@
       {
         "CodigoAsignatura": "(PRI64-DV1)",
         "Nombre": "ERGONOMÍA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 38,
@@ -872,7 +872,7 @@
       {
         "CodigoAsignatura": "(PRI64-DV2)",
         "Nombre": "ERGONOMÍA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 37,
@@ -888,7 +888,7 @@
       {
         "CodigoAsignatura": "(INT51-I)",
         "Nombre": "MICROECONOMIA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 15,
@@ -904,7 +904,7 @@
       {
         "CodigoAsignatura": "(IMEB9-A)",
         "Nombre": "DERECHO MINERO Y AMBIENTA",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 5,
@@ -913,7 +913,7 @@
       {
         "CodigoAsignatura": "(IMIA3-A)",
         "Nombre": "CIERRE Y ABANDONO DE FAEN",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 17,
@@ -929,7 +929,7 @@
       {
         "CodigoAsignatura": "(ICA61-A)",
         "Nombre": "MECANICA DE FLUIDOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 6,
@@ -938,7 +938,7 @@
       {
         "CodigoAsignatura": "(ICA61-A)",
         "Nombre": "MECANICA DE FLUIDOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 6,
@@ -947,7 +947,7 @@
       {
         "CodigoAsignatura": "(ICA61-A)",
         "Nombre": "MECANICA DE FLUIDOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 6,
@@ -956,7 +956,7 @@
       {
         "CodigoAsignatura": "(ICA63-A)",
         "Nombre": "FENOMENOS DE TRANSPORTE",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 6,
@@ -965,7 +965,7 @@
       {
         "CodigoAsignatura": "(ICAA3-A)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 10,
@@ -981,7 +981,7 @@
       {
         "CodigoAsignatura": "(ARQ63-A)",
         "Nombre": "TERRITORIO 3",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 16,
@@ -990,7 +990,7 @@
       {
         "CodigoAsignatura": "(ARQ63-A)",
         "Nombre": "TERRITORIO 3",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 16,
@@ -999,7 +999,7 @@
       {
         "CodigoAsignatura": "(ARQ91-A)",
         "Nombre": "TALLER 9",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 7,
         "Vacantes": 3,
@@ -1008,7 +1008,7 @@
       {
         "CodigoAsignatura": "(ARQ91-A)",
         "Nombre": "TALLER 9",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 3,
@@ -1024,7 +1024,7 @@
       {
         "CodigoAsignatura": "(ICE82-A)",
         "Nombre": "LABORATORIO DE CONTROL AU",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 11,
@@ -1033,7 +1033,7 @@
       {
         "CodigoAsignatura": "(ICE83-A)",
         "Nombre": "ROBÓTICA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 14,
@@ -1042,7 +1042,7 @@
       {
         "CodigoAsignatura": "(ICE83-A)",
         "Nombre": "ROBÓTICA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 14,
@@ -1051,7 +1051,7 @@
       {
         "CodigoAsignatura": "(ICEA3-A)",
         "Nombre": "LABORATORIO DE CONTROL DI",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 12,
@@ -1060,7 +1060,7 @@
       {
         "CodigoAsignatura": "(ICEA4-A)",
         "Nombre": "LABORATORIO DE ROBÓTICA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 12,
@@ -1076,7 +1076,7 @@
       {
         "CodigoAsignatura": "(INT91-FA)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 24,
@@ -1085,7 +1085,7 @@
       {
         "CodigoAsignatura": "(INT91-FB)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 9,
@@ -1101,7 +1101,7 @@
       {
         "CodigoAsignatura": "(INT43-I)",
         "Nombre": "TEORIA DE SISTEMAS",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 22,
@@ -1110,7 +1110,7 @@
       {
         "CodigoAsignatura": "(PRI84-A)",
         "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 31,
@@ -1126,7 +1126,7 @@
       {
         "CodigoAsignatura": "(PRI83-S)",
         "Nombre": "COMUNICACIÓN Y LIDERAZGO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 16,
@@ -1142,7 +1142,7 @@
       {
         "CodigoAsignatura": "(INT55-S)",
         "Nombre": "FINANZAS",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 6,
@@ -1158,7 +1158,7 @@
       {
         "CodigoAsignatura": "(ARQ71-A)",
         "Nombre": "TALLER 7",
-        "Nivel": 1,
+        "Nivel": 7,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 7,
@@ -1167,7 +1167,7 @@
       {
         "CodigoAsignatura": "(ARQ71-A)",
         "Nombre": "TALLER 7",
-        "Nivel": 1,
+        "Nivel": 7,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 7,
@@ -1176,7 +1176,7 @@
       {
         "CodigoAsignatura": "(ARQ81-A)",
         "Nombre": "TALLER 8",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 12,
@@ -1185,7 +1185,7 @@
       {
         "CodigoAsignatura": "(ARQ81-A)",
         "Nombre": "TALLER 8",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 12,
@@ -1194,7 +1194,7 @@
       {
         "CodigoAsignatura": "(ARQA2-A)",
         "Nombre": "INTRODUCCION AL PROYECTO",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 15,
@@ -1203,7 +1203,7 @@
       {
         "CodigoAsignatura": "(ARQA2-A)",
         "Nombre": "INTRODUCCION AL PROYECTO",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 15,
@@ -1219,7 +1219,7 @@
       {
         "CodigoAsignatura": "(INT55-I)",
         "Nombre": "FINANZAS",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 16,
@@ -1235,7 +1235,7 @@
       {
         "CodigoAsignatura": "(IMIA4-A)",
         "Nombre": "SIST. DE GESTION EN SEGUR",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 17,
@@ -1251,7 +1251,7 @@
       {
         "CodigoAsignatura": "(CCI84-A)",
         "Nombre": "TALLER DE INGENIERIA DE S",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 19,
@@ -1260,7 +1260,7 @@
       {
         "CodigoAsignatura": "(CCI84-A)",
         "Nombre": "TALLER DE INGENIERIA DE S",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 19,
@@ -1269,7 +1269,7 @@
       {
         "CodigoAsignatura": "(CCI84-A)",
         "Nombre": "TALLER DE INGENIERIA DE S",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 19,
@@ -1296,7 +1296,7 @@
       {
         "CodigoAsignatura": "(CCIA5-A)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 28,
@@ -1312,7 +1312,7 @@
       {
         "CodigoAsignatura": "(ICA64-A)",
         "Nombre": "BIOTECNOLOGIA APLICADA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 3,
@@ -1321,7 +1321,7 @@
       {
         "CodigoAsignatura": "(ICA64-A)",
         "Nombre": "BIOTECNOLOGIA APLICADA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 3,
@@ -1337,7 +1337,7 @@
       {
         "CodigoAsignatura": "(ICA64-A)",
         "Nombre": "BIOTECNOLOGIA APLICADA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 3,
@@ -1346,7 +1346,7 @@
       {
         "CodigoAsignatura": "(ICA64-A)",
         "Nombre": "BIOTECNOLOGIA APLICADA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 3,
@@ -1362,7 +1362,7 @@
       {
         "CodigoAsignatura": "(PRI85-AR)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 21,
@@ -1378,7 +1378,7 @@
       {
         "CodigoAsignatura": "(INT82-J)",
         "Nombre": "DESARROLLO Y EVALUACION D",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 19,
@@ -1387,7 +1387,7 @@
       {
         "CodigoAsignatura": "(INT82-I)",
         "Nombre": "DESARROLLO Y EVALUACION D",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 11,
@@ -1403,7 +1403,7 @@
       {
         "CodigoAsignatura": "(PRI65-AR)",
         "Nombre": "VIGILANCIA EPIDEMIOLÓGICA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 26,
@@ -1419,7 +1419,7 @@
       {
         "CodigoAsignatura": "(PRI63-AR)",
         "Nombre": "HIGIENE OCUPACIONAL APLIC",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 30,
@@ -1428,7 +1428,7 @@
       {
         "CodigoAsignatura": "(PRI64-AR)",
         "Nombre": "ERGONOMÍA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 25,
@@ -1444,7 +1444,7 @@
       {
         "CodigoAsignatura": "(CCI65-A)",
         "Nombre": "ANALISIS DE ALGORITMOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 20,
@@ -1453,7 +1453,7 @@
       {
         "CodigoAsignatura": "(CCI65-A)",
         "Nombre": "ANALISIS DE ALGORITMOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 20,
@@ -1462,7 +1462,7 @@
       {
         "CodigoAsignatura": "(CCI95-A)",
         "Nombre": "METODOLOGIA DE LA INVESTI",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 0,
@@ -1471,7 +1471,7 @@
       {
         "CodigoAsignatura": "(CCIA5-A)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 4,
         "Vacantes": 28,
@@ -1505,7 +1505,7 @@
       {
         "CodigoAsignatura": "(FIA53-A)",
         "Nombre": "ONDAS Y ÓPTICA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 4,
         "Vacantes": 23,
@@ -1514,7 +1514,7 @@
       {
         "CodigoAsignatura": "(ICE44-A)",
         "Nombre": "TEORÍA DE REDES I",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 8,
@@ -1523,7 +1523,7 @@
       {
         "CodigoAsignatura": "(ICE44-A)",
         "Nombre": "TEORÍA DE REDES I",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 8,
@@ -1541,7 +1541,7 @@
       {
         "CodigoAsignatura": "(INT34-J)",
         "Nombre": "FISICA II",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 1,
@@ -1557,7 +1557,7 @@
       {
         "CodigoAsignatura": "(PRO51-ON)",
         "Nombre": "CÁLCULO II",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 5,
@@ -1566,7 +1566,7 @@
       {
         "CodigoAsignatura": "(PRO51-ON)",
         "Nombre": "CÁLCULO II",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 5,
@@ -1575,7 +1575,7 @@
       {
         "CodigoAsignatura": "(PRO51-ON)",
         "Nombre": "CÁLCULO II",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 5,
@@ -1584,7 +1584,7 @@
       {
         "CodigoAsignatura": "(PRO52-ON)",
         "Nombre": "LEGISLACIÓN DE SALUD Y SE",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 0,
@@ -1593,7 +1593,7 @@
       {
         "CodigoAsignatura": "(PRO52-ON)",
         "Nombre": "LEGISLACIÓN DE SALUD Y SE",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 0,
@@ -1602,7 +1602,7 @@
       {
         "CodigoAsignatura": "(PRO52-ON)",
         "Nombre": "LEGISLACIÓN DE SALUD Y SE",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 0,
@@ -1611,7 +1611,7 @@
       {
         "CodigoAsignatura": "(PRO53-ON)",
         "Nombre": "LEGISLACIÓN AMBIENTAL Y G",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 5,
@@ -1620,7 +1620,7 @@
       {
         "CodigoAsignatura": "(PRO53-ON)",
         "Nombre": "LEGISLACIÓN AMBIENTAL Y G",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 5,
@@ -1629,7 +1629,7 @@
       {
         "CodigoAsignatura": "(PRO53-ON)",
         "Nombre": "LEGISLACIÓN AMBIENTAL Y G",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 4,
         "Vacantes": 5,
@@ -1638,7 +1638,7 @@
       {
         "CodigoAsignatura": "(PRO54-ON)",
         "Nombre": "QUÍMICA INDUSTRIAL",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 0,
@@ -1647,7 +1647,7 @@
       {
         "CodigoAsignatura": "(PRO54-ON)",
         "Nombre": "QUÍMICA INDUSTRIAL",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 0,
@@ -1656,7 +1656,7 @@
       {
         "CodigoAsignatura": "(PRO54-ON)",
         "Nombre": "QUÍMICA INDUSTRIAL",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 0,
@@ -1665,7 +1665,7 @@
       {
         "CodigoAsignatura": "(PRO55-ON)",
         "Nombre": "LABORATORIO DE HIGIENE OC",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 6,
         "Vacantes": 5,
@@ -1674,7 +1674,7 @@
       {
         "CodigoAsignatura": "(PRO55-ON)",
         "Nombre": "LABORATORIO DE HIGIENE OC",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 5,
@@ -1683,7 +1683,7 @@
       {
         "CodigoAsignatura": "(PRO55-ON)",
         "Nombre": "LABORATORIO DE HIGIENE OC",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 4,
         "Vacantes": 5,
@@ -1692,7 +1692,7 @@
       {
         "CodigoAsignatura": "(PRO56-ON)",
         "Nombre": "TALLER DE INTEGRACIÓN INI",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 5,
         "Vacantes": 5,
@@ -1701,7 +1701,7 @@
       {
         "CodigoAsignatura": "(PRO56-ON)",
         "Nombre": "TALLER DE INTEGRACIÓN INI",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 5,
@@ -1717,7 +1717,7 @@
       {
         "CodigoAsignatura": "(INT52-S)",
         "Nombre": "TERMODINAMICA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 12,
@@ -1726,7 +1726,7 @@
       {
         "CodigoAsignatura": "(INT61-S)",
         "Nombre": "MECANICA DE FLUIDOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 12,
@@ -1735,7 +1735,7 @@
       {
         "CodigoAsignatura": "(PRI61-S)",
         "Nombre": "OPERACIONES UNITARIA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 22,
@@ -1751,7 +1751,7 @@
       {
         "CodigoAsignatura": "(PRI62-AR)",
         "Nombre": "LEGISLACIÓN DE SALUD Y SE",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 23,
@@ -1767,7 +1767,7 @@
       {
         "CodigoAsignatura": "(INT72-I)",
         "Nombre": "GESTION DE PERSONAS II",
-        "Nivel": 1,
+        "Nivel": 7,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 17,
@@ -1783,7 +1783,7 @@
       {
         "CodigoAsignatura": "(ARQ62-A)",
         "Nombre": "URBANISMO 1",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 18,
@@ -1792,7 +1792,7 @@
       {
         "CodigoAsignatura": "(ARQ82-A)",
         "Nombre": "URBANISMO 3",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 22,
@@ -1801,7 +1801,7 @@
       {
         "CodigoAsignatura": "(ARQ82-A)",
         "Nombre": "URBANISMO 3",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 22,
@@ -1842,7 +1842,7 @@
       {
         "CodigoAsignatura": "(INT51-S)",
         "Nombre": "MICROECONOMIA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 10,
@@ -1851,7 +1851,7 @@
       {
         "CodigoAsignatura": "(PRI81-S)",
         "Nombre": "METODOLOGÍAS DE INVESTIGA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 16,
@@ -1867,7 +1867,7 @@
       {
         "CodigoAsignatura": "(PRI84-AR)",
         "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 20,
@@ -1883,7 +1883,7 @@
       {
         "CodigoAsignatura": "(INT42-S)",
         "Nombre": "CONTABILIDAD Y SISTEMAS D",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 11,
@@ -1899,7 +1899,7 @@
       {
         "CodigoAsignatura": "(PRI65-DV1)",
         "Nombre": "VIGILANCIA EPIDEMIOLÓGICA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 38,
@@ -1908,7 +1908,7 @@
       {
         "CodigoAsignatura": "(PRI65-DV2)",
         "Nombre": "VIGILANCIA EPIDEMIOLÓGICA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 37,
@@ -1924,7 +1924,7 @@
       {
         "CodigoAsignatura": "(INT43-FA)",
         "Nombre": "TEORIA DE SISTEMAS",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 22,
@@ -1933,7 +1933,7 @@
       {
         "CodigoAsignatura": "(INT68-FB)",
         "Nombre": "PRODUCCION II",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 21,
@@ -1949,7 +1949,7 @@
       {
         "CodigoAsignatura": "(CCIA4-A)",
         "Nombre": "LIDERAZGO Y EMPRENDIMIENT",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 4,
         "Vacantes": 23,
@@ -1965,7 +1965,7 @@
       {
         "CodigoAsignatura": "(PRI82-EEE)",
         "Nombre": "SISTEMAS DE GESTIÓN DE CA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 39,
@@ -1974,7 +1974,7 @@
       {
         "CodigoAsignatura": "(PRI82-HHH)",
         "Nombre": "SISTEMAS DE GESTIÓN DE CA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 37,
@@ -1990,7 +1990,7 @@
       {
         "CodigoAsignatura": "(CCIA3-A)",
         "Nombre": "GESTION DE CALIDAD DE SOF",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 24,
@@ -1999,7 +1999,7 @@
       {
         "CodigoAsignatura": "(CCIA3-A)",
         "Nombre": "GESTION DE CALIDAD DE SOF",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 24,
@@ -2015,7 +2015,7 @@
       {
         "CodigoAsignatura": "(CCI44-A)",
         "Nombre": "PROGRAMACION ORIENTADA A",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 17,
@@ -2024,7 +2024,7 @@
       {
         "CodigoAsignatura": "(CCI44-A)",
         "Nombre": "PROGRAMACION ORIENTADA A",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 17,
@@ -2040,7 +2040,7 @@
       {
         "CodigoAsignatura": "(FIA52-A)",
         "Nombre": "ESTADÍSTICA APLICADA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 17,
@@ -2049,7 +2049,7 @@
       {
         "CodigoAsignatura": "(INT42-J)",
         "Nombre": "CONTABILIDAD Y SISTEMAS D",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 27,
@@ -2058,7 +2058,7 @@
       {
         "CodigoAsignatura": "(INT42-I)",
         "Nombre": "CONTABILIDAD Y SISTEMAS D",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 14,
@@ -2074,7 +2074,7 @@
       {
         "CodigoAsignatura": "(ICA65-A)",
         "Nombre": "SISTEMA DE INFORMACION GE",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 5,
         "Vacantes": 4,
@@ -2083,7 +2083,7 @@
       {
         "CodigoAsignatura": "(ICA84-A)",
         "Nombre": "EVALUCION AMBIENTAL",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 5,
@@ -2092,7 +2092,7 @@
       {
         "CodigoAsignatura": "(ICA84-A)",
         "Nombre": "EVALUCION AMBIENTAL",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 5,
@@ -2108,7 +2108,7 @@
       {
         "CodigoAsignatura": "(FIA62-B)",
         "Nombre": "ECONOMÍA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 33,
@@ -2117,7 +2117,7 @@
       {
         "CodigoAsignatura": "(FIA62-B)",
         "Nombre": "ECONOMÍA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 33,
@@ -2126,7 +2126,7 @@
       {
         "CodigoAsignatura": "(FIA81-A)",
         "Nombre": "ING. ECONÓMICA Y DIRECCIÓ",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 36,
@@ -2135,7 +2135,7 @@
       {
         "CodigoAsignatura": "(FIA81-A)",
         "Nombre": "ING. ECONÓMICA Y DIRECCIÓ",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 36,
@@ -2151,7 +2151,7 @@
       {
         "CodigoAsignatura": "(ARQ21-B)",
         "Nombre": "TALLER 2",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 7,
         "Vacantes": 15,
@@ -2160,7 +2160,7 @@
       {
         "CodigoAsignatura": "(ARQ21-B)",
         "Nombre": "TALLER 2",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 15,
@@ -2176,7 +2176,7 @@
       {
         "CodigoAsignatura": "(PRI85-EEE)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 38,
@@ -2185,7 +2185,7 @@
       {
         "CodigoAsignatura": "(PRI85-HHH)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 37,
@@ -2201,7 +2201,7 @@
       {
         "CodigoAsignatura": "(PRI81-EEE)",
         "Nombre": "METODOLOGÍAS DE INVESTIGA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 38,
@@ -2210,7 +2210,7 @@
       {
         "CodigoAsignatura": "(PRI81-HHH)",
         "Nombre": "METODOLOGÍAS DE INVESTIGA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 37,
@@ -2219,7 +2219,7 @@
       {
         "CodigoAsignatura": "(PRI83-EEE)",
         "Nombre": "COMUNICACIÓN Y LIDERAZGO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 38,
@@ -2228,7 +2228,7 @@
       {
         "CodigoAsignatura": "(PRI83-HHH)",
         "Nombre": "COMUNICACIÓN Y LIDERAZGO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 37,
@@ -2244,7 +2244,7 @@
       {
         "CodigoAsignatura": "(IC803-A)",
         "Nombre": "INVESTIGACION OPERATIVA I",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 32,
@@ -2253,7 +2253,7 @@
       {
         "CodigoAsignatura": "(IC803-A)",
         "Nombre": "INVESTIGACION OPERATIVA I",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 32,
@@ -2271,7 +2271,7 @@
       {
         "CodigoAsignatura": "(ICA81-A)",
         "Nombre": "INVESTIGACION DE OPERACIO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 8,
@@ -2280,7 +2280,7 @@
       {
         "CodigoAsignatura": "(ICA81-A)",
         "Nombre": "INVESTIGACION DE OPERACIO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 8,
@@ -2332,7 +2332,7 @@
       {
         "CodigoAsignatura": "(ICAA3-A)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 10,
@@ -2341,7 +2341,7 @@
       {
         "CodigoAsignatura": "(INT57-J)",
         "Nombre": "GESTION AMBIENTAL",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 18,
@@ -2357,7 +2357,7 @@
       {
         "CodigoAsignatura": "(ARQ51-B)",
         "Nombre": "TALLER 5",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 5,
@@ -2366,7 +2366,7 @@
       {
         "CodigoAsignatura": "(ARQ51-B)",
         "Nombre": "TALLER 5",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 5,
@@ -2375,7 +2375,7 @@
       {
         "CodigoAsignatura": "(ARQ61-B)",
         "Nombre": "TALLER 6",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 8,
@@ -2384,7 +2384,7 @@
       {
         "CodigoAsignatura": "(ARQ61-B)",
         "Nombre": "TALLER 6",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 8,
@@ -2400,7 +2400,7 @@
       {
         "CodigoAsignatura": "(ICA83-A)",
         "Nombre": "TRAMIENTO DE RESIDUOS LIQ",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 6,
@@ -2409,7 +2409,7 @@
       {
         "CodigoAsignatura": "(ICA83-A)",
         "Nombre": "TRAMIENTO DE RESIDUOS LIQ",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 6,
@@ -2418,7 +2418,7 @@
       {
         "CodigoAsignatura": "(ICA94-A)",
         "Nombre": "PLANIFICACION TERRITORIAL",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 0,
         "Vacantes": 0,
@@ -2427,7 +2427,7 @@
       {
         "CodigoAsignatura": "(ICAA2-A)",
         "Nombre": "GESTION AMBIENTAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 8,
@@ -2436,7 +2436,7 @@
       {
         "CodigoAsignatura": "(ICAA2-A)",
         "Nombre": "GESTION AMBIENTAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 8,
@@ -2445,7 +2445,7 @@
       {
         "CodigoAsignatura": "(ICAA3-A)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 10,
@@ -2454,7 +2454,7 @@
       {
         "CodigoAsignatura": "(INT64-I)",
         "Nombre": "OPERACIONES UNITARIAS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 12,
@@ -2470,7 +2470,7 @@
       {
         "CodigoAsignatura": "(ARQ25-A)",
         "Nombre": "MATEMATICAS I",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 46,
@@ -2479,7 +2479,7 @@
       {
         "CodigoAsignatura": "(ARQ25-A)",
         "Nombre": "MATEMATICAS I",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 46,
@@ -2488,7 +2488,7 @@
       {
         "CodigoAsignatura": "(ARQ45-A)",
         "Nombre": "FISICA ESTATICA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 31,
@@ -2497,7 +2497,7 @@
       {
         "CodigoAsignatura": "(ARQ45-A)",
         "Nombre": "FISICA ESTATICA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 31,
@@ -2513,7 +2513,7 @@
       {
         "CodigoAsignatura": "(PRI83-A)",
         "Nombre": "COMUNICACIÓN Y LIDERAZGO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 31,
@@ -2529,7 +2529,7 @@
       {
         "CodigoAsignatura": "(FIA42-A)",
         "Nombre": "MÉTODOS NUMÉRICOS",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 35,
@@ -2538,7 +2538,7 @@
       {
         "CodigoAsignatura": "(IC603-A)",
         "Nombre": "METODOLOGIA DE LA INVESTI",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 28,
@@ -2547,7 +2547,7 @@
       {
         "CodigoAsignatura": "(IC603-A)",
         "Nombre": "METODOLOGIA DE LA INVESTI",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 28,
@@ -2556,7 +2556,7 @@
       {
         "CodigoAsignatura": "(IC802-A)",
         "Nombre": "FINANZAS",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 25,
@@ -2565,7 +2565,7 @@
       {
         "CodigoAsignatura": "(IC802-A)",
         "Nombre": "FINANZAS",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 25,
@@ -2574,7 +2574,7 @@
       {
         "CodigoAsignatura": "(FIA42-B)",
         "Nombre": "MÉTODOS NUMÉRICOS",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 21,
@@ -2583,7 +2583,7 @@
       {
         "CodigoAsignatura": "(INT51-J)",
         "Nombre": "MICROECONOMIA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 27,
@@ -2599,7 +2599,7 @@
       {
         "CodigoAsignatura": "(ARQ21-A)",
         "Nombre": "TALLER 2",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 7,
         "Vacantes": 30,
@@ -2608,7 +2608,7 @@
       {
         "CodigoAsignatura": "(ARQ21-A)",
         "Nombre": "TALLER 2",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 30,
@@ -2624,7 +2624,7 @@
       {
         "CodigoAsignatura": "(FIA41-A)",
         "Nombre": "TERMODINÁMICA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 48,
@@ -2633,7 +2633,7 @@
       {
         "CodigoAsignatura": "(IMI44-A)",
         "Nombre": "FENOMENOS DE TRANSPORTE",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 31,
@@ -2642,7 +2642,7 @@
       {
         "CodigoAsignatura": "(IMI44-A)",
         "Nombre": "FENOMENOS DE TRANSPORTE",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 31,
@@ -2658,7 +2658,7 @@
       {
         "CodigoAsignatura": "(IMEA3-A)",
         "Nombre": "ADMINISTRACION DE RIESGO",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 9,
@@ -2674,7 +2674,7 @@
       {
         "CodigoAsignatura": "(PRI83-AR)",
         "Nombre": "COMUNICACIÓN Y LIDERAZGO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 20,
@@ -2690,7 +2690,7 @@
       {
         "CodigoAsignatura": "(IC404-A)",
         "Nombre": "INGENIERIA DE MATERIALES",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 36,
@@ -2699,7 +2699,7 @@
       {
         "CodigoAsignatura": "(IC404-A)",
         "Nombre": "INGENIERIA DE MATERIALES",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 36,
@@ -2708,7 +2708,7 @@
       {
         "CodigoAsignatura": "(IC601-A)",
         "Nombre": "OPERACIONES UNITARIAS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 31,
@@ -2717,7 +2717,7 @@
       {
         "CodigoAsignatura": "(IC601-A)",
         "Nombre": "OPERACIONES UNITARIAS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 31,
@@ -2726,7 +2726,7 @@
       {
         "CodigoAsignatura": "(PRI61-A)",
         "Nombre": "OPERACIONES UNITARIA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 46,
@@ -2742,7 +2742,7 @@
       {
         "CodigoAsignatura": "(CCI64-A)",
         "Nombre": "INGENIERÍA DE REQUISITOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 12,
@@ -2751,7 +2751,7 @@
       {
         "CodigoAsignatura": "(CCI64-A)",
         "Nombre": "INGENIERÍA DE REQUISITOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 12,
@@ -2760,7 +2760,7 @@
       {
         "CodigoAsignatura": "(CCI64-B)",
         "Nombre": "INGENIERÍA DE REQUISITOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 14,
@@ -2769,7 +2769,7 @@
       {
         "CodigoAsignatura": "(CCI64-B)",
         "Nombre": "INGENIERÍA DE REQUISITOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 14,
@@ -2778,7 +2778,7 @@
       {
         "CodigoAsignatura": "(CCIA5-A)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 28,
@@ -2794,7 +2794,7 @@
       {
         "CodigoAsignatura": "(PRI65-A)",
         "Nombre": "VIGILANCIA EPIDEMIOLÓGICA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 41,
@@ -2810,7 +2810,7 @@
       {
         "CodigoAsignatura": "(ARQ26-A)",
         "Nombre": "ARQUITECTURA Y MATERIALID",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 49,
@@ -2819,7 +2819,7 @@
       {
         "CodigoAsignatura": "(ARQ26-A)",
         "Nombre": "ARQUITECTURA Y MATERIALID",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 49,
@@ -2828,7 +2828,7 @@
       {
         "CodigoAsignatura": "(ARQ51-B)",
         "Nombre": "TALLER 5",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 5,
@@ -2837,7 +2837,7 @@
       {
         "CodigoAsignatura": "(ARQ51-B)",
         "Nombre": "TALLER 5",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 5,
@@ -2846,7 +2846,7 @@
       {
         "CodigoAsignatura": "(ARQ61-B)",
         "Nombre": "TALLER 6",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 8,
@@ -2855,7 +2855,7 @@
       {
         "CodigoAsignatura": "(ARQ61-B)",
         "Nombre": "TALLER 6",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 8,
@@ -2864,7 +2864,7 @@
       {
         "CodigoAsignatura": "(ARQC2-A)",
         "Nombre": "EXPRESION GRAFICA DE PROY",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 11,
@@ -2873,7 +2873,7 @@
       {
         "CodigoAsignatura": "(ARQC9-A)",
         "Nombre": "TEMÁTICAS EMERGENTES SOBR",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 0,
         "Vacantes": 0,
@@ -2889,7 +2889,7 @@
       {
         "CodigoAsignatura": "(PRI81-AR)",
         "Nombre": "METODOLOGÍAS DE INVESTIGA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 20,
@@ -2905,7 +2905,7 @@
       {
         "CodigoAsignatura": "(IMI82-A)",
         "Nombre": "DISEÑO DE EXPLOTACIONES A",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 18,
@@ -2914,7 +2914,7 @@
       {
         "CodigoAsignatura": "(IMI83-A)",
         "Nombre": "VENTILACIÓN DE MINAS SUBT",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 16,
@@ -2923,7 +2923,7 @@
       {
         "CodigoAsignatura": "(IMIA2-A)",
         "Nombre": "PLANEAMIENTO MINERO",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 15,
@@ -2932,7 +2932,7 @@
       {
         "CodigoAsignatura": "(IMIA2-A)",
         "Nombre": "PLANEAMIENTO MINERO",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 15,
@@ -2941,7 +2941,7 @@
       {
         "CodigoAsignatura": "(IMIC5-A)",
         "Nombre": "SEMINARIO DE PREPARACIÓN",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 1,
@@ -2950,7 +2950,7 @@
       {
         "CodigoAsignatura": "(INT61-J)",
         "Nombre": "MECANICA DE FLUIDOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 28,
@@ -2966,7 +2966,7 @@
       {
         "CodigoAsignatura": "(PRI66-AR)",
         "Nombre": "TALLER DE INTEGRACIÓN PRO",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 6,
         "Vacantes": 24,
@@ -2975,7 +2975,7 @@
       {
         "CodigoAsignatura": "(PRI82-AR)",
         "Nombre": "SISTEMAS DE GESTIÓN DE CA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 20,
@@ -2991,7 +2991,7 @@
       {
         "CodigoAsignatura": "(ARQ21-B)",
         "Nombre": "TALLER 2",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 7,
         "Vacantes": 15,
@@ -3000,7 +3000,7 @@
       {
         "CodigoAsignatura": "(ARQ21-B)",
         "Nombre": "TALLER 2",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 15,
@@ -3009,7 +3009,7 @@
       {
         "CodigoAsignatura": "(ARQ42-A)",
         "Nombre": "MEDIOS DE EXPRESION 1",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 27,
@@ -3018,7 +3018,7 @@
       {
         "CodigoAsignatura": "(ARQ42-A)",
         "Nombre": "MEDIOS DE EXPRESION 1",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 27,
@@ -3034,7 +3034,7 @@
       {
         "CodigoAsignatura": "(FIA33-A)",
         "Nombre": "CINEMÁTICA Y DINÁMICA",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 4,
         "Vacantes": 35,
@@ -3043,7 +3043,7 @@
       {
         "CodigoAsignatura": "(FIA43-A)",
         "Nombre": "ELECTRICIDAD Y MAGNETISMO",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 22,
@@ -3052,7 +3052,7 @@
       {
         "CodigoAsignatura": "(FIA43-A)",
         "Nombre": "ELECTRICIDAD Y MAGNETISMO",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 22,
@@ -3061,7 +3061,7 @@
       {
         "CodigoAsignatura": "(FIA43-B)",
         "Nombre": "ELECTRICIDAD Y MAGNETISMO",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 39,
@@ -3070,7 +3070,7 @@
       {
         "CodigoAsignatura": "(FIA43-B)",
         "Nombre": "ELECTRICIDAD Y MAGNETISMO",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 39,
@@ -3086,7 +3086,7 @@
       {
         "CodigoAsignatura": "(ICA65-A)",
         "Nombre": "SISTEMA DE INFORMACION GE",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 4,
         "Vacantes": 4,
@@ -3095,7 +3095,7 @@
       {
         "CodigoAsignatura": "(ICA65-A)",
         "Nombre": "SISTEMA DE INFORMACION GE",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 4,
@@ -3104,7 +3104,7 @@
       {
         "CodigoAsignatura": "(ICA65-A)",
         "Nombre": "SISTEMA DE INFORMACION GE",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 4,
@@ -3113,7 +3113,7 @@
       {
         "CodigoAsignatura": "(ICA85-A)",
         "Nombre": "SIMULACION AMBIENTAL",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 0,
@@ -3122,7 +3122,7 @@
       {
         "CodigoAsignatura": "(ICA85-A)",
         "Nombre": "SIMULACION AMBIENTAL",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 0,
@@ -3131,7 +3131,7 @@
       {
         "CodigoAsignatura": "(ICAA3-A)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 10,
@@ -3147,7 +3147,7 @@
       {
         "CodigoAsignatura": "(INT91-S)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 6,
@@ -3163,7 +3163,7 @@
       {
         "CodigoAsignatura": "(ARQ71-A)",
         "Nombre": "TALLER 7",
-        "Nivel": 1,
+        "Nivel": 7,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 7,
@@ -3172,7 +3172,7 @@
       {
         "CodigoAsignatura": "(ARQ71-A)",
         "Nombre": "TALLER 7",
-        "Nivel": 1,
+        "Nivel": 7,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 7,
@@ -3181,7 +3181,7 @@
       {
         "CodigoAsignatura": "(ARQ81-A)",
         "Nombre": "TALLER 8",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 12,
@@ -3190,7 +3190,7 @@
       {
         "CodigoAsignatura": "(ARQ81-A)",
         "Nombre": "TALLER 8",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 12,
@@ -3206,7 +3206,7 @@
       {
         "CodigoAsignatura": "(IC604-A)",
         "Nombre": "MARKETING",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 25,
@@ -3215,7 +3215,7 @@
       {
         "CodigoAsignatura": "(IC604-A)",
         "Nombre": "MARKETING",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 25,
@@ -3224,7 +3224,7 @@
       {
         "CodigoAsignatura": "(IC902-A)",
         "Nombre": "SISTEMAS DE INFORMACIÓN",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 0,
@@ -3233,7 +3233,7 @@
       {
         "CodigoAsignatura": "(ICA01-A)",
         "Nombre": "CREATIVIDAD, INNOVACION Y",
-        "Nivel": 1,
+        "Nivel": 0,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 0,
@@ -3242,7 +3242,7 @@
       {
         "CodigoAsignatura": "(ICA01-A)",
         "Nombre": "CREATIVIDAD, INNOVACION Y",
-        "Nivel": 1,
+        "Nivel": 0,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 0,
@@ -3251,7 +3251,7 @@
       {
         "CodigoAsignatura": "(ICA02-A)",
         "Nombre": "GESTION ESTRATEGICA",
-        "Nivel": 1,
+        "Nivel": 0,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 0,
@@ -3260,7 +3260,7 @@
       {
         "CodigoAsignatura": "(ICA02-A)",
         "Nombre": "GESTION ESTRATEGICA",
-        "Nivel": 1,
+        "Nivel": 0,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 0,
@@ -3276,7 +3276,7 @@
       {
         "CodigoAsignatura": "(ICE61-A)",
         "Nombre": "MÁQUINAS ELÉCTRICAS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 8,
@@ -3285,7 +3285,7 @@
       {
         "CodigoAsignatura": "(ICE61-A)",
         "Nombre": "MÁQUINAS ELÉCTRICAS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 8,
@@ -3312,7 +3312,7 @@
       {
         "CodigoAsignatura": "(ICEA2-A)",
         "Nombre": "SISTEMAS DE CONTROL DISTR",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 12,
@@ -3321,7 +3321,7 @@
       {
         "CodigoAsignatura": "(ICEA2-A)",
         "Nombre": "SISTEMAS DE CONTROL DISTR",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 12,
@@ -3337,7 +3337,7 @@
       {
         "CodigoAsignatura": "(ICE85-A)",
         "Nombre": "SISTEMAS DE COMUNICACIONE",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 11,
@@ -3346,7 +3346,7 @@
       {
         "CodigoAsignatura": "(ICE85-A)",
         "Nombre": "SISTEMAS DE COMUNICACIONE",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 11,
@@ -3362,7 +3362,7 @@
       {
         "CodigoAsignatura": "(IMI84-A)",
         "Nombre": "CREATIVIDAD INNOVACION Y",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 11,
@@ -3371,7 +3371,7 @@
       {
         "CodigoAsignatura": "(IMI84-A)",
         "Nombre": "CREATIVIDAD INNOVACION Y",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 11,
@@ -3387,7 +3387,7 @@
       {
         "CodigoAsignatura": "(PRI85-S)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 16,
@@ -3403,7 +3403,7 @@
       {
         "CodigoAsignatura": "(FIA31-A)",
         "Nombre": "CÁLCULO VECTORIAL",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 44,
@@ -3412,7 +3412,7 @@
       {
         "CodigoAsignatura": "(FIA31-A)",
         "Nombre": "CÁLCULO VECTORIAL",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 44,
@@ -3421,7 +3421,7 @@
       {
         "CodigoAsignatura": "(FIA32-A)",
         "Nombre": "ECUACIONES DIFERENCIALES",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 46,
@@ -3430,7 +3430,7 @@
       {
         "CodigoAsignatura": "(FIA32-A)",
         "Nombre": "ECUACIONES DIFERENCIALES",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 46,
@@ -3439,7 +3439,7 @@
       {
         "CodigoAsignatura": "(FIA33-A)",
         "Nombre": "CINEMÁTICA Y DINÁMICA",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 35,
@@ -3448,7 +3448,7 @@
       {
         "CodigoAsignatura": "(FIA33-A)",
         "Nombre": "CINEMÁTICA Y DINÁMICA",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 4,
         "Vacantes": 35,
@@ -3457,7 +3457,7 @@
       {
         "CodigoAsignatura": "(FIA43-A)",
         "Nombre": "ELECTRICIDAD Y MAGNETISMO",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 22,
@@ -3466,7 +3466,7 @@
       {
         "CodigoAsignatura": "(FIA43-B)",
         "Nombre": "ELECTRICIDAD Y MAGNETISMO",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 39,
@@ -3475,7 +3475,7 @@
       {
         "CodigoAsignatura": "(FIA43-B)",
         "Nombre": "ELECTRICIDAD Y MAGNETISMO",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 4,
         "Vacantes": 39,
@@ -3484,7 +3484,7 @@
       {
         "CodigoAsignatura": "(FIA21-B)",
         "Nombre": "CÁLCULO INTEGRAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 43,
@@ -3493,7 +3493,7 @@
       {
         "CodigoAsignatura": "(FIA21-B)",
         "Nombre": "CÁLCULO INTEGRAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 43,
@@ -3509,7 +3509,7 @@
       {
         "CodigoAsignatura": "(INT91-FA)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 0,
         "Vacantes": 24,
@@ -3525,7 +3525,7 @@
       {
         "CodigoAsignatura": "(ARQ31-A)",
         "Nombre": "TALLER 3",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 4,
@@ -3534,7 +3534,7 @@
       {
         "CodigoAsignatura": "(ARQ31-A)",
         "Nombre": "TALLER 3",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 4,
@@ -3543,7 +3543,7 @@
       {
         "CodigoAsignatura": "(ARQ41-A)",
         "Nombre": "TALLER 4",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 10,
@@ -3552,7 +3552,7 @@
       {
         "CodigoAsignatura": "(ARQ41-A)",
         "Nombre": "TALLER 4",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 10,
@@ -3586,7 +3586,7 @@
       {
         "CodigoAsignatura": "(IMI61-A)",
         "Nombre": "CARGIO Y TRANSPORTE DE MI",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 12,
@@ -3595,7 +3595,7 @@
       {
         "CodigoAsignatura": "(IMI64-A)",
         "Nombre": "GEOLOGIA ESTRUCTURAL",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 18,
@@ -3604,7 +3604,7 @@
       {
         "CodigoAsignatura": "(IMIC4-A)",
         "Nombre": "MODELAMIENTO GEOMECÁNICO",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 10,
@@ -3620,7 +3620,7 @@
       {
         "CodigoAsignatura": "(ICE63-A)",
         "Nombre": "SISTEMAS DIGITALES",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 8,
@@ -3629,7 +3629,7 @@
       {
         "CodigoAsignatura": "(ICE63-A)",
         "Nombre": "SISTEMAS DIGITALES",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 8,
@@ -3638,7 +3638,7 @@
       {
         "CodigoAsignatura": "(ICE65-A)",
         "Nombre": "ELECTRÓNICA II",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 9,
@@ -3647,7 +3647,7 @@
       {
         "CodigoAsignatura": "(ICE65-A)",
         "Nombre": "ELECTRÓNICA II",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 9,
@@ -3663,7 +3663,7 @@
       {
         "CodigoAsignatura": "(FIA24-F)",
         "Nombre": "INTRODUCCIÓN A LA PROGRAM",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 34,
@@ -3672,7 +3672,7 @@
       {
         "CodigoAsignatura": "(FIA24-F)",
         "Nombre": "INTRODUCCIÓN A LA PROGRAM",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 34,
@@ -3681,7 +3681,7 @@
       {
         "CodigoAsignatura": "(CCI66-A)",
         "Nombre": "EVALUACION Y DESARROLLO D",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 10,
@@ -3690,7 +3690,7 @@
       {
         "CodigoAsignatura": "(CCI66-A)",
         "Nombre": "EVALUACION Y DESARROLLO D",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 10,
@@ -3706,7 +3706,7 @@
       {
         "CodigoAsignatura": "(ICE84-A)",
         "Nombre": "ELECTRÓNICA DE POTENCIA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 10,
@@ -3715,7 +3715,7 @@
       {
         "CodigoAsignatura": "(ICE84-A)",
         "Nombre": "ELECTRÓNICA DE POTENCIA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 10,
@@ -3724,7 +3724,7 @@
       {
         "CodigoAsignatura": "(ICEA5-A)",
         "Nombre": "PROCESAMIENTO DIGITAL DE",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 13,
@@ -3733,7 +3733,7 @@
       {
         "CodigoAsignatura": "(ICEA5-A)",
         "Nombre": "PROCESAMIENTO DIGITAL DE",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 13,
@@ -3749,7 +3749,7 @@
       {
         "CodigoAsignatura": "(PRI62-S)",
         "Nombre": "LEGISLACIÓN DE SALUD Y SE",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 23,
@@ -3765,7 +3765,7 @@
       {
         "CodigoAsignatura": "(ARQ64-A)",
         "Nombre": "ESTRUCTURA 2",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 26,
@@ -3774,7 +3774,7 @@
       {
         "CodigoAsignatura": "(ARQ84-A)",
         "Nombre": "ESTRUCTURA 4",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 18,
@@ -3783,7 +3783,7 @@
       {
         "CodigoAsignatura": "(ARQ84-A)",
         "Nombre": "ESTRUCTURA 4",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 18,
@@ -3799,7 +3799,7 @@
       {
         "CodigoAsignatura": "(CCI85-A)",
         "Nombre": "SISTEMAS DE INFORMACION P",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 22,
@@ -3808,7 +3808,7 @@
       {
         "CodigoAsignatura": "(CCI85-A)",
         "Nombre": "SISTEMAS DE INFORMACION P",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 22,
@@ -3817,7 +3817,7 @@
       {
         "CodigoAsignatura": "(CCI85-A)",
         "Nombre": "SISTEMAS DE INFORMACION P",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 22,
@@ -3826,7 +3826,7 @@
       {
         "CodigoAsignatura": "(CCIA2-A)",
         "Nombre": "GESTIÓN DE PROCESOS DE NE",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 22,
@@ -3835,7 +3835,7 @@
       {
         "CodigoAsignatura": "(CCIA2-A)",
         "Nombre": "GESTIÓN DE PROCESOS DE NE",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 22,
@@ -3844,7 +3844,7 @@
       {
         "CodigoAsignatura": "(CCIA2-A)",
         "Nombre": "GESTIÓN DE PROCESOS DE NE",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 22,
@@ -3860,7 +3860,7 @@
       {
         "CodigoAsignatura": "(FIA24-B)",
         "Nombre": "INTRODUCCIÓN A LA PROGRAM",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 37,
@@ -3869,7 +3869,7 @@
       {
         "CodigoAsignatura": "(FIA24-B)",
         "Nombre": "INTRODUCCIÓN A LA PROGRAM",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 37,
@@ -3878,7 +3878,7 @@
       {
         "CodigoAsignatura": "(FIA24-E)",
         "Nombre": "INTRODUCCIÓN A LA PROGRAM",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 33,
@@ -3887,7 +3887,7 @@
       {
         "CodigoAsignatura": "(FIA24-E)",
         "Nombre": "INTRODUCCIÓN A LA PROGRAM",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 33,
@@ -3896,7 +3896,7 @@
       {
         "CodigoAsignatura": "(FIA45-B)",
         "Nombre": "DIBUJO DE INGENIERÍA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 33,
@@ -3905,7 +3905,7 @@
       {
         "CodigoAsignatura": "(FIA45-B)",
         "Nombre": "DIBUJO DE INGENIERÍA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 33,
@@ -3914,7 +3914,7 @@
       {
         "CodigoAsignatura": "(FIA45-A)",
         "Nombre": "DIBUJO DE INGENIERÍA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 39,
@@ -3923,7 +3923,7 @@
       {
         "CodigoAsignatura": "(FIA45-A)",
         "Nombre": "DIBUJO DE INGENIERÍA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 39,
@@ -3932,7 +3932,7 @@
       {
         "CodigoAsignatura": "(FIA45-C)",
         "Nombre": "DIBUJO DE INGENIERÍA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 23,
@@ -3941,7 +3941,7 @@
       {
         "CodigoAsignatura": "(FIA45-C)",
         "Nombre": "DIBUJO DE INGENIERÍA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 23,
@@ -3957,7 +3957,7 @@
       {
         "CodigoAsignatura": "(ARQ24-A)",
         "Nombre": "TERRITORIO I",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 45,
@@ -3966,7 +3966,7 @@
       {
         "CodigoAsignatura": "(ARQ24-A)",
         "Nombre": "TERRITORIO I",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 45,
@@ -3982,7 +3982,7 @@
       {
         "CodigoAsignatura": "(FIA24-D)",
         "Nombre": "INTRODUCCIÓN A LA PROGRAM",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 32,
@@ -3991,7 +3991,7 @@
       {
         "CodigoAsignatura": "(FIA24-D)",
         "Nombre": "INTRODUCCIÓN A LA PROGRAM",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 32,
@@ -4007,7 +4007,7 @@
       {
         "CodigoAsignatura": "(ARQ64-A)",
         "Nombre": "ESTRUCTURA 2",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 26,
@@ -4023,7 +4023,7 @@
       {
         "CodigoAsignatura": "(FIA21-C)",
         "Nombre": "CÁLCULO INTEGRAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 38,
@@ -4032,7 +4032,7 @@
       {
         "CodigoAsignatura": "(FIA21-C)",
         "Nombre": "CÁLCULO INTEGRAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 38,
@@ -4041,7 +4041,7 @@
       {
         "CodigoAsignatura": "(FIA22-C)",
         "Nombre": "ÁLGEBRA LINEAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 47,
@@ -4050,7 +4050,7 @@
       {
         "CodigoAsignatura": "(FIA22-C)",
         "Nombre": "ÁLGEBRA LINEAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 47,
@@ -4066,7 +4066,7 @@
       {
         "CodigoAsignatura": "(FIAB2-A)",
         "Nombre": "INGLES II",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 0,
         "Vacantes": 11,
@@ -4075,7 +4075,7 @@
       {
         "CodigoAsignatura": "(FIAB2-A)",
         "Nombre": "INGLES II",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 11,
@@ -4109,7 +4109,7 @@
       {
         "CodigoAsignatura": "(ARQ84-A)",
         "Nombre": "ESTRUCTURA 4",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 18,
@@ -4125,7 +4125,7 @@
       {
         "CodigoAsignatura": "(FIA42-A)",
         "Nombre": "MÉTODOS NUMÉRICOS",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 35,
@@ -4134,7 +4134,7 @@
       {
         "CodigoAsignatura": "(FIA42-B)",
         "Nombre": "MÉTODOS NUMÉRICOS",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 21,
@@ -4150,7 +4150,7 @@
       {
         "CodigoAsignatura": "(FIA41-A)",
         "Nombre": "TERMODINÁMICA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 48,
@@ -4166,7 +4166,7 @@
       {
         "CodigoAsignatura": "(FIA41-B)",
         "Nombre": "TERMODINÁMICA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 53,
@@ -4182,7 +4182,7 @@
       {
         "CodigoAsignatura": "(ARQ42-A)",
         "Nombre": "MEDIOS DE EXPRESION 1",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 27,
@@ -4277,7 +4277,7 @@
       {
         "CodigoAsignatura": "(PRI63-A)",
         "Nombre": "HIGIENE OCUPACIONAL APLIC",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 42,
@@ -4293,7 +4293,7 @@
       {
         "CodigoAsignatura": "(IME46-A)",
         "Nombre": "MINEROLOGIA Y GEOLOGIA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 13,
@@ -4302,7 +4302,7 @@
       {
         "CodigoAsignatura": "(IME46-A)",
         "Nombre": "MINEROLOGIA Y GEOLOGIA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 13,
@@ -4311,7 +4311,7 @@
       {
         "CodigoAsignatura": "(IMI45-A)",
         "Nombre": "MINEROLOGIA Y PETROGRAFIA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 21,
@@ -4320,7 +4320,7 @@
       {
         "CodigoAsignatura": "(IMI45-A)",
         "Nombre": "MINEROLOGIA Y PETROGRAFIA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 6,
         "Vacantes": 21,
@@ -4329,7 +4329,7 @@
       {
         "CodigoAsignatura": "(IMI45-A)",
         "Nombre": "MINEROLOGIA Y PETROGRAFIA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 21,
@@ -4338,7 +4338,7 @@
       {
         "CodigoAsignatura": "(IMI62-A)",
         "Nombre": "GEOLOGIA DE MINAS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 9,
@@ -4354,7 +4354,7 @@
       {
         "CodigoAsignatura": "(ICA63-A)",
         "Nombre": "FENOMENOS DE TRANSPORTE",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 6,
@@ -4363,7 +4363,7 @@
       {
         "CodigoAsignatura": "(ICA63-A)",
         "Nombre": "FENOMENOS DE TRANSPORTE",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 6,
@@ -4379,7 +4379,7 @@
       {
         "CodigoAsignatura": "(INT55-FA)",
         "Nombre": "FINANZAS",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 22,
@@ -4388,7 +4388,7 @@
       {
         "CodigoAsignatura": "(INT61-FA)",
         "Nombre": "MECANICA DE FLUIDOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 14,
@@ -4397,7 +4397,7 @@
       {
         "CodigoAsignatura": "(INT64-FA)",
         "Nombre": "OPERACIONES UNITARIAS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 12,
@@ -4406,7 +4406,7 @@
       {
         "CodigoAsignatura": "(INT82-FA)",
         "Nombre": "DESARROLLO Y EVALUACION D",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 19,
@@ -4415,7 +4415,7 @@
       {
         "CodigoAsignatura": "(INT52-FB)",
         "Nombre": "TERMODINAMICA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 8,
@@ -4431,7 +4431,7 @@
       {
         "CodigoAsignatura": "(INT52-FA)",
         "Nombre": "TERMODINAMICA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 13,
@@ -4440,7 +4440,7 @@
       {
         "CodigoAsignatura": "(INT73-FA)",
         "Nombre": "PROCESOS INDUSTRIALES",
-        "Nivel": 1,
+        "Nivel": 7,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 24,
@@ -4449,7 +4449,7 @@
       {
         "CodigoAsignatura": "(INT51-FB)",
         "Nombre": "MICROECONOMIA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 9,
@@ -4458,7 +4458,7 @@
       {
         "CodigoAsignatura": "(INT59-FB)",
         "Nombre": "PRODUCCION I",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 11,
@@ -4467,7 +4467,7 @@
       {
         "CodigoAsignatura": "(INT61-FB)",
         "Nombre": "MECANICA DE FLUIDOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 9,
@@ -4483,7 +4483,7 @@
       {
         "CodigoAsignatura": "(INT56-FB)",
         "Nombre": "INGENIERIA ECONOMICA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 11,
@@ -4492,7 +4492,7 @@
       {
         "CodigoAsignatura": "(INT57-FA)",
         "Nombre": "GESTION AMBIENTAL",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 9,
@@ -4501,7 +4501,7 @@
       {
         "CodigoAsignatura": "(INT82-FB)",
         "Nombre": "DESARROLLO Y EVALUACION D",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 11,
@@ -4510,7 +4510,7 @@
       {
         "CodigoAsignatura": "(INT91-FB)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 9,
@@ -4526,7 +4526,7 @@
       {
         "CodigoAsignatura": "(INT75-S)",
         "Nombre": "GESTION DE EMPRESAS",
-        "Nivel": 1,
+        "Nivel": 7,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 6,
@@ -4542,7 +4542,7 @@
       {
         "CodigoAsignatura": "(ARQ31-A)",
         "Nombre": "TALLER 3",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 4,
@@ -4551,7 +4551,7 @@
       {
         "CodigoAsignatura": "(ARQ31-A)",
         "Nombre": "TALLER 3",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 4,
@@ -4560,7 +4560,7 @@
       {
         "CodigoAsignatura": "(ARQ41-A)",
         "Nombre": "TALLER 4",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 10,
@@ -4569,7 +4569,7 @@
       {
         "CodigoAsignatura": "(ARQ41-A)",
         "Nombre": "TALLER 4",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 10,
@@ -4578,7 +4578,7 @@
       {
         "CodigoAsignatura": "(ARQ43-A)",
         "Nombre": "HISTORIA Y TEORIA 3",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 35,
@@ -4587,7 +4587,7 @@
       {
         "CodigoAsignatura": "(ARQ43-A)",
         "Nombre": "HISTORIA Y TEORIA 3",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 35,
@@ -4621,7 +4621,7 @@
       {
         "CodigoAsignatura": "(PRI61-AR)",
         "Nombre": "OPERACIONES UNITARIA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 24,
@@ -4637,7 +4637,7 @@
       {
         "CodigoAsignatura": "(ARQ44-A)",
         "Nombre": "TERRITORIO 2",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 30,
@@ -4646,7 +4646,7 @@
       {
         "CodigoAsignatura": "(ARQ44-A)",
         "Nombre": "TERRITORIO 2",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 30,
@@ -4662,7 +4662,7 @@
       {
         "CodigoAsignatura": "(INT42-FA)",
         "Nombre": "CONTABILIDAD Y SISTEMAS D",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 13,
@@ -4678,7 +4678,7 @@
       {
         "CodigoAsignatura": "(INT24-S)",
         "Nombre": "COMPUTACION I",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 10,
@@ -4694,7 +4694,7 @@
       {
         "CodigoAsignatura": "(FIA62-A)",
         "Nombre": "ECONOMÍA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 29,
@@ -4703,7 +4703,7 @@
       {
         "CodigoAsignatura": "(FIA62-A)",
         "Nombre": "ECONOMÍA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 29,
@@ -4719,7 +4719,7 @@
       {
         "CodigoAsignatura": "(PRI81-A)",
         "Nombre": "METODOLOGÍAS DE INVESTIGA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 31,
@@ -4735,7 +4735,7 @@
       {
         "CodigoAsignatura": "(PRI84-EEE)",
         "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 38,
@@ -4744,7 +4744,7 @@
       {
         "CodigoAsignatura": "(PRI84-HHH)",
         "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 37,
@@ -4760,7 +4760,7 @@
       {
         "CodigoAsignatura": "(IMEB4-A)",
         "Nombre": "QUÍMICA DEL AGUA",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 1,
@@ -4810,7 +4810,7 @@
       {
         "CodigoAsignatura": "(INT42-FB)",
         "Nombre": "CONTABILIDAD Y SISTEMAS D",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 9,
@@ -4826,7 +4826,7 @@
       {
         "CodigoAsignatura": "(PRI61-DV1)",
         "Nombre": "OPERACIONES UNITARIA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 38,
@@ -4835,7 +4835,7 @@
       {
         "CodigoAsignatura": "(PRI61-DV2)",
         "Nombre": "OPERACIONES UNITARIA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 38,
@@ -4844,7 +4844,7 @@
       {
         "CodigoAsignatura": "(PRI63-DV1)",
         "Nombre": "HIGIENE OCUPACIONAL APLIC",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 40,
@@ -4853,7 +4853,7 @@
       {
         "CodigoAsignatura": "(PRI63-DV2)",
         "Nombre": "HIGIENE OCUPACIONAL APLIC",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 37,
@@ -4869,7 +4869,7 @@
       {
         "CodigoAsignatura": "(INT51-FA)",
         "Nombre": "MICROECONOMIA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 13,
@@ -4885,7 +4885,7 @@
       {
         "CodigoAsignatura": "(ARQ46-A)",
         "Nombre": "CONSTRUCCION 1",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 31,
@@ -4894,7 +4894,7 @@
       {
         "CodigoAsignatura": "(ARQ46-A)",
         "Nombre": "CONSTRUCCION 1",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 31,
@@ -4903,7 +4903,7 @@
       {
         "CodigoAsignatura": "(ARQ51-A)",
         "Nombre": "TALLER 5",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 3,
@@ -4912,7 +4912,7 @@
       {
         "CodigoAsignatura": "(ARQ51-A)",
         "Nombre": "TALLER 5",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 3,
@@ -4921,7 +4921,7 @@
       {
         "CodigoAsignatura": "(ARQ61-A)",
         "Nombre": "TALLER 6",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 8,
@@ -4930,7 +4930,7 @@
       {
         "CodigoAsignatura": "(ARQ61-A)",
         "Nombre": "TALLER 6",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 8,
@@ -4946,7 +4946,7 @@
       {
         "CodigoAsignatura": "(FIA43-A)",
         "Nombre": "ELECTRICIDAD Y MAGNETISMO",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 4,
         "Vacantes": 22,
@@ -4962,7 +4962,7 @@
       {
         "CodigoAsignatura": "(PRI66-S)",
         "Nombre": "TALLER DE INTEGRACIÓN PRO",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 6,
         "Vacantes": 22,
@@ -4978,7 +4978,7 @@
       {
         "CodigoAsignatura": "(PRI63-S)",
         "Nombre": "HIGIENE OCUPACIONAL APLIC",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 22,
@@ -4987,7 +4987,7 @@
       {
         "CodigoAsignatura": "(PRI65-S)",
         "Nombre": "VIGILANCIA EPIDEMIOLÓGICA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 22,
@@ -5003,7 +5003,7 @@
       {
         "CodigoAsignatura": "(FIA91-A)",
         "Nombre": "PREPARACIÓN Y EVALUACIÓN",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 10,
@@ -5012,7 +5012,7 @@
       {
         "CodigoAsignatura": "(FIA91-A)",
         "Nombre": "PREPARACIÓN Y EVALUACIÓN",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 10,
@@ -5021,7 +5021,7 @@
       {
         "CodigoAsignatura": "(IME82-A)",
         "Nombre": "FLOTACION",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 9,
@@ -5030,7 +5030,7 @@
       {
         "CodigoAsignatura": "(IME82-A)",
         "Nombre": "FLOTACION",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 9,
@@ -5039,7 +5039,7 @@
       {
         "CodigoAsignatura": "(IMI63-B)",
         "Nombre": "PREPARACION MECANICA DE M",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 5,
@@ -5048,7 +5048,7 @@
       {
         "CodigoAsignatura": "(IMI63-B)",
         "Nombre": "PREPARACION MECANICA DE M",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 5,
@@ -5064,7 +5064,7 @@
       {
         "CodigoAsignatura": "(IME44-A)",
         "Nombre": "ELEM.DE QUIMICA INORGANIC",
-        "Nivel": 1,
+        "Nivel": 4,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 9,
@@ -5080,7 +5080,7 @@
       {
         "CodigoAsignatura": "(PRI62-DV1)",
         "Nombre": "LEGISLACIÓN DE SALUD Y SE",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 38,
@@ -5089,7 +5089,7 @@
       {
         "CodigoAsignatura": "(PRI62-DV2)",
         "Nombre": "LEGISLACIÓN DE SALUD Y SE",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 38,
@@ -5098,7 +5098,7 @@
       {
         "CodigoAsignatura": "(PRI66-DV1)",
         "Nombre": "TALLER DE INTEGRACIÓN PRO",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 9,
         "Vacantes": 38,
@@ -5107,7 +5107,7 @@
       {
         "CodigoAsignatura": "(PRI66-DV2)",
         "Nombre": "TALLER DE INTEGRACIÓN PRO",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 9,
         "Vacantes": 37,
@@ -5141,7 +5141,7 @@
       {
         "CodigoAsignatura": "(IC605-A)",
         "Nombre": "GESTION DE PERSONAS I",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 32,
@@ -5150,7 +5150,7 @@
       {
         "CodigoAsignatura": "(IC605-A)",
         "Nombre": "GESTION DE PERSONAS I",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 32,
@@ -5159,7 +5159,7 @@
       {
         "CodigoAsignatura": "(IC605-A)",
         "Nombre": "GESTION DE PERSONAS I",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 32,
@@ -5175,7 +5175,7 @@
       {
         "CodigoAsignatura": "(ARQ51-A)",
         "Nombre": "TALLER 5",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 3,
@@ -5184,7 +5184,7 @@
       {
         "CodigoAsignatura": "(ARQ51-A)",
         "Nombre": "TALLER 5",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 3,
@@ -5193,7 +5193,7 @@
       {
         "CodigoAsignatura": "(ARQ61-A)",
         "Nombre": "TALLER 6",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 8,
@@ -5202,7 +5202,7 @@
       {
         "CodigoAsignatura": "(ARQ61-A)",
         "Nombre": "TALLER 6",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 8,
@@ -5211,7 +5211,7 @@
       {
         "CodigoAsignatura": "(ARQ91-A)",
         "Nombre": "TALLER 9",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 7,
         "Vacantes": 3,
@@ -5220,7 +5220,7 @@
       {
         "CodigoAsignatura": "(ARQ91-A)",
         "Nombre": "TALLER 9",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 3,
@@ -5229,7 +5229,7 @@
       {
         "CodigoAsignatura": "(ARQA2-A)",
         "Nombre": "INTRODUCCION AL PROYECTO",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 15,
@@ -5238,7 +5238,7 @@
       {
         "CodigoAsignatura": "(ARQA2-A)",
         "Nombre": "INTRODUCCION AL PROYECTO",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 15,
@@ -5254,7 +5254,7 @@
       {
         "CodigoAsignatura": "(IC82A-A)",
         "Nombre": "SUPPLY CHAIN MANAGEMENT",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 16,
@@ -5263,7 +5263,7 @@
       {
         "CodigoAsignatura": "(ICA03-A)",
         "Nombre": "SISTEMAS INTEGRADOS DE GE",
-        "Nivel": 1,
+        "Nivel": 0,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 40,
@@ -5272,7 +5272,7 @@
       {
         "CodigoAsignatura": "(ICA03-A)",
         "Nombre": "SISTEMAS INTEGRADOS DE GE",
-        "Nivel": 1,
+        "Nivel": 0,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 40,
@@ -5288,7 +5288,7 @@
       {
         "CodigoAsignatura": "(FIA21-A)",
         "Nombre": "CÁLCULO INTEGRAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 36,
@@ -5297,7 +5297,7 @@
       {
         "CodigoAsignatura": "(FIA21-A)",
         "Nombre": "CÁLCULO INTEGRAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 36,
@@ -5306,7 +5306,7 @@
       {
         "CodigoAsignatura": "(FIA22-A)",
         "Nombre": "ÁLGEBRA LINEAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 49,
@@ -5315,7 +5315,7 @@
       {
         "CodigoAsignatura": "(FIA22-A)",
         "Nombre": "ÁLGEBRA LINEAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 49,
@@ -5324,7 +5324,7 @@
       {
         "CodigoAsignatura": "(FIA22-B)",
         "Nombre": "ÁLGEBRA LINEAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 43,
@@ -5333,7 +5333,7 @@
       {
         "CodigoAsignatura": "(FIA22-B)",
         "Nombre": "ÁLGEBRA LINEAL",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 43,
@@ -5342,7 +5342,7 @@
       {
         "CodigoAsignatura": "(INT32-J)",
         "Nombre": "CALCULO III",
-        "Nivel": 1,
+        "Nivel": 3,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 22,
@@ -5358,7 +5358,7 @@
       {
         "CodigoAsignatura": "(PRI64-S)",
         "Nombre": "ERGONOMÍA",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 22,
@@ -5424,7 +5424,7 @@
       {
         "CodigoAsignatura": "(CCI61-A)",
         "Nombre": "SISTEMAS DIGITALES",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 0,
@@ -5433,7 +5433,7 @@
       {
         "CodigoAsignatura": "(CCI61-A)",
         "Nombre": "SISTEMAS DIGITALES",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 0,
@@ -5442,7 +5442,7 @@
       {
         "CodigoAsignatura": "(CCI81-A)",
         "Nombre": "ARQUITECTURA DE COMPUTADO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 15,
@@ -5451,7 +5451,7 @@
       {
         "CodigoAsignatura": "(CCI81-A)",
         "Nombre": "ARQUITECTURA DE COMPUTADO",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 15,
@@ -5460,7 +5460,7 @@
       {
         "CodigoAsignatura": "(INT24-J)",
         "Nombre": "COMPUTACION I",
-        "Nivel": 1,
+        "Nivel": 2,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 27,
@@ -5476,7 +5476,7 @@
       {
         "CodigoAsignatura": "(IME84-A)",
         "Nombre": "PIROMETALURGIA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 11,
@@ -5485,7 +5485,7 @@
       {
         "CodigoAsignatura": "(IME84-A)",
         "Nombre": "PIROMETALURGIA",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 11,
@@ -5494,7 +5494,7 @@
       {
         "CodigoAsignatura": "(IMI63-A)",
         "Nombre": "PREPARACION MECANICA DE M",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 17,
@@ -5503,7 +5503,7 @@
       {
         "CodigoAsignatura": "(IMI63-A)",
         "Nombre": "PREPARACION MECANICA DE M",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 4,
         "Vacantes": 17,
@@ -5512,7 +5512,7 @@
       {
         "CodigoAsignatura": "(IMI63-A)",
         "Nombre": "PREPARACION MECANICA DE M",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 17,
@@ -5521,7 +5521,7 @@
       {
         "CodigoAsignatura": "(INT52-J)",
         "Nombre": "TERMODINAMICA",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 30,
@@ -5530,7 +5530,7 @@
       {
         "CodigoAsignatura": "(INT61-I)",
         "Nombre": "MECANICA DE FLUIDOS",
-        "Nivel": 1,
+        "Nivel": 6,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 13,
@@ -5546,7 +5546,7 @@
       {
         "CodigoAsignatura": "(PRI84-S)",
         "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 16,
@@ -5562,7 +5562,7 @@
       {
         "CodigoAsignatura": "(IC801-A)",
         "Nombre": "DIRECCION DE PROYECTOS",
-        "Nivel": 1,
+        "Nivel": 8,
         "Paralelo": "A",
         "Horas": 2,
         "Vacantes": 27,
@@ -5571,7 +5571,7 @@
       {
         "CodigoAsignatura": "(ICA03-A)",
         "Nombre": "SISTEMAS INTEGRADOS DE GE",
-        "Nivel": 1,
+        "Nivel": 0,
         "Paralelo": "A",
         "Horas": 1,
         "Vacantes": 40,
@@ -5580,7 +5580,7 @@
       {
         "CodigoAsignatura": "(ICA03-A)",
         "Nombre": "SISTEMAS INTEGRADOS DE GE",
-        "Nivel": 1,
+        "Nivel": 0,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 40,
@@ -5589,7 +5589,7 @@
       {
         "CodigoAsignatura": "(ICIA5-A)",
         "Nombre": "INTRODUCCIÓN A PROYECTO",
-        "Nivel": 1,
+        "Nivel": 5,
         "Paralelo": "A",
         "Horas": 3,
         "Vacantes": 16,
@@ -5607,7 +5607,7 @@
       {
         "CodigoAsignatura": "(INT91-J)",
         "Nombre": "TALLER DE TITULO",
-        "Nivel": 1,
+        "Nivel": 9,
         "Paralelo": "A",
         "Horas": 12,
         "Vacantes": 20,
