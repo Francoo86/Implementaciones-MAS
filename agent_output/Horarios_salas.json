@@ -1,0 +1,207 @@
+[ {
+  "Campus" : "Kaufmann",
+  "Codigo" : "KAUT4",
+  "Asignaturas" : [ ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "S318",
+  "Asignaturas" : [ {
+    "Nombre" : "TALLER DE TITULO",
+    "Bloque" : 6,
+    "Capacidad" : 1.0,
+    "Dia" : "Viernes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Bloque" : 7,
+    "Capacidad" : 1.0,
+    "Dia" : "Viernes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Bloque" : 8,
+    "Capacidad" : 1.0,
+    "Dia" : "Viernes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Bloque" : 9,
+    "Capacidad" : 1.0,
+    "Dia" : "Viernes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Bloque" : 1,
+    "Capacidad" : 1.0,
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Bloque" : 2,
+    "Capacidad" : 1.0,
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Bloque" : 3,
+    "Capacidad" : 1.0,
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Bloque" : 4,
+    "Capacidad" : 1.0,
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Bloque" : 5,
+    "Capacidad" : 1.0,
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Bloque" : 6,
+    "Capacidad" : 1.0,
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Bloque" : 7,
+    "Capacidad" : 1.0,
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Bloque" : 8,
+    "Capacidad" : 1.0,
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  } ]
+}, {
+  "Campus" : "Kaufmann",
+  "Codigo" : "KAUT3",
+  "Asignaturas" : [ ]
+}, {
+  "Campus" : "Kaufmann",
+  "Codigo" : "KAUT2",
+  "Asignaturas" : [ ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "S314",
+  "Asignaturas" : [ ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "LFIS",
+  "Asignaturas" : [ {
+    "Nombre" : "INSTALACIONES",
+    "Bloque" : 3,
+    "Capacidad" : 0.7692308,
+    "Dia" : "Viernes",
+    "Satisfaccion" : 10
+  } ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "K2",
+  "Asignaturas" : [ {
+    "Nombre" : "TALLER 4",
+    "Bloque" : 8,
+    "Capacidad" : 1.0,
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 10
+  }, {
+    "Nombre" : "TALLER 4",
+    "Bloque" : 9,
+    "Capacidad" : 1.0,
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 10
+  }, {
+    "Nombre" : "TALLER 4",
+    "Bloque" : 1,
+    "Capacidad" : 1.0,
+    "Dia" : "Viernes",
+    "Satisfaccion" : 10
+  } ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "A106",
+  "Asignaturas" : [ ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "E1",
+  "Asignaturas" : [ ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "LELE",
+  "Asignaturas" : [ ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "S210",
+  "Asignaturas" : [ {
+    "Nombre" : "TALLER 3",
+    "Bloque" : 4,
+    "Capacidad" : 0.85714287,
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  } ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "LROB",
+  "Asignaturas" : [ ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "LC1",
+  "Asignaturas" : [ {
+    "Nombre" : "TALLER 4",
+    "Bloque" : 8,
+    "Capacidad" : 0.8333333,
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  } ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "IC4",
+  "Asignaturas" : [ ]
+}, {
+  "Campus" : "Kaufmann",
+  "Codigo" : "KAUT7",
+  "Asignaturas" : [ ]
+}, {
+  "Campus" : "Kaufmann",
+  "Codigo" : "KAUT6",
+  "Asignaturas" : [ ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "ANT21",
+  "Asignaturas" : [ ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "IC8",
+  "Asignaturas" : [ {
+    "Nombre" : "TALLER 3",
+    "Bloque" : 1,
+    "Capacidad" : 0.88235295,
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER 3",
+    "Bloque" : 2,
+    "Capacidad" : 0.88235295,
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER 3",
+    "Bloque" : 3,
+    "Capacidad" : 0.88235295,
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  } ]
+}, {
+  "Campus" : "Playa Brava",
+  "Codigo" : "LPME",
+  "Asignaturas" : [ ]
+}, {
+  "Campus" : "Kaufmann",
+  "Codigo" : "KAUT5",
+  "Asignaturas" : [ ]
+} ]

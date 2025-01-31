@@ -1,0 +1,210 @@
+[
+  {
+    "Codigo": "K3",
+    "Campus": "Playa Brava",
+    "Asignaturas": [
+      {
+        "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
+        "Capacidad": 1.0,
+        "Bloque": 1,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
+        "Capacidad": 1.0,
+        "Bloque": 2,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
+        "Capacidad": 1.0,
+        "Bloque": 3,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "CIERRE Y ABANDONO DE FAEN",
+        "Capacidad": 0.75,
+        "Bloque": 4,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "CIERRE Y ABANDONO DE FAEN",
+        "Capacidad": 0.75,
+        "Bloque": 5,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
+        "Capacidad": 1.0,
+        "Bloque": 6,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
+        "Capacidad": 1.0,
+        "Bloque": 2,
+        "Dia": "MARTES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
+        "Capacidad": 1.0,
+        "Bloque": 3,
+        "Dia": "MARTES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "INSTALACIONES",
+        "Capacidad": 0.75,
+        "Bloque": 4,
+        "Dia": "MARTES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "INSTALACIONES",
+        "Capacidad": 0.75,
+        "Bloque": 5,
+        "Dia": "MARTES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
+        "Capacidad": 1.0,
+        "Bloque": 2,
+        "Dia": "MIERCOLES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
+        "Capacidad": 1.0,
+        "Bloque": 3,
+        "Dia": "MIERCOLES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
+        "Capacidad": 1.0,
+        "Bloque": 4,
+        "Dia": "MIERCOLES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
+        "Capacidad": 1.0,
+        "Bloque": 5,
+        "Dia": "MIERCOLES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
+        "Capacidad": 1.0,
+        "Bloque": 6,
+        "Dia": "MIERCOLES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "TÉCNICAS DE NEGOCIACIÓN Y",
+        "Capacidad": 1.0,
+        "Bloque": 7,
+        "Dia": "MIERCOLES",
+        "Satisfaccion": 9
+      }
+    ]
+  },
+  {
+    "Codigo": "LAUT",
+    "Campus": "Playa Brava",
+    "Asignaturas": [
+      {
+        "Nombre": "COMUNICACIÓN Y LIDERAZGO",
+        "Capacidad": 1.0,
+        "Bloque": 1,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "COMUNICACIÓN Y LIDERAZGO",
+        "Capacidad": 1.0,
+        "Bloque": 2,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "COMUNICACIÓN Y LIDERAZGO",
+        "Capacidad": 1.0,
+        "Bloque": 3,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "COMUNICACIÓN Y LIDERAZGO",
+        "Capacidad": 1.0,
+        "Bloque": 4,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "COMUNICACIÓN Y LIDERAZGO",
+        "Capacidad": 1.0,
+        "Bloque": 5,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "COMUNICACIÓN Y LIDERAZGO",
+        "Capacidad": 1.0,
+        "Bloque": 6,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "COMUNICACIÓN Y LIDERAZGO",
+        "Capacidad": 1.0,
+        "Bloque": 7,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "COMUNICACIÓN Y LIDERAZGO",
+        "Capacidad": 1.0,
+        "Bloque": 8,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "COMUNICACIÓN Y LIDERAZGO",
+        "Capacidad": 1.0,
+        "Bloque": 9,
+        "Dia": "LUNES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "COMUNICACIÓN Y LIDERAZGO",
+        "Capacidad": 1.0,
+        "Bloque": 1,
+        "Dia": "MARTES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "COMUNICACIÓN Y LIDERAZGO",
+        "Capacidad": 1.0,
+        "Bloque": 2,
+        "Dia": "MARTES",
+        "Satisfaccion": 9
+      },
+      {
+        "Nombre": "COMUNICACIÓN Y LIDERAZGO",
+        "Capacidad": 1.0,
+        "Bloque": 3,
+        "Dia": "MARTES",
+        "Satisfaccion": 9
+      }
+    ]
+  }
+]

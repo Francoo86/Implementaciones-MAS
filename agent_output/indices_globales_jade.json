@@ -1,0 +1,9 @@
+{
+  "IndicesGlobal": {
+    "Ocupacion": 84.84,
+    "Compactacion": 1.0,
+    "Room_Eligibility": 0.5659,
+    "Room_Occupancy": 0.4833,
+    "Time_Slot_Eligibility": 0.8927
+  }
+}

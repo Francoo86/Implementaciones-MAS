@@ -26,7 +26,7 @@ def calculate_global_indices():
     
     # Establecer rutas de archivos
     input_dir = Path('agent_input')
-    output_dir = Path('agent_output')
+    output_dir = Path('agent_output/spade')
     
     # Cargar archivos necesarios
     horarios_salas = load_json_file(output_dir / 'Horarios_salas.json')
@@ -37,6 +37,13 @@ def calculate_global_indices():
     if not all([horarios_salas, input_salas, input_profesores, horarios_asignados]):
         print("Error: No se pudieron cargar todos los archivos necesarios")
         return None
+    
+    # on the dia attribute of salas only scale up the first letter
+    for sala in horarios_salas:
+        # iterate asignaturas
+        for horario in sala['Asignaturas']:
+            # iterate horarios
+            horario['Dia'] = horario['Dia'].capitalize()
 
     try:
         # 1. Calcular índice de ocupación (SobreCapacidad.py)

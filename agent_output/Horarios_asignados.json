@@ -9,7 +9,7 @@
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IME64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "CINETICA QUIMICA",
@@ -18,7 +18,7 @@
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IME64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "CINETICA QUIMICA",
@@ -27,7 +27,7 @@
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IME64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "CADENA DE VALOR HIDROMETA",
@@ -36,7 +36,7 @@
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IMEA2-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "CADENA DE VALOR HIDROMETA",
@@ -45,7 +45,7 @@
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IMEA2-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -54,111 +54,111 @@
   "Solicitudes" : 7,
   "Asignaturas" : [ {
     "Nombre" : "GESTIÓN DE PRODUCCIÓN",
-    "Sala" : "V102",
+    "Sala" : "E1",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(IC804-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "GESTIÓN DE PRODUCCIÓN",
-    "Sala" : "V102",
-    "Instance" : 1,
-    "Bloque" : 2,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(IC804-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "GESTIÓN DE PRODUCCIÓN",
-    "Sala" : "V102",
+    "Sala" : "CM5",
     "Instance" : 1,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IC804-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTIÓN DE PRODUCCIÓN",
-    "Sala" : "V102",
+    "Sala" : "CM5",
     "Instance" : 1,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IC804-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "GESTIÓN DE PRODUCCIÓN",
+    "Sala" : "CM5",
+    "Instance" : 1,
+    "Bloque" : 5,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(IC804-A)",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PRODUCCION",
-    "Sala" : "LSO",
+    "Sala" : "LFLO",
     "Instance" : 0,
-    "Bloque" : 5,
+    "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IC904-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 3
   }, {
     "Nombre" : "PRODUCCION",
-    "Sala" : "LSO",
+    "Sala" : "LFLO",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IC904-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 3
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "CM5",
+    "Sala" : "E1",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ICA04-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "CM5",
+    "Sala" : "E1",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ICA04-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "CM5",
+    "Sala" : "E1",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ICA04-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "PREPARCIÓN PARA EL PROCES",
-    "Sala" : "E6",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICIA3-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PREPARCIÓN PARA EL PROCES",
-    "Sala" : "E6",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICIA3-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PREPARCIÓN PARA EL PROCES",
-    "Sala" : "E6",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICIA3-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -167,7 +167,7 @@
     "Bloque" : 7,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-J)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -176,7 +176,7 @@
     "Bloque" : 8,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-J)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -185,7 +185,7 @@
     "Bloque" : 9,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-J)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -275,7 +275,7 @@
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -284,7 +284,7 @@
     "Bloque" : 2,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -293,7 +293,7 @@
     "Bloque" : 3,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -302,7 +302,7 @@
     "Bloque" : 4,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -311,7 +311,7 @@
     "Bloque" : 5,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -320,7 +320,7 @@
     "Bloque" : 6,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -329,7 +329,7 @@
     "Bloque" : 7,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -338,7 +338,7 @@
     "Bloque" : 8,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -347,7 +347,7 @@
     "Bloque" : 9,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -356,7 +356,7 @@
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Miercoles",
+    "Dia" : "Jueves",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -365,7 +365,7 @@
     "Bloque" : 2,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Miercoles",
+    "Dia" : "Jueves",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -374,7 +374,7 @@
     "Bloque" : 3,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Miercoles",
+    "Dia" : "Jueves",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -383,61 +383,34 @@
   "Solicitudes" : 4,
   "Asignaturas" : [ {
     "Nombre" : "TERRITORIO 3",
-    "Sala" : "LAMB",
+    "Sala" : "LC6",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(ARQ63-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TERRITORIO 3",
-    "Sala" : "LAMB",
+    "Sala" : "LC6",
     "Instance" : 1,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ63-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERRITORIO 3",
-    "Sala" : "LAMB",
+    "Sala" : "LC6",
     "Instance" : 1,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ63-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 9",
-    "Sala" : "CM5",
-    "Instance" : 0,
-    "Bloque" : 1,
-    "Actividad" : "TALLER",
-    "CodigoAsignatura" : "(ARQ91-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TALLER 9",
-    "Sala" : "CM5",
-    "Instance" : 0,
-    "Bloque" : 5,
-    "Actividad" : "TALLER",
-    "CodigoAsignatura" : "(ARQ91-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TALLER 9",
-    "Sala" : "CM5",
-    "Instance" : 0,
-    "Bloque" : 6,
-    "Actividad" : "TALLER",
-    "CodigoAsignatura" : "(ARQ91-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TALLER 9",
-    "Sala" : "CM5",
+    "Sala" : "S318",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TALLER",
@@ -446,39 +419,66 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 9",
-    "Sala" : "CM5",
+    "Sala" : "S318",
+    "Instance" : 0,
+    "Bloque" : 7,
+    "Actividad" : "TALLER",
+    "CodigoAsignatura" : "(ARQ91-A)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER 9",
+    "Sala" : "S318",
+    "Instance" : 0,
+    "Bloque" : 8,
+    "Actividad" : "TALLER",
+    "CodigoAsignatura" : "(ARQ91-A)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER 9",
+    "Sala" : "S318",
+    "Instance" : 0,
+    "Bloque" : 9,
+    "Actividad" : "TALLER",
+    "CodigoAsignatura" : "(ARQ91-A)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER 9",
+    "Sala" : "S318",
+    "Instance" : 0,
+    "Bloque" : 1,
+    "Actividad" : "TALLER",
+    "CodigoAsignatura" : "(ARQ91-A)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER 9",
+    "Sala" : "S318",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ91-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 9",
-    "Sala" : "CM5",
+    "Sala" : "S318",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ91-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 9",
-    "Sala" : "CM5",
-    "Instance" : 0,
-    "Bloque" : 4,
-    "Actividad" : "TALLER",
-    "CodigoAsignatura" : "(ARQ91-A)",
-    "Dia" : "Martes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TALLER 9",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 1,
-    "Bloque" : 9,
+    "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ91-A)",
-    "Dia" : "Lunes",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -492,7 +492,7 @@
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICE64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "LABORATORIO DE ELECTRÓNIC",
@@ -501,7 +501,7 @@
     "Bloque" : 2,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICE64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "LABORATORIO DE ELECTRÓNIC",
@@ -510,61 +510,61 @@
     "Bloque" : 3,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICE64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULACIÓN",
-    "Sala" : "IOLAB",
+    "Sala" : "LSD",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICEA6-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULACIÓN",
-    "Sala" : "IOLAB",
+    "Sala" : "LSD",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICEA6-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULACIÓN",
-    "Sala" : "IOLAB",
+    "Sala" : "LSD",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICEA6-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULACIÓN",
-    "Sala" : "IOLAB",
+    "Sala" : "LSD",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICEA6-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULACIÓN",
-    "Sala" : "IOLAB",
+    "Sala" : "LSD",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICEA6-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULACIÓN",
-    "Sala" : "IOLAB",
+    "Sala" : "LSD",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICEA6-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   } ]
 }, {
@@ -573,111 +573,111 @@
   "Solicitudes" : 1,
   "Asignaturas" : [ {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-S)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-S)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-S)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -691,7 +691,7 @@
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
@@ -700,7 +700,7 @@
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
@@ -709,7 +709,7 @@
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
@@ -718,7 +718,7 @@
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
@@ -727,7 +727,7 @@
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
@@ -736,7 +736,7 @@
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
@@ -745,7 +745,7 @@
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
@@ -754,7 +754,7 @@
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
@@ -763,7 +763,7 @@
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
@@ -772,7 +772,7 @@
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
@@ -781,7 +781,7 @@
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
@@ -790,7 +790,7 @@
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -804,7 +804,7 @@
     "Bloque" : 1,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(INT72-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTION DE PERSONAS II",
@@ -813,7 +813,7 @@
     "Bloque" : 2,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(INT72-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTION DE PERSONAS II",
@@ -822,7 +822,7 @@
     "Bloque" : 3,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(INT72-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTION DE PERSONAS II",
@@ -831,7 +831,7 @@
     "Bloque" : 4,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(INT72-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTION DE PERSONAS II",
@@ -840,7 +840,7 @@
     "Bloque" : 5,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(INT72-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTION DE PERSONAS II",
@@ -849,7 +849,7 @@
     "Bloque" : 6,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(INT72-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTION DE PERSONAS II",
@@ -858,7 +858,7 @@
     "Bloque" : 7,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(INT72-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTION DE PERSONAS II",
@@ -867,7 +867,7 @@
     "Bloque" : 8,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(INT72-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTION DE PERSONAS II",
@@ -876,7 +876,7 @@
     "Bloque" : 9,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(INT72-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTION DE PERSONAS II",
@@ -885,7 +885,7 @@
     "Bloque" : 1,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(INT72-FA)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTION DE PERSONAS II",
@@ -894,7 +894,7 @@
     "Bloque" : 2,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(INT72-FA)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTION DE PERSONAS II",
@@ -903,7 +903,7 @@
     "Bloque" : 3,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(INT72-FA)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -912,111 +912,111 @@
   "Solicitudes" : 1,
   "Asignaturas" : [ {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "LAUT",
+    "Sala" : "LC7",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "LAUT",
+    "Sala" : "LC7",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "LAUT",
+    "Sala" : "LC7",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "LAUT",
+    "Sala" : "LC7",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "LAUT",
+    "Sala" : "LC7",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "LAUT",
+    "Sala" : "LC7",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "LAUT",
+    "Sala" : "LC7",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "LAUT",
+    "Sala" : "LC7",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "LAUT",
+    "Sala" : "LC7",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "LAUT",
+    "Sala" : "LC7",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-S)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "LAUT",
+    "Sala" : "LC7",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-S)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "LAUT",
+    "Sala" : "LC7",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-S)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -1025,75 +1025,75 @@
   "Solicitudes" : 8,
   "Asignaturas" : [ {
     "Nombre" : "TALLER 2",
-    "Sala" : "D105",
+    "Sala" : "IC8",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ21-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 2",
-    "Sala" : "D105",
+    "Sala" : "IC8",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ21-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 2",
-    "Sala" : "D105",
+    "Sala" : "IC8",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ21-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 2",
-    "Sala" : "D105",
+    "Sala" : "IC8",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ21-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 2",
-    "Sala" : "D105",
+    "Sala" : "IC8",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ21-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 2",
-    "Sala" : "D105",
+    "Sala" : "IC8",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ21-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 2",
-    "Sala" : "D105",
+    "Sala" : "IC8",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ21-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 2",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 1,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ21-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "GEOMETRIA Y ARQUITECTURA",
@@ -1102,7 +1102,7 @@
     "Bloque" : 8,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ22-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GEOMETRIA Y ARQUITECTURA",
@@ -1111,7 +1111,7 @@
     "Bloque" : 9,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ22-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GEOMETRIA Y ARQUITECTURA",
@@ -1120,7 +1120,7 @@
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ22-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "PRACTICA EN OFICINA",
@@ -1129,7 +1129,7 @@
     "Bloque" : 2,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(ARQ56-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PRACTICA EN OFICINA",
@@ -1138,7 +1138,7 @@
     "Bloque" : 3,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ56-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PRACTICA EN TERRENO",
@@ -1147,7 +1147,7 @@
     "Bloque" : 5,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(ARQ96-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PRACTICA EN TERRENO",
@@ -1156,7 +1156,7 @@
     "Bloque" : 6,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ96-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -1170,7 +1170,7 @@
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -1179,7 +1179,7 @@
     "Bloque" : 2,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -1188,7 +1188,7 @@
     "Bloque" : 3,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -1197,7 +1197,7 @@
     "Bloque" : 4,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -1206,7 +1206,7 @@
     "Bloque" : 5,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -1215,7 +1215,7 @@
     "Bloque" : 6,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -1224,7 +1224,7 @@
     "Bloque" : 7,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -1233,7 +1233,7 @@
     "Bloque" : 8,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-FA)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
@@ -1242,47 +1242,83 @@
     "Bloque" : 9,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-FA)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Sala" : "LMIN",
+    "Instance" : 0,
+    "Bloque" : 1,
+    "Actividad" : "LABORATORIO",
+    "CodigoAsignatura" : "(INT91-FA)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Sala" : "LMIN",
+    "Instance" : 0,
+    "Bloque" : 2,
+    "Actividad" : "LABORATORIO",
+    "CodigoAsignatura" : "(INT91-FA)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Sala" : "LMIN",
+    "Instance" : 0,
+    "Bloque" : 3,
+    "Actividad" : "LABORATORIO",
+    "CodigoAsignatura" : "(INT91-FA)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Sala" : "CM4",
+    "Instance" : 0,
+    "Bloque" : 6,
+    "Actividad" : "LABORATORIO",
+    "CodigoAsignatura" : "(INT91-FB)",
     "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LMIN",
+    "Sala" : "CM4",
+    "Instance" : 0,
+    "Bloque" : 7,
+    "Actividad" : "LABORATORIO",
+    "CodigoAsignatura" : "(INT91-FB)",
+    "Dia" : "Viernes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Sala" : "CM4",
+    "Instance" : 0,
+    "Bloque" : 8,
+    "Actividad" : "LABORATORIO",
+    "CodigoAsignatura" : "(INT91-FB)",
+    "Dia" : "Viernes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Sala" : "CM4",
+    "Instance" : 0,
+    "Bloque" : 9,
+    "Actividad" : "LABORATORIO",
+    "CodigoAsignatura" : "(INT91-FB)",
+    "Dia" : "Viernes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TALLER DE TITULO",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
-    "CodigoAsignatura" : "(INT91-FA)",
-    "Dia" : "Martes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LMIN",
-    "Instance" : 0,
-    "Bloque" : 2,
-    "Actividad" : "LABORATORIO",
-    "CodigoAsignatura" : "(INT91-FA)",
-    "Dia" : "Martes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LMIN",
-    "Instance" : 0,
-    "Bloque" : 3,
-    "Actividad" : "LABORATORIO",
-    "CodigoAsignatura" : "(INT91-FA)",
-    "Dia" : "Martes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TALLER DE TITULO",
-    "Sala" : "E1",
-    "Instance" : 0,
-    "Bloque" : 1,
-    "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-FB)",
     "Dia" : "Jueves",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "LABORATORIO",
@@ -1291,7 +1327,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "LABORATORIO",
@@ -1300,7 +1336,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "LABORATORIO",
@@ -1309,7 +1345,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "LABORATORIO",
@@ -1318,7 +1354,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "LABORATORIO",
@@ -1327,7 +1363,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "LABORATORIO",
@@ -1336,48 +1372,12 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-FB)",
     "Dia" : "Jueves",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TALLER DE TITULO",
-    "Sala" : "E1",
-    "Instance" : 0,
-    "Bloque" : 9,
-    "Actividad" : "LABORATORIO",
-    "CodigoAsignatura" : "(INT91-FB)",
-    "Dia" : "Jueves",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TALLER DE TITULO",
-    "Sala" : "E1",
-    "Instance" : 0,
-    "Bloque" : 1,
-    "Actividad" : "LABORATORIO",
-    "CodigoAsignatura" : "(INT91-FB)",
-    "Dia" : "Miercoles",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TALLER DE TITULO",
-    "Sala" : "E1",
-    "Instance" : 0,
-    "Bloque" : 2,
-    "Actividad" : "LABORATORIO",
-    "CodigoAsignatura" : "(INT91-FB)",
-    "Dia" : "Miercoles",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TALLER DE TITULO",
-    "Sala" : "E1",
-    "Instance" : 0,
-    "Bloque" : 3,
-    "Actividad" : "LABORATORIO",
-    "CodigoAsignatura" : "(INT91-FB)",
-    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -1386,111 +1386,111 @@
   "Solicitudes" : 1,
   "Asignaturas" : [ {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SISTEMAS DE GESTIÓN DE CA",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI82-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -1499,57 +1499,57 @@
   "Solicitudes" : 8,
   "Asignaturas" : [ {
     "Nombre" : "INTRODUCCIÓN A LA PROGRAM",
-    "Sala" : "V103",
+    "Sala" : "V102",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(FIA24-C)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "INTRODUCCIÓN A LA PROGRAM",
-    "Sala" : "V103",
+    "Sala" : "V102",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(FIA24-C)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "INTRODUCCIÓN A LA PROGRAM",
-    "Sala" : "E1",
+    "Sala" : "V103",
     "Instance" : 1,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(FIA24-C)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INTRODUCCIÓN A LA PROGRAM",
-    "Sala" : "E1",
+    "Sala" : "V103",
     "Instance" : 1,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(FIA24-C)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "REDES DE COMPUTADORES",
-    "Sala" : "CRP43",
+    "Sala" : "CRP33",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(CCI83-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "REDES DE COMPUTADORES",
-    "Sala" : "CRP43",
+    "Sala" : "CRP33",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(CCI83-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "REDES DE COMPUTADORES",
@@ -1558,7 +1558,7 @@
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(CCI83-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "REDES DE COMPUTADORES",
@@ -1567,7 +1567,7 @@
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(CCI83-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INTRODUCCIÓN A LA PROGRAM",
@@ -1576,7 +1576,7 @@
     "Bloque" : 9,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(FIA24-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "INTRODUCCIÓN A LA PROGRAM",
@@ -1585,43 +1585,43 @@
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(FIA24-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "INTRODUCCIÓN A LA PROGRAM",
-    "Sala" : "V103",
+    "Sala" : "V102",
     "Instance" : 1,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(FIA24-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INTRODUCCIÓN A LA PROGRAM",
-    "Sala" : "V103",
+    "Sala" : "V102",
     "Instance" : 1,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(FIA24-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SEGURIDAD DE LA INFORMACI",
-    "Sala" : "LC7",
+    "Sala" : "LC3",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(IC10F-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SEGURIDAD DE LA INFORMACI",
-    "Sala" : "LC7",
+    "Sala" : "LC3",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(IC10F-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "SEGURIDAD DE LA INFORMACI",
@@ -1630,7 +1630,7 @@
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IC10F-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "SEGURIDAD DE LA INFORMACI",
@@ -1639,7 +1639,7 @@
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IC10F-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   } ]
 }, {
@@ -1648,21 +1648,21 @@
   "Solicitudes" : 2,
   "Asignaturas" : [ {
     "Nombre" : "INTRODUCCION AL PROYECTO",
-    "Sala" : "E6",
+    "Sala" : "V103",
     "Instance" : 0,
-    "Bloque" : 3,
+    "Bloque" : 1,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQA2-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "INTRODUCCION AL PROYECTO",
-    "Sala" : "E6",
+    "Sala" : "V103",
     "Instance" : 0,
-    "Bloque" : 4,
+    "Bloque" : 2,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQA2-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "INTRODUCCION AL PROYECTO",
@@ -1671,7 +1671,7 @@
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQA2-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -1680,111 +1680,111 @@
   "Solicitudes" : 1,
   "Asignaturas" : [ {
     "Nombre" : "COMUNICACIÓN Y LIDERAZGO",
-    "Sala" : "LC3",
+    "Sala" : "LAUT",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI83-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "COMUNICACIÓN Y LIDERAZGO",
-    "Sala" : "LC3",
+    "Sala" : "LAUT",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI83-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "COMUNICACIÓN Y LIDERAZGO",
-    "Sala" : "LC3",
+    "Sala" : "LAUT",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI83-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "COMUNICACIÓN Y LIDERAZGO",
-    "Sala" : "LC3",
+    "Sala" : "LAUT",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI83-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "COMUNICACIÓN Y LIDERAZGO",
-    "Sala" : "LC3",
+    "Sala" : "LAUT",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI83-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "COMUNICACIÓN Y LIDERAZGO",
-    "Sala" : "LC3",
+    "Sala" : "LAUT",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI83-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "COMUNICACIÓN Y LIDERAZGO",
-    "Sala" : "LC3",
+    "Sala" : "LAUT",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI83-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "COMUNICACIÓN Y LIDERAZGO",
-    "Sala" : "LC3",
+    "Sala" : "LAUT",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI83-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "COMUNICACIÓN Y LIDERAZGO",
-    "Sala" : "LC3",
+    "Sala" : "LAUT",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI83-S)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "COMUNICACIÓN Y LIDERAZGO",
-    "Sala" : "LC3",
+    "Sala" : "LAUT",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI83-S)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "COMUNICACIÓN Y LIDERAZGO",
-    "Sala" : "LC3",
+    "Sala" : "LAUT",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI83-S)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "COMUNICACIÓN Y LIDERAZGO",
-    "Sala" : "LC3",
+    "Sala" : "LAUT",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI83-S)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -1793,66 +1793,66 @@
   "Solicitudes" : 5,
   "Asignaturas" : [ {
     "Nombre" : "LABORATORIO DE CONTROL AU",
-    "Sala" : "IM2",
+    "Sala" : "LRSM",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICE82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "LABORATORIO DE CONTROL AU",
-    "Sala" : "IM2",
+    "Sala" : "LRSM",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICE82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "LABORATORIO DE CONTROL AU",
-    "Sala" : "IM2",
+    "Sala" : "LRSM",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICE82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "ROBÓTICA",
-    "Sala" : "IM3",
+    "Sala" : "S314",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICE83-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "ROBÓTICA",
-    "Sala" : "LRSM",
+    "Sala" : "IM3",
     "Instance" : 1,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICE83-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ROBÓTICA",
-    "Sala" : "LRSM",
+    "Sala" : "IM3",
     "Instance" : 1,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICE83-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ROBÓTICA",
-    "Sala" : "LRSM",
+    "Sala" : "IM3",
     "Instance" : 1,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICE83-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "LABORATORIO DE CONTROL DI",
@@ -1861,7 +1861,7 @@
     "Bloque" : 8,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICEA3-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "LABORATORIO DE CONTROL DI",
@@ -1870,7 +1870,7 @@
     "Bloque" : 9,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICEA3-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "LABORATORIO DE CONTROL DI",
@@ -1879,7 +1879,7 @@
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICEA3-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "LABORATORIO DE ROBÓTICA",
@@ -1888,7 +1888,7 @@
     "Bloque" : 2,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICEA4-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "LABORATORIO DE ROBÓTICA",
@@ -1897,7 +1897,7 @@
     "Bloque" : 3,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICEA4-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "LABORATORIO DE ROBÓTICA",
@@ -1906,7 +1906,7 @@
     "Bloque" : 4,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICEA4-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 10
   } ]
 }, {
@@ -1915,88 +1915,7 @@
   "Solicitudes" : 3,
   "Asignaturas" : [ {
     "Nombre" : "SALUD OCUPACIONAL II",
-    "Sala" : "LFLO",
-    "Instance" : 0,
-    "Bloque" : 1,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(IEP3C-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 5
-  }, {
-    "Nombre" : "SALUD OCUPACIONAL II",
-    "Sala" : "LFLO",
-    "Instance" : 0,
-    "Bloque" : 2,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(IEP3C-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 5
-  }, {
-    "Nombre" : "SALUD OCUPACIONAL II",
-    "Sala" : "LFLO",
-    "Instance" : 0,
-    "Bloque" : 3,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(IEP3C-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 5
-  }, {
-    "Nombre" : "SALUD OCUPACIONAL II",
-    "Sala" : "LFLO",
-    "Instance" : 0,
-    "Bloque" : 4,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(IEP3C-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 5
-  }, {
-    "Nombre" : "SALUD OCUPACIONAL II",
-    "Sala" : "LFLO",
-    "Instance" : 0,
-    "Bloque" : 5,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(IEP3C-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 5
-  }, {
-    "Nombre" : "SALUD OCUPACIONAL II",
-    "Sala" : "LFLO",
-    "Instance" : 0,
-    "Bloque" : 6,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(IEP3C-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 5
-  }, {
-    "Nombre" : "SALUD OCUPACIONAL II",
-    "Sala" : "LFLO",
-    "Instance" : 0,
-    "Bloque" : 7,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(IEP3C-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 5
-  }, {
-    "Nombre" : "SALUD OCUPACIONAL II",
-    "Sala" : "LFLO",
-    "Instance" : 0,
-    "Bloque" : 8,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(IEP3C-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 5
-  }, {
-    "Nombre" : "SALUD OCUPACIONAL II",
-    "Sala" : "LFLO",
-    "Instance" : 0,
-    "Bloque" : 9,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(IEP3C-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 5
-  }, {
-    "Nombre" : "SALUD OCUPACIONAL II",
-    "Sala" : "LFLO",
+    "Sala" : "LSO",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
@@ -2005,7 +1924,7 @@
     "Satisfaccion" : 5
   }, {
     "Nombre" : "SALUD OCUPACIONAL II",
-    "Sala" : "LFLO",
+    "Sala" : "LSO",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
@@ -2014,12 +1933,93 @@
     "Satisfaccion" : 5
   }, {
     "Nombre" : "SALUD OCUPACIONAL II",
-    "Sala" : "LFLO",
+    "Sala" : "LSO",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IEP3C-A)",
     "Dia" : "Martes",
+    "Satisfaccion" : 5
+  }, {
+    "Nombre" : "SALUD OCUPACIONAL II",
+    "Sala" : "LSO",
+    "Instance" : 0,
+    "Bloque" : 4,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(IEP3C-A)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 5
+  }, {
+    "Nombre" : "SALUD OCUPACIONAL II",
+    "Sala" : "LSO",
+    "Instance" : 0,
+    "Bloque" : 5,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(IEP3C-A)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 5
+  }, {
+    "Nombre" : "SALUD OCUPACIONAL II",
+    "Sala" : "LSO",
+    "Instance" : 0,
+    "Bloque" : 6,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(IEP3C-A)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 5
+  }, {
+    "Nombre" : "SALUD OCUPACIONAL II",
+    "Sala" : "LSO",
+    "Instance" : 0,
+    "Bloque" : 7,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(IEP3C-A)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 5
+  }, {
+    "Nombre" : "SALUD OCUPACIONAL II",
+    "Sala" : "LSO",
+    "Instance" : 0,
+    "Bloque" : 8,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(IEP3C-A)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 5
+  }, {
+    "Nombre" : "SALUD OCUPACIONAL II",
+    "Sala" : "LSO",
+    "Instance" : 0,
+    "Bloque" : 9,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(IEP3C-A)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 5
+  }, {
+    "Nombre" : "SALUD OCUPACIONAL II",
+    "Sala" : "LSO",
+    "Instance" : 0,
+    "Bloque" : 1,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(IEP3C-A)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 5
+  }, {
+    "Nombre" : "SALUD OCUPACIONAL II",
+    "Sala" : "LSO",
+    "Instance" : 0,
+    "Bloque" : 2,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(IEP3C-A)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 5
+  }, {
+    "Nombre" : "SALUD OCUPACIONAL II",
+    "Sala" : "LSO",
+    "Instance" : 0,
+    "Bloque" : 3,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(IEP3C-A)",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 5
   }, {
     "Nombre" : "LEGISLACIÓN DE SALUD Y SE",
@@ -2028,7 +2028,7 @@
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI62-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "LEGISLACIÓN DE SALUD Y SE",
@@ -2037,7 +2037,7 @@
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI62-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "LEGISLACIÓN DE SALUD Y SE",
@@ -2046,7 +2046,7 @@
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI62-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "LEGISLACIÓN DE SALUD Y SE",
@@ -2055,7 +2055,7 @@
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI62-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "LEGISLACIÓN DE SALUD Y SE",
@@ -2064,7 +2064,7 @@
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI62-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "LEGISLACIÓN DE SALUD Y SE",
@@ -2073,7 +2073,7 @@
     "Bloque" : 9,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI62-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "LEGISLACIÓN DE SALUD Y SE",
@@ -2131,7 +2131,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC3",
+    "Sala" : "LC-03",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "PRACTICA",
@@ -2140,7 +2140,7 @@
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC3",
+    "Sala" : "LC-03",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "PRACTICA",
@@ -2149,7 +2149,7 @@
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC3",
+    "Sala" : "LC-03",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "PRACTICA",
@@ -2158,84 +2158,84 @@
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC3",
+    "Sala" : "LC-03",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(PRI85-A)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC3",
+    "Sala" : "LC-03",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(PRI85-A)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC3",
+    "Sala" : "LC-03",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(PRI85-A)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC3",
+    "Sala" : "LC-03",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(PRI85-A)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC3",
+    "Sala" : "LC-03",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(PRI85-A)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC3",
+    "Sala" : "LC-03",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(PRI85-A)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC3",
+    "Sala" : "LC-03",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(PRI85-A)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC3",
+    "Sala" : "LC-03",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(PRI85-A)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC3",
+    "Sala" : "LC-03",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(PRI85-A)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 10
   } ]
 }, {
@@ -2244,30 +2244,30 @@
   "Solicitudes" : 2,
   "Asignaturas" : [ {
     "Nombre" : "DERECHO MINERO Y AMBIENTA",
-    "Sala" : "SRA01",
+    "Sala" : "IOLAB",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IMEB9-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "DERECHO MINERO Y AMBIENTA",
-    "Sala" : "SRA01",
+    "Sala" : "IOLAB",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IMEB9-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "DERECHO MINERO Y AMBIENTA",
-    "Sala" : "SRA01",
+    "Sala" : "IOLAB",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IMEB9-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "CIERRE Y ABANDONO DE FAEN",
@@ -2276,7 +2276,7 @@
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IMIA3-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "CIERRE Y ABANDONO DE FAEN",
@@ -2285,7 +2285,7 @@
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IMIA3-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -2294,79 +2294,16 @@
   "Solicitudes" : 2,
   "Asignaturas" : [ {
     "Nombre" : "TEORIA DE SISTEMAS",
-    "Sala" : "LAMB",
+    "Sala" : "LC6",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT43-I)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TEORIA DE SISTEMAS",
-    "Sala" : "LAMB",
-    "Instance" : 0,
-    "Bloque" : 6,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT43-I)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TEORIA DE SISTEMAS",
-    "Sala" : "LAMB",
-    "Instance" : 0,
-    "Bloque" : 7,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT43-I)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TEORIA DE SISTEMAS",
-    "Sala" : "LAMB",
-    "Instance" : 0,
-    "Bloque" : 8,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT43-I)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TEORIA DE SISTEMAS",
-    "Sala" : "LAMB",
-    "Instance" : 0,
-    "Bloque" : 9,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT43-I)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TEORIA DE SISTEMAS",
-    "Sala" : "LAMB",
-    "Instance" : 0,
-    "Bloque" : 1,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT43-I)",
     "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TEORIA DE SISTEMAS",
-    "Sala" : "LAMB",
-    "Instance" : 0,
-    "Bloque" : 2,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT43-I)",
-    "Dia" : "Martes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TEORIA DE SISTEMAS",
-    "Sala" : "LAMB",
-    "Instance" : 0,
-    "Bloque" : 3,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT43-I)",
-    "Dia" : "Martes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "TEORIA DE SISTEMAS",
-    "Sala" : "LAMB",
+    "Sala" : "LC6",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
@@ -2375,7 +2312,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TEORIA DE SISTEMAS",
-    "Sala" : "LAMB",
+    "Sala" : "LC6",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
@@ -2384,7 +2321,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TEORIA DE SISTEMAS",
-    "Sala" : "LAMB",
+    "Sala" : "LC6",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "TEORIA",
@@ -2393,7 +2330,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TEORIA DE SISTEMAS",
-    "Sala" : "LAMB",
+    "Sala" : "LC6",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "TEORIA",
@@ -2401,17 +2338,71 @@
     "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
-    "Nombre" : "TÉCNICAS DE NEGOCIACIÓN Y",
-    "Sala" : "CRP33",
+    "Nombre" : "TEORIA DE SISTEMAS",
+    "Sala" : "LC6",
     "Instance" : 0,
-    "Bloque" : 4,
+    "Bloque" : 1,
     "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(PRI84-A)",
-    "Dia" : "Viernes",
+    "CodigoAsignatura" : "(INT43-I)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TEORIA DE SISTEMAS",
+    "Sala" : "LC6",
+    "Instance" : 0,
+    "Bloque" : 2,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT43-I)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TEORIA DE SISTEMAS",
+    "Sala" : "LC6",
+    "Instance" : 0,
+    "Bloque" : 3,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT43-I)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TEORIA DE SISTEMAS",
+    "Sala" : "LC6",
+    "Instance" : 0,
+    "Bloque" : 6,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT43-I)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TEORIA DE SISTEMAS",
+    "Sala" : "LC6",
+    "Instance" : 0,
+    "Bloque" : 7,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT43-I)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TEORIA DE SISTEMAS",
+    "Sala" : "LC6",
+    "Instance" : 0,
+    "Bloque" : 8,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT43-I)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TEORIA DE SISTEMAS",
+    "Sala" : "LC6",
+    "Instance" : 0,
+    "Bloque" : 9,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT43-I)",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TÉCNICAS DE NEGOCIACIÓN Y",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
@@ -2420,16 +2411,25 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TÉCNICAS DE NEGOCIACIÓN Y",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
+    "Instance" : 0,
+    "Bloque" : 4,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(PRI84-A)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "TÉCNICAS DE NEGOCIACIÓN Y",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI84-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TÉCNICAS DE NEGOCIACIÓN Y",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
@@ -2438,7 +2438,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TÉCNICAS DE NEGOCIACIÓN Y",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
@@ -2447,7 +2447,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TÉCNICAS DE NEGOCIACIÓN Y",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
@@ -2456,7 +2456,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TÉCNICAS DE NEGOCIACIÓN Y",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
@@ -2465,7 +2465,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TÉCNICAS DE NEGOCIACIÓN Y",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
@@ -2474,7 +2474,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TÉCNICAS DE NEGOCIACIÓN Y",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
@@ -2483,7 +2483,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TÉCNICAS DE NEGOCIACIÓN Y",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
@@ -2492,7 +2492,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TÉCNICAS DE NEGOCIACIÓN Y",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "TEORIA",
@@ -2501,7 +2501,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TÉCNICAS DE NEGOCIACIÓN Y",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "TEORIA",
@@ -2515,30 +2515,30 @@
   "Solicitudes" : 5,
   "Asignaturas" : [ {
     "Nombre" : "TERMODINÁMICA",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(FIA41-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINÁMICA",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(FIA41-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINÁMICA",
-    "Sala" : "CRP33",
+    "Sala" : "CRP43",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(FIA41-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "BALANCE DE MATERIA Y ENER",
@@ -2547,7 +2547,7 @@
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IME61-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "BALANCE DE MATERIA Y ENER",
@@ -2556,7 +2556,7 @@
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IME61-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "BALANCE DE MATERIA Y ENER",
@@ -2565,119 +2565,119 @@
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IME61-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PURIFICACION Y SEPARACION",
-    "Sala" : "LC6",
+    "Sala" : "IC3",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(IME83-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "PURIFICACION Y SEPARACION",
-    "Sala" : "LC6",
+    "Sala" : "IC3",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(IME83-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "PURIFICACION Y SEPARACION",
-    "Sala" : "LC6",
+    "Sala" : "IC3",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(IME83-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "PURIFICACION Y SEPARACION",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 1,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IME83-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PURIFICACION Y SEPARACION",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 1,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IME83-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PURIFICACION Y SEPARACION",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 1,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IME83-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PURIFICACION Y SEPARACION",
-    "Sala" : "K3",
+    "Sala" : "LAMB",
     "Instance" : 1,
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(IME83-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINAMICA",
-    "Sala" : "CM4",
+    "Sala" : "E6",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT52-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINAMICA",
-    "Sala" : "CM4",
+    "Sala" : "E6",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT52-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINAMICA",
-    "Sala" : "CM4",
+    "Sala" : "E6",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT52-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINAMICA",
-    "Sala" : "CM4",
+    "Sala" : "E6",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT52-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINAMICA",
-    "Sala" : "CM4",
+    "Sala" : "E6",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT52-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINAMICA",
-    "Sala" : "CM4",
+    "Sala" : "E6",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
@@ -2686,7 +2686,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINAMICA",
-    "Sala" : "CM4",
+    "Sala" : "E6",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
@@ -2695,7 +2695,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINAMICA",
-    "Sala" : "CM4",
+    "Sala" : "E6",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
@@ -2704,7 +2704,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINAMICA",
-    "Sala" : "CM4",
+    "Sala" : "E6",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
@@ -2713,7 +2713,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINAMICA",
-    "Sala" : "CM4",
+    "Sala" : "E6",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
@@ -2722,7 +2722,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINAMICA",
-    "Sala" : "CM4",
+    "Sala" : "E6",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
@@ -2731,7 +2731,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERMODINAMICA",
-    "Sala" : "CM4",
+    "Sala" : "E6",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
@@ -2745,169 +2745,169 @@
   "Solicitudes" : 3,
   "Asignaturas" : [ {
     "Nombre" : "DIRECCION DE PROYECTOS",
-    "Sala" : "E6",
+    "Sala" : "CM5",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(IC801-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "DIRECCION DE PROYECTOS",
-    "Sala" : "E6",
+    "Sala" : "CM5",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(IC801-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "CM6",
+    "Sala" : "K2",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT75-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "CM6",
+    "Sala" : "K2",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT75-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "CM6",
+    "Sala" : "K2",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT75-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "CM6",
+    "Sala" : "K2",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT75-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "CM6",
+    "Sala" : "K2",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT75-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "CM6",
+    "Sala" : "K2",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT75-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "CM6",
+    "Sala" : "K2",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT75-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "CM6",
+    "Sala" : "K2",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT75-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "CM6",
+    "Sala" : "K2",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT75-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "CM6",
+    "Sala" : "K2",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT75-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "CM6",
+    "Sala" : "K2",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT75-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "CM6",
+    "Sala" : "K2",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT75-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC1",
+    "Sala" : "CM6",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC1",
+    "Sala" : "CM6",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC1",
+    "Sala" : "CM6",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC1",
+    "Sala" : "CM6",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(INT91-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC1",
+    "Sala" : "CM6",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
@@ -2916,7 +2916,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC1",
+    "Sala" : "CM6",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "LABORATORIO",
@@ -2925,7 +2925,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC1",
+    "Sala" : "CM6",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "LABORATORIO",
@@ -2934,7 +2934,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC1",
+    "Sala" : "CM6",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "LABORATORIO",
@@ -2943,7 +2943,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC1",
+    "Sala" : "CM6",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "LABORATORIO",
@@ -2952,7 +2952,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC1",
+    "Sala" : "CM6",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "LABORATORIO",
@@ -2961,7 +2961,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC1",
+    "Sala" : "CM6",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "LABORATORIO",
@@ -2970,7 +2970,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "IC1",
+    "Sala" : "CM6",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "LABORATORIO",
@@ -2989,7 +2989,7 @@
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(FIA52-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ESTADÍSTICA APLICADA",
@@ -2998,7 +2998,7 @@
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(FIA52-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ESTADÍSTICA APLICADA",
@@ -3007,7 +3007,7 @@
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(FIA52-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -3016,12 +3016,12 @@
   "Solicitudes" : 5,
   "Asignaturas" : [ {
     "Nombre" : "MECANICA DE FLUIDOS",
-    "Sala" : "SRA01",
+    "Sala" : "IOLAB",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(ICA61-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "MECANICA DE FLUIDOS",
@@ -3030,7 +3030,7 @@
     "Bloque" : 4,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICA61-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "MECANICA DE FLUIDOS",
@@ -3039,7 +3039,7 @@
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICA61-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "MECANICA DE FLUIDOS",
@@ -3048,7 +3048,7 @@
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICA61-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "MECANICA DE FLUIDOS",
@@ -3057,43 +3057,43 @@
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICA61-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "FENOMENOS DE TRANSPORTE",
-    "Sala" : "SRA01",
+    "Sala" : "IOLAB",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICA63-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "FENOMENOS DE TRANSPORTE",
-    "Sala" : "SRA01",
+    "Sala" : "IOLAB",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICA63-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "FENOMENOS DE TRANSPORTE",
-    "Sala" : "SRA01",
+    "Sala" : "IOLAB",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICA63-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER DE TITULO",
-    "Sala" : "LAMB",
+    "Sala" : "LC6",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICAA3-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   } ]
 }, {
@@ -3107,7 +3107,7 @@
     "Bloque" : 1,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(PRI66-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE INTEGRACIÓN PRO",
@@ -3116,7 +3116,7 @@
     "Bloque" : 4,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(PRI66-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE INTEGRACIÓN PRO",
@@ -3125,7 +3125,7 @@
     "Bloque" : 5,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(PRI66-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE INTEGRACIÓN PRO",
@@ -3134,7 +3134,7 @@
     "Bloque" : 6,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(PRI66-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE INTEGRACIÓN PRO",
@@ -3143,7 +3143,7 @@
     "Bloque" : 7,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(PRI66-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER DE INTEGRACIÓN PRO",
@@ -3152,7 +3152,7 @@
     "Bloque" : 8,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(PRI66-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   } ]
 }, {
@@ -3166,7 +3166,7 @@
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT51-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "MICROECONOMIA",
@@ -3175,7 +3175,7 @@
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT51-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "MICROECONOMIA",
@@ -3184,7 +3184,7 @@
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT51-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "MICROECONOMIA",
@@ -3193,7 +3193,7 @@
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT51-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "MICROECONOMIA",
@@ -3202,7 +3202,7 @@
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT51-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "MICROECONOMIA",
@@ -3211,7 +3211,7 @@
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT51-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "MICROECONOMIA",
@@ -3220,7 +3220,7 @@
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT51-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "MICROECONOMIA",
@@ -3229,7 +3229,7 @@
     "Bloque" : 9,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT51-I)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "MICROECONOMIA",
@@ -3238,7 +3238,7 @@
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT51-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "MICROECONOMIA",
@@ -3247,7 +3247,7 @@
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT51-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "MICROECONOMIA",
@@ -3256,7 +3256,7 @@
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT51-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "MICROECONOMIA",
@@ -3265,7 +3265,7 @@
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT51-I)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   } ]
 }, {
@@ -3274,88 +3274,7 @@
   "Solicitudes" : 2,
   "Asignaturas" : [ {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "LELM",
-    "Instance" : 0,
-    "Bloque" : 1,
-    "Actividad" : "AYUDANTIA",
-    "CodigoAsignatura" : "(INT75-FA)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "LELM",
-    "Instance" : 0,
-    "Bloque" : 2,
-    "Actividad" : "AYUDANTIA",
-    "CodigoAsignatura" : "(INT75-FA)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "LELM",
-    "Instance" : 0,
-    "Bloque" : 3,
-    "Actividad" : "AYUDANTIA",
-    "CodigoAsignatura" : "(INT75-FA)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "LELM",
-    "Instance" : 0,
-    "Bloque" : 4,
-    "Actividad" : "AYUDANTIA",
-    "CodigoAsignatura" : "(INT75-FA)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "LELM",
-    "Instance" : 0,
-    "Bloque" : 5,
-    "Actividad" : "AYUDANTIA",
-    "CodigoAsignatura" : "(INT75-FA)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "LELM",
-    "Instance" : 0,
-    "Bloque" : 6,
-    "Actividad" : "AYUDANTIA",
-    "CodigoAsignatura" : "(INT75-FA)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "LELM",
-    "Instance" : 0,
-    "Bloque" : 7,
-    "Actividad" : "AYUDANTIA",
-    "CodigoAsignatura" : "(INT75-FA)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "LELM",
-    "Instance" : 0,
-    "Bloque" : 8,
-    "Actividad" : "AYUDANTIA",
-    "CodigoAsignatura" : "(INT75-FA)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "LELM",
-    "Instance" : 0,
-    "Bloque" : 9,
-    "Actividad" : "AYUDANTIA",
-    "CodigoAsignatura" : "(INT75-FA)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "LELM",
+    "Sala" : "LPME",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "AYUDANTIA",
@@ -3364,7 +3283,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "LELM",
+    "Sala" : "LPME",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "AYUDANTIA",
@@ -3373,12 +3292,93 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "GESTION DE EMPRESAS",
-    "Sala" : "LELM",
+    "Sala" : "LPME",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "AYUDANTIA",
     "CodigoAsignatura" : "(INT75-FA)",
     "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "GESTION DE EMPRESAS",
+    "Sala" : "LPME",
+    "Instance" : 0,
+    "Bloque" : 4,
+    "Actividad" : "AYUDANTIA",
+    "CodigoAsignatura" : "(INT75-FA)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "GESTION DE EMPRESAS",
+    "Sala" : "LPME",
+    "Instance" : 0,
+    "Bloque" : 5,
+    "Actividad" : "AYUDANTIA",
+    "CodigoAsignatura" : "(INT75-FA)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "GESTION DE EMPRESAS",
+    "Sala" : "LPME",
+    "Instance" : 0,
+    "Bloque" : 6,
+    "Actividad" : "AYUDANTIA",
+    "CodigoAsignatura" : "(INT75-FA)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "GESTION DE EMPRESAS",
+    "Sala" : "LPME",
+    "Instance" : 0,
+    "Bloque" : 7,
+    "Actividad" : "AYUDANTIA",
+    "CodigoAsignatura" : "(INT75-FA)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "GESTION DE EMPRESAS",
+    "Sala" : "LPME",
+    "Instance" : 0,
+    "Bloque" : 8,
+    "Actividad" : "AYUDANTIA",
+    "CodigoAsignatura" : "(INT75-FA)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "GESTION DE EMPRESAS",
+    "Sala" : "LPME",
+    "Instance" : 0,
+    "Bloque" : 9,
+    "Actividad" : "AYUDANTIA",
+    "CodigoAsignatura" : "(INT75-FA)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "GESTION DE EMPRESAS",
+    "Sala" : "LPME",
+    "Instance" : 0,
+    "Bloque" : 1,
+    "Actividad" : "AYUDANTIA",
+    "CodigoAsignatura" : "(INT75-FA)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "GESTION DE EMPRESAS",
+    "Sala" : "LPME",
+    "Instance" : 0,
+    "Bloque" : 2,
+    "Actividad" : "AYUDANTIA",
+    "CodigoAsignatura" : "(INT75-FA)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "GESTION DE EMPRESAS",
+    "Sala" : "LPME",
+    "Instance" : 0,
+    "Bloque" : 3,
+    "Actividad" : "AYUDANTIA",
+    "CodigoAsignatura" : "(INT75-FA)",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "COMPUTACION I",
@@ -3387,7 +3387,7 @@
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT24-FA)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "COMPUTACION I",
@@ -3396,7 +3396,7 @@
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT24-FA)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "COMPUTACION I",
@@ -3405,7 +3405,7 @@
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT24-FA)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "COMPUTACION I",
@@ -3414,7 +3414,7 @@
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT24-FA)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "COMPUTACION I",
@@ -3423,7 +3423,7 @@
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT24-FA)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "COMPUTACION I",
@@ -3432,7 +3432,7 @@
     "Bloque" : 9,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT24-FA)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "COMPUTACION I",
@@ -3495,30 +3495,30 @@
   "Solicitudes" : 8,
   "Asignaturas" : [ {
     "Nombre" : "TALLER 3",
-    "Sala" : "IC8",
+    "Sala" : "D105",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ31-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 3",
-    "Sala" : "IC8",
+    "Sala" : "D105",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ31-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 3",
-    "Sala" : "IC8",
+    "Sala" : "D105",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ31-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 3",
@@ -3527,7 +3527,7 @@
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ31-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 4",
@@ -3536,7 +3536,7 @@
     "Bloque" : 5,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ41-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER 4",
@@ -3545,7 +3545,7 @@
     "Bloque" : 6,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ41-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER 4",
@@ -3554,7 +3554,7 @@
     "Bloque" : 7,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ41-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER 4",
@@ -3563,34 +3563,34 @@
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ41-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "CONSTRUCCION 3",
-    "Sala" : "LC-03",
+    "Sala" : "K3",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(ARQ65-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "CONSTRUCCION 3",
-    "Sala" : "LC6",
+    "Sala" : "IC3",
     "Instance" : 1,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ65-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "CONSTRUCCION 3",
-    "Sala" : "LC6",
+    "Sala" : "IC3",
     "Instance" : 1,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ65-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INSTALACIONES",
@@ -3599,25 +3599,25 @@
     "Bloque" : 3,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(ARQ85-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "INSTALACIONES",
-    "Sala" : "LAMB",
+    "Sala" : "V105",
     "Instance" : 1,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ85-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INSTALACIONES",
-    "Sala" : "LAMB",
+    "Sala" : "V105",
     "Instance" : 1,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ85-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -3626,160 +3626,115 @@
   "Solicitudes" : 2,
   "Asignaturas" : [ {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
-    "Instance" : 0,
-    "Bloque" : 1,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(PRI64-DV1)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
-    "Instance" : 0,
-    "Bloque" : 2,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(PRI64-DV1)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-DV1)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-DV1)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-DV1)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-DV1)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-DV1)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
-    "Instance" : 0,
-    "Bloque" : 1,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(PRI64-DV1)",
     "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
-    "Instance" : 0,
-    "Bloque" : 2,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(PRI64-DV1)",
-    "Dia" : "Martes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
-    "Instance" : 0,
-    "Bloque" : 3,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(PRI64-DV1)",
-    "Dia" : "Martes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-DV1)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-DV1)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(PRI64-DV2)",
-    "Dia" : "Martes",
+    "CodigoAsignatura" : "(PRI64-DV1)",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(PRI64-DV2)",
-    "Dia" : "Martes",
+    "CodigoAsignatura" : "(PRI64-DV1)",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(PRI64-DV2)",
-    "Dia" : "Martes",
+    "CodigoAsignatura" : "(PRI64-DV1)",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(PRI64-DV2)",
-    "Dia" : "Martes",
+    "CodigoAsignatura" : "(PRI64-DV1)",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(PRI64-DV2)",
+    "CodigoAsignatura" : "(PRI64-DV1)",
     "Dia" : "Lunes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
@@ -3788,7 +3743,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
@@ -3797,7 +3752,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
@@ -3806,7 +3761,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
@@ -3815,7 +3770,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
@@ -3824,7 +3779,7 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
@@ -3833,12 +3788,57 @@
     "Satisfaccion" : 9
   }, {
     "Nombre" : "ERGONOMÍA",
-    "Sala" : "E1",
+    "Sala" : "CM4",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(PRI64-DV2)",
     "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "ERGONOMÍA",
+    "Sala" : "CM4",
+    "Instance" : 0,
+    "Bloque" : 9,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(PRI64-DV2)",
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "ERGONOMÍA",
+    "Sala" : "CM4",
+    "Instance" : 0,
+    "Bloque" : 1,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(PRI64-DV2)",
+    "Dia" : "Viernes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "ERGONOMÍA",
+    "Sala" : "CM4",
+    "Instance" : 0,
+    "Bloque" : 2,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(PRI64-DV2)",
+    "Dia" : "Viernes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "ERGONOMÍA",
+    "Sala" : "CM4",
+    "Instance" : 0,
+    "Bloque" : 3,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(PRI64-DV2)",
+    "Dia" : "Viernes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "ERGONOMÍA",
+    "Sala" : "CM4",
+    "Instance" : 0,
+    "Bloque" : 4,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(PRI64-DV2)",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -3852,7 +3852,7 @@
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT56-J)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INGENIERIA ECONOMICA",
@@ -3861,7 +3861,7 @@
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT56-J)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INGENIERIA ECONOMICA",
@@ -3870,7 +3870,7 @@
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT56-J)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INGENIERIA ECONOMICA",
@@ -3879,7 +3879,7 @@
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT56-J)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INGENIERIA ECONOMICA",
@@ -3888,7 +3888,7 @@
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT56-J)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INGENIERIA ECONOMICA",
@@ -3897,7 +3897,7 @@
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT56-J)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INGENIERIA ECONOMICA",
@@ -3906,7 +3906,7 @@
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT56-J)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INGENIERIA ECONOMICA",
@@ -3915,7 +3915,7 @@
     "Bloque" : 9,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT56-J)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INGENIERIA ECONOMICA",
@@ -3924,7 +3924,7 @@
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT56-J)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INGENIERIA ECONOMICA",
@@ -3933,7 +3933,7 @@
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT56-J)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INGENIERIA ECONOMICA",
@@ -3942,7 +3942,7 @@
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT56-J)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "INGENIERIA ECONOMICA",
@@ -3951,223 +3951,223 @@
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT56-J)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PRODUCCION I",
-    "Sala" : "LC-03",
+    "Sala" : "K3",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT59-J)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION I",
+    "Sala" : "K3",
+    "Instance" : 0,
+    "Bloque" : 5,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT59-J)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION I",
+    "Sala" : "K3",
+    "Instance" : 0,
+    "Bloque" : 6,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT59-J)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION I",
+    "Sala" : "K3",
+    "Instance" : 0,
+    "Bloque" : 7,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT59-J)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION I",
+    "Sala" : "K3",
+    "Instance" : 0,
+    "Bloque" : 8,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT59-J)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION I",
+    "Sala" : "K3",
+    "Instance" : 0,
+    "Bloque" : 9,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT59-J)",
+    "Dia" : "Miercoles",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION I",
+    "Sala" : "K3",
+    "Instance" : 0,
+    "Bloque" : 1,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT59-J)",
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION I",
+    "Sala" : "K3",
+    "Instance" : 0,
+    "Bloque" : 2,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT59-J)",
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION I",
+    "Sala" : "K3",
+    "Instance" : 0,
+    "Bloque" : 3,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT59-J)",
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION I",
+    "Sala" : "K3",
+    "Instance" : 0,
+    "Bloque" : 4,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT59-J)",
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION I",
+    "Sala" : "K3",
+    "Instance" : 0,
+    "Bloque" : 5,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT59-J)",
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION I",
+    "Sala" : "K3",
+    "Instance" : 0,
+    "Bloque" : 6,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT59-J)",
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION II",
+    "Sala" : "D105",
+    "Instance" : 0,
+    "Bloque" : 7,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT68-I)",
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION II",
+    "Sala" : "D105",
+    "Instance" : 0,
+    "Bloque" : 8,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT68-I)",
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION II",
+    "Sala" : "D105",
+    "Instance" : 0,
+    "Bloque" : 9,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT68-I)",
+    "Dia" : "Lunes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "PRODUCCION II",
+    "Sala" : "D105",
+    "Instance" : 0,
+    "Bloque" : 1,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(INT68-I)",
     "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
-    "Nombre" : "PRODUCCION I",
-    "Sala" : "LC-03",
-    "Instance" : 0,
-    "Bloque" : 5,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT59-J)",
-    "Dia" : "Martes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION I",
-    "Sala" : "LC-03",
-    "Instance" : 0,
-    "Bloque" : 6,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT59-J)",
-    "Dia" : "Martes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION I",
-    "Sala" : "LC-03",
-    "Instance" : 0,
-    "Bloque" : 7,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT59-J)",
-    "Dia" : "Martes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION I",
-    "Sala" : "LC-03",
-    "Instance" : 0,
-    "Bloque" : 8,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT59-J)",
-    "Dia" : "Martes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION I",
-    "Sala" : "LC-03",
-    "Instance" : 0,
-    "Bloque" : 9,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT59-J)",
-    "Dia" : "Martes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION I",
-    "Sala" : "LC-03",
-    "Instance" : 0,
-    "Bloque" : 1,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT59-J)",
-    "Dia" : "Lunes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION I",
-    "Sala" : "LC-03",
-    "Instance" : 0,
-    "Bloque" : 2,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT59-J)",
-    "Dia" : "Lunes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION I",
-    "Sala" : "LC-03",
-    "Instance" : 0,
-    "Bloque" : 3,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT59-J)",
-    "Dia" : "Lunes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION I",
-    "Sala" : "LC-03",
-    "Instance" : 0,
-    "Bloque" : 4,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT59-J)",
-    "Dia" : "Lunes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION I",
-    "Sala" : "LC-03",
-    "Instance" : 0,
-    "Bloque" : 5,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT59-J)",
-    "Dia" : "Lunes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION I",
-    "Sala" : "LC-03",
-    "Instance" : 0,
-    "Bloque" : 6,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT59-J)",
-    "Dia" : "Lunes",
-    "Satisfaccion" : 9
-  }, {
     "Nombre" : "PRODUCCION II",
-    "Sala" : "IC8",
-    "Instance" : 0,
-    "Bloque" : 7,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT68-I)",
-    "Dia" : "Lunes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION II",
-    "Sala" : "IC8",
-    "Instance" : 0,
-    "Bloque" : 8,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT68-I)",
-    "Dia" : "Lunes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION II",
-    "Sala" : "IC8",
-    "Instance" : 0,
-    "Bloque" : 9,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT68-I)",
-    "Dia" : "Lunes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION II",
-    "Sala" : "IC8",
-    "Instance" : 0,
-    "Bloque" : 1,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(INT68-I)",
-    "Dia" : "Jueves",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "PRODUCCION II",
-    "Sala" : "IC8",
+    "Sala" : "D105",
     "Instance" : 0,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT68-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PRODUCCION II",
-    "Sala" : "IC8",
+    "Sala" : "D105",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT68-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PRODUCCION II",
-    "Sala" : "IC8",
+    "Sala" : "D105",
     "Instance" : 0,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT68-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PRODUCCION II",
-    "Sala" : "IC8",
+    "Sala" : "D105",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT68-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PRODUCCION II",
-    "Sala" : "IC8",
+    "Sala" : "D105",
     "Instance" : 0,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT68-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PRODUCCION II",
-    "Sala" : "IC8",
+    "Sala" : "D105",
     "Instance" : 0,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT68-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PRODUCCION II",
-    "Sala" : "IC8",
+    "Sala" : "D105",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT68-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PRODUCCION II",
-    "Sala" : "IC8",
+    "Sala" : "D105",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT68-I)",
-    "Dia" : "Jueves",
+    "Dia" : "Viernes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PROCESOS INDUSTRIALES",
@@ -4176,7 +4176,7 @@
     "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT73-I)",
-    "Dia" : "Miercoles",
+    "Dia" : "Jueves",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PROCESOS INDUSTRIALES",
@@ -4185,7 +4185,7 @@
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT73-I)",
-    "Dia" : "Miercoles",
+    "Dia" : "Jueves",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PROCESOS INDUSTRIALES",
@@ -4194,7 +4194,7 @@
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT73-I)",
-    "Dia" : "Miercoles",
+    "Dia" : "Jueves",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PROCESOS INDUSTRIALES",
@@ -4203,7 +4203,7 @@
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT73-I)",
-    "Dia" : "Miercoles",
+    "Dia" : "Jueves",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PROCESOS INDUSTRIALES",
@@ -4212,7 +4212,7 @@
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT73-I)",
-    "Dia" : "Miercoles",
+    "Dia" : "Jueves",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PROCESOS INDUSTRIALES",
@@ -4221,7 +4221,7 @@
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT73-I)",
-    "Dia" : "Miercoles",
+    "Dia" : "Jueves",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PROCESOS INDUSTRIALES",
@@ -4230,7 +4230,7 @@
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT73-I)",
-    "Dia" : "Miercoles",
+    "Dia" : "Jueves",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PROCESOS INDUSTRIALES",
@@ -4239,7 +4239,7 @@
     "Bloque" : 8,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT73-I)",
-    "Dia" : "Miercoles",
+    "Dia" : "Jueves",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "PROCESOS INDUSTRIALES",
@@ -4248,7 +4248,7 @@
     "Bloque" : 9,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(INT73-I)",
-    "Dia" : "Miercoles",
+    "Dia" : "Jueves",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -4262,43 +4262,43 @@
     "Bloque" : 1,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICA44-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "BIOQUIMICA Y MICROBIOLOGI",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 1,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICA44-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "BIOQUIMICA Y MICROBIOLOGI",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 1,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICA44-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "BIOQUIMICA Y MICROBIOLOGI",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 1,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICA44-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "BIOQUIMICA Y MICROBIOLOGI",
-    "Sala" : "LSD",
+    "Sala" : "SRA01",
     "Instance" : 1,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICA44-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TRATAMIENTO DE EMISIONES",
@@ -4307,7 +4307,7 @@
     "Bloque" : 2,
     "Actividad" : "LABORATORIO",
     "CodigoAsignatura" : "(ICA82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TRATAMIENTO DE EMISIONES",
@@ -4316,7 +4316,7 @@
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICA82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TRATAMIENTO DE EMISIONES",
@@ -4325,7 +4325,7 @@
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICA82-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "CAMBIO CLIMÁTICO Y RESILE",
@@ -4334,7 +4334,7 @@
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICAA6-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "CAMBIO CLIMÁTICO Y RESILE",
@@ -4343,7 +4343,7 @@
     "Bloque" : 6,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICAA6-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "CAMBIO CLIMÁTICO Y RESILE",
@@ -4352,7 +4352,7 @@
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ICAA6-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -4366,7 +4366,7 @@
     "Bloque" : 1,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(ARQ23-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "HISTORIA Y TEORIA I",
@@ -4375,7 +4375,7 @@
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ23-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "HISTORIA Y TEORIA I",
@@ -4384,7 +4384,7 @@
     "Bloque" : 3,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ23-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "TALLER 3",
@@ -4393,7 +4393,7 @@
     "Bloque" : 4,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ31-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 3",
@@ -4402,7 +4402,7 @@
     "Bloque" : 5,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ31-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 3",
@@ -4411,7 +4411,7 @@
     "Bloque" : 6,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ31-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TALLER 3",
@@ -4420,70 +4420,70 @@
     "Bloque" : 7,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ31-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 8
   }, {
     "Nombre" : "TALLER 4",
-    "Sala" : "K2",
+    "Sala" : "IC1",
     "Instance" : 0,
     "Bloque" : 8,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ41-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER 4",
-    "Sala" : "K2",
+    "Sala" : "IC1",
     "Instance" : 0,
     "Bloque" : 9,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ41-B)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER 4",
-    "Sala" : "K2",
+    "Sala" : "IC1",
     "Instance" : 0,
     "Bloque" : 1,
     "Actividad" : "TALLER",
     "CodigoAsignatura" : "(ARQ41-B)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TALLER 4",
-    "Sala" : "D105",
+    "Sala" : "IC8",
     "Instance" : 1,
     "Bloque" : 2,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ41-B)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERRITORIO 4",
-    "Sala" : "IC3",
+    "Sala" : "LC-03",
     "Instance" : 0,
     "Bloque" : 3,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(ARQ83-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "TERRITORIO 4",
-    "Sala" : "V105",
+    "Sala" : "LC6",
     "Instance" : 1,
     "Bloque" : 4,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ83-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   }, {
     "Nombre" : "TERRITORIO 4",
-    "Sala" : "V105",
+    "Sala" : "LC6",
     "Instance" : 1,
     "Bloque" : 5,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(ARQ83-A)",
-    "Dia" : "Martes",
+    "Dia" : "Miercoles",
     "Satisfaccion" : 9
   } ]
 }, {
@@ -4492,72 +4492,72 @@
   "Solicitudes" : 4,
   "Asignaturas" : [ {
     "Nombre" : "FUNDAMENTOS DE LENGUAJE D",
-    "Sala" : "E6",
+    "Sala" : "V103",
     "Instance" : 0,
     "Bloque" : 5,
     "Actividad" : "PRACTICA",
     "CodigoAsignatura" : "(CCI63-A)",
-    "Dia" : "Viernes",
+    "Dia" : "Martes",
     "Satisfaccion" : 10
   }, {
     "Nombre" : "FUNDAMENTOS DE LENGUAJE D",
+    "Sala" : "CM4",
+    "Instance" : 1,
+    "Bloque" : 1,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(CCI63-A)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "FUNDAMENTOS DE LENGUAJE D",
+    "Sala" : "CM4",
+    "Instance" : 1,
+    "Bloque" : 2,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(CCI63-A)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "FUNDAMENTOS DE LENGUAJE D",
+    "Sala" : "CM4",
+    "Instance" : 1,
+    "Bloque" : 3,
+    "Actividad" : "TEORIA",
+    "CodigoAsignatura" : "(CCI63-A)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 9
+  }, {
+    "Nombre" : "COMPILADORES",
+    "Sala" : "CM4",
+    "Instance" : 0,
+    "Bloque" : 4,
+    "Actividad" : "LABORATORIO",
+    "CodigoAsignatura" : "(CCI82-A)",
+    "Dia" : "Martes",
+    "Satisfaccion" : 10
+  }, {
+    "Nombre" : "COMPILADORES",
     "Sala" : "V102",
     "Instance" : 1,
     "Bloque" : 6,
     "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(CCI63-A)",
-    "Dia" : "Viernes",
+    "CodigoAsignatura" : "(CCI82-A)",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
-    "Nombre" : "FUNDAMENTOS DE LENGUAJE D",
+    "Nombre" : "COMPILADORES",
     "Sala" : "V102",
     "Instance" : 1,
     "Bloque" : 7,
     "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(CCI63-A)",
-    "Dia" : "Viernes",
+    "CodigoAsignatura" : "(CCI82-A)",
+    "Dia" : "Martes",
     "Satisfaccion" : 9
   }, {
-    "Nombre" : "FUNDAMENTOS DE LENGUAJE D",
+    "Nombre" : "COMPILADORES",
     "Sala" : "V102",
     "Instance" : 1,
     "Bloque" : 8,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(CCI63-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "COMPILADORES",
-    "Sala" : "V103",
-    "Instance" : 0,
-    "Bloque" : 3,
-    "Actividad" : "LABORATORIO",
-    "CodigoAsignatura" : "(CCI82-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 10
-  }, {
-    "Nombre" : "COMPILADORES",
-    "Sala" : "V103",
-    "Instance" : 1,
-    "Bloque" : 4,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(CCI82-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "COMPILADORES",
-    "Sala" : "V103",
-    "Instance" : 1,
-    "Bloque" : 9,
-    "Actividad" : "TEORIA",
-    "CodigoAsignatura" : "(CCI82-A)",
-    "Dia" : "Viernes",
-    "Satisfaccion" : 9
-  }, {
-    "Nombre" : "COMPILADORES",
-    "Sala" : "V103",
-    "Instance" : 1,
-    "Bloque" : 1,
     "Actividad" : "TEORIA",
     "CodigoAsignatura" : "(CCI82-A)",
     "Dia" : "Martes",

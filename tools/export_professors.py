@@ -120,8 +120,8 @@ def read_json_schedule(filename='schedule.json'):
     """
     with open(filename, 'r', encoding='utf-8') as file:
         schedule_data = json.load(file)
-        export_all_professor_schedules(schedule_data)
+        export_all_professor_schedules(schedule_data, output_filename='professor_schedules_jade.xlsx')
         print("\nProfessor schedule export completed successfully!")
 
 if __name__ == '__main__':
-    read_json_schedule("Horarios_asignados.json")
+    read_json_schedule("agent_output\Horarios_asignados.json")

@@ -9,6 +9,7 @@ import java.io.*;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.TimeUnit;
 
 public class MessageMetricsCollector {
     private static final String BASE_PATH = "performance_logs/";
@@ -56,7 +57,8 @@ public class MessageMetricsCollector {
     public void recordMessageReceived(ACLMessage msg) {
         Long startTime = messageStartTimes.remove(msg.getConversationId());
         if (startTime != null) {
-            long rtt = (System.nanoTime() - startTime) / 1_000_000; // Convert to milliseconds
+            double rtt = TimeUnit.NANOSECONDS.toMicros(System.nanoTime() - startTime) / 1000.0;
+            //String timestamp = LocalDateTime.now().format(DateTimeFormatter.ISO_LOCAL_DATE_TIME);
             rttWriter.printf("%s,%s,%s,%d,%s,%s%n",
                     LocalDateTime.now(),
                     msg.getConversationId(),
